@@ -17,7 +17,6 @@
             p.mb-4 El mantenimiento del cultivo en agricultura urbana comprende el conjunto de prácticas técnicas orientadas a garantizar el crecimiento, desarrollo y productividad de las plantas en espacios reducidos. Estas labores incluyen el manejo adecuado del riego, la nutrición, el control de condiciones ambientales y la prevención de plagas y enfermedades.
             p.mb-0 En sistemas urbanos, el mantenimiento es aún más importante debido a las limitaciones de espacio, el uso de contenedores y la dependencia de intervenciones humanas para regular las condiciones del cultivo. Un manejo adecuado permite optimizar recursos, mejorar la calidad de la producción y asegurar la sostenibilidad del sistema.
 
-
     separador
     #t_1_1.titulo-segundo.mb-5
       h2 1.1 Riego
@@ -268,7 +267,14 @@
           h4.mb-4.text-center.my-lg-3 Manejo de herramientas en espacios compartidos
           p.mb-0 Puede afectar a otras personas. Requiere delimitación clara del área de trabajo y señalización de seguridad.
     
-    h4.mb-5 Normas básicas de seguridad
+
+    .row.justify-content-center.align-items-center.mb-4
+      .col-auto.pe-0
+        img.img-t.d-none.d-sm-block.mb-0(data-aos="zoom-in-left")(src='@/assets/curso/tema1/ic.svg', alt='')
+      .col
+        .subt.mb-4(data-aos="fade-right")
+          .d-flex.align-items-end.mb-0
+            h4.mb-0.ps-lg-3.ps-0.ps-md-3 Normas básicas de seguridad
     
     p.mb-5 Las normas básicas de seguridad son reglas generales que deben cumplirse durante el desarrollo de actividades agrícolas. Su aplicación es obligatoria y no admite excepciones.
 
@@ -321,8 +327,14 @@
             li.d-flex.mb-0
               i.fas.fa-leaf
               p.mb-0 Prevenir caídas o tropiezos: manteniendo el área ordenada y bien señalizada.
-
-    h4.mb-5 Elementos de protección personal (EPP)
+    
+    .row.justify-content-center.align-items-center.mb-4
+      .col-auto.pe-0
+        img.img-t.d-none.d-sm-block.mb-0(data-aos="zoom-in-left")(src='@/assets/curso/tema1/ic.svg', alt='')
+      .col
+        .subt.mb-4(data-aos="fade-right")
+          .d-flex.align-items-end.mb-0
+            h4.mb-0.ps-lg-3.ps-0.ps-md-3 Elementos de protección personal (EPP)
     
     .row.justify-content-center.align-items-end.mb-5
       .col-lg-4
@@ -399,7 +411,13 @@
       .col-lg-5
         img(src='@/assets/curso/tema1/25.png', alt='')
 
-    h4.mb-5 Identificación de riesgos
+    .row.justify-content-center.align-items-center.mb-4
+      .col-auto.pe-0
+        img.img-t.d-none.d-sm-block.mb-0(data-aos="zoom-in-left")(src='@/assets/curso/tema1/ic.svg', alt='')
+      .col
+        .subt.mb-4(data-aos="fade-right")
+          .d-flex.align-items-end.mb-0
+            h4.mb-0.ps-lg-3.ps-0.ps-md-3 Identificación de riesgos
 
     p.mb-5 La identificación de riesgos es el proceso mediante el cual se reconocen las situaciones que pueden generar daño o afectar la salud del trabajador. Este paso es fundamental y debe realizarse antes de implementar medidas de control.
 
@@ -473,7 +491,13 @@
               h4.mb-4 Evaluación e implementación
               p.mb-0 Priorizar riesgos e implementar medidas de control.
 
-    h4.mb-5 Prevención de accidentes en agricultura urbana
+    .row.justify-content-center.align-items-center.mb-4
+      .col-auto.pe-0
+        img.img-t.d-none.d-sm-block.mb-0(data-aos="zoom-in-left")(src='@/assets/curso/tema1/ic.svg', alt='')
+      .col
+        .subt.mb-4(data-aos="fade-right")
+          .d-flex.align-items-end.mb-0
+            h4.mb-0.ps-lg-3.ps-0.ps-md-3 Prevención de accidentes en agricultura urbana
 
     p.mb-5 La prevención de accidentes consiste en aplicar medidas que reduzcan o eliminen los riesgos identificados. Es un enfoque proactivo que evita que los problemas ocurran antes de que causen lesiones.
 
@@ -601,7 +625,13 @@
       .col-lg-4
         img(src='@/assets/curso/tema1/37.svg', alt='')
 
-    h4.mb-5 Normativa ambiental
+    .row.justify-content-center.align-items-center.mb-4
+      .col-auto.pe-0
+        img.img-t.d-none.d-sm-block.mb-0(data-aos="zoom-in-left")(src='@/assets/curso/tema1/ic.svg', alt='')
+      .col
+        .subt.mb-4(data-aos="fade-right")
+          .d-flex.align-items-end.mb-0
+            h4.mb-0.ps-lg-3.ps-0.ps-md-3 Normativa ambiental
 
     p.mb-4 La normativa ambiental comprende el conjunto de leyes, reglamentos y lineamientos que regulan las actividades humanas con el fin de proteger el medio ambiente, conservar los recursos naturales y prevenir impactos negativos. En la agricultura urbana, su aplicación es fundamental para garantizar prácticas sostenibles, responsables y seguras.
 
@@ -654,7 +684,13 @@
               i.fas.fa-leaf
               p.mb-0 • Protege la salud de las personas.
 
-    h4.mb-5 Características de la normativa ambiental
+    .row.justify-content-center.align-items-center.mb-4
+      .col-auto.pe-0
+        img.img-t.d-none.d-sm-block.mb-0(data-aos="zoom-in-left")(src='@/assets/curso/tema1/ic.svg', alt='')
+      .col
+        .subt.mb-4(data-aos="fade-right")
+          .d-flex.align-items-end.mb-0
+            h4.mb-0.ps-lg-3.ps-0.ps-md-3 Características de la normativa ambiental
 
     p.mb-5 La normativa ambiental posee características que orientan su aplicación en el sector agrícola.
     
@@ -684,7 +720,13 @@
               .col-lg-12 
                 p.mb-0 Se ajusta a diferentes contextos, incluyendo la agricultura urbana.
 
-    h4.mb-5 Clasificación de residuos
+    .row.justify-content-center.align-items-center.mb-4
+      .col-auto.pe-0
+        img.img-t.d-none.d-sm-block.mb-0(data-aos="zoom-in-left")(src='@/assets/curso/tema1/ic.svg', alt='')
+      .col
+        .subt.mb-4(data-aos="fade-right")
+          .d-flex.align-items-end.mb-0
+            h4.mb-0.ps-lg-3.ps-0.ps-md-3 Clasificación de residuos
 
     p.mb-5 Los residuos generados en actividades agrícolas deben clasificarse para facilitar su manejo adecuado.
     
@@ -702,7 +744,13 @@
           h4.mb-4.text-center.my-lg-3 Residuos peligrosos
           p.mb-0 Pueden afectar la salud y el ambiente, como los envases de agroquímicos, las sustancias químicas y los productos contaminantes.
 
-    h4.mb-5 Disposición adecuada de residuos
+    .row.justify-content-center.align-items-center.mb-4
+      .col-auto.pe-0
+        img.img-t.d-none.d-sm-block.mb-0(data-aos="zoom-in-left")(src='@/assets/curso/tema1/ic.svg', alt='')
+      .col
+        .subt.mb-4(data-aos="fade-right")
+          .d-flex.align-items-end.mb-0
+            h4.mb-0.ps-lg-3.ps-0.ps-md-3 Disposición adecuada de residuos
 
     p.mb-5 La correcta disposición de residuos es esencial para evitar la contaminación y proteger el entorno.
 
@@ -750,7 +798,13 @@
             .col-lg-5
               img(src='@/assets/curso/tema1/42.png', alt='')
 
-    h4.mb-5 Regulación de la siembra de cultivos
+    .row.justify-content-center.align-items-center.mb-4
+      .col-auto.pe-0
+        img.img-t.d-none.d-sm-block.mb-0(data-aos="zoom-in-left")(src='@/assets/curso/tema1/ic.svg', alt='')
+      .col
+        .subt.mb-4(data-aos="fade-right")
+          .d-flex.align-items-end.mb-0
+            h4.mb-0.ps-lg-3.ps-0.ps-md-3 Regulación de la siembra de cultivos
 
     p.mb-5 La normativa ambiental también regula las prácticas de siembra para evitar impactos negativos.
 
@@ -783,7 +837,13 @@
       .col-lg-3
         img(src='@/assets/curso/tema1/43.png', alt='')
 
-    h4.mb-5 Normativa ambiental en el sector agrícola
+    .row.justify-content-center.align-items-center.mb-4
+      .col-auto.pe-0
+        img.img-t.d-none.d-sm-block.mb-0(data-aos="zoom-in-left")(src='@/assets/curso/tema1/ic.svg', alt='')
+      .col
+        .subt.mb-4(data-aos="fade-right")
+          .d-flex.align-items-end.mb-0
+            h4.mb-0.ps-lg-3.ps-0.ps-md-3 Normativa ambiental en el sector agrícola
 
     p.mb-5 El sector agrícola está regulado por diversas normas que buscan el equilibrio entre producción y conservación.
 
@@ -970,7 +1030,13 @@
       .bloque-texto-g__texto.p-lg-5.p-4.mx-lg-4
         p.mb-0 La normativa fitosanitaria se caracteriza por su #[b enfoque preventivo,] ya que busca evitar la aparición y propagación de plagas; por su #[b carácter obligatorio,] debido a que debe cumplirse conforme a lo establecido por las autoridades competentes; por su #[b enfoque técnico,] sustentado en criterios científicos y agronómicos; por el #[b control sanitario,] mediante acciones de vigilancia y control; y por la #[b regulación de insumos,] que orienta el uso adecuado de productos agrícolas.
 
-    h4.mb-5 Legislación sobre uso de plaguicidas
+    .row.justify-content-center.align-items-center.mb-4
+      .col-auto.pe-0
+        img.img-t.d-none.d-sm-block.mb-0(data-aos="zoom-in-left")(src='@/assets/curso/tema1/ic.svg', alt='')
+      .col
+        .subt.mb-4(data-aos="fade-right")
+          .d-flex.align-items-end.mb-0
+            h4.mb-0.ps-lg-3.ps-0.ps-md-3 Legislación sobre uso de plaguicidas
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-12
@@ -1097,7 +1163,13 @@
             h4.text-center.mb-0.ps-2.pe-2.mb-4 Daño a organismos benéficos
             p.mb-0 Mata insectos polinizadores y depredadores naturales.
 
-    h4.mb-5 Prevención de plagas y enfermedades
+    .row.justify-content-center.align-items-center.mb-4
+      .col-auto.pe-0
+        img.img-t.d-none.d-sm-block.mb-0(data-aos="zoom-in-left")(src='@/assets/curso/tema1/ic.svg', alt='')
+      .col
+        .subt.mb-4(data-aos="fade-right")
+          .d-flex.align-items-end.mb-0
+            h4.mb-0.ps-lg-3.ps-0.ps-md-3 Prevención de plagas y enfermedades
 
     .bg8.mb-5
       .row.justify-content-center.align-items-center
@@ -1217,7 +1289,13 @@
 
     p.mb-5 Durante el ciclo del cultivo se desarrollan prácticas técnicas orientadas a mantener su crecimiento, sanidad, productividad y rendimiento. En la agricultura urbana, estas acciones permiten optimizar el uso de los recursos, conservar condiciones adecuadas de manejo y prevenir problemas que afecten el sistema productivo. 
 
-    h4.mb-5 Labores culturales
+    .row.justify-content-center.align-items-center.mb-4
+      .col-auto.pe-0
+        img.img-t.d-none.d-sm-block.mb-0(data-aos="zoom-in-left")(src='@/assets/curso/tema1/ic.svg', alt='')
+      .col
+        .subt.mb-4(data-aos="fade-right")
+          .d-flex.align-items-end.mb-0
+            h4.mb-0.ps-lg-3.ps-0.ps-md-3 Labores culturales
 
     p.mb-5 Las labores culturales son prácticas agrícolas que se realizan para favorecer el desarrollo adecuado del cultivo, mantener condiciones óptimas de crecimiento y prevenir afectaciones fitosanitarias. En la agricultura urbana, son fundamentales debido a las limitaciones de espacio y a la necesidad de sostener sistemas productivos eficientes y sostenibles. Además, garantizan el adecuado manejo del cultivo desde su establecimiento hasta la cosecha, siendo esenciales para lograr plantas sanas y productivas. 
 
@@ -1246,7 +1324,13 @@
           p.mb-2 • Contribuyen a la producción limpia.
           p.mb-0 • Reducen el uso de agroquímicos.
 
-    h4.mb-5 Tipos de labores culturales
+    .row.justify-content-center.align-items-center.mb-4
+      .col-auto.pe-0
+        img.img-t.d-none.d-sm-block.mb-0(data-aos="zoom-in-left")(src='@/assets/curso/tema1/ic.svg', alt='')
+      .col
+        .subt.mb-4(data-aos="fade-right")
+          .d-flex.align-items-end.mb-0
+            h4.mb-0.ps-lg-3.ps-0.ps-md-3 Tipos de labores culturales
 
     p.mb-5 Las labores culturales varían según el tipo de cultivo, sin embargo, existen prácticas comunes que se aplican en la mayoría de sistemas productivos urbanos.
 
@@ -1304,7 +1388,13 @@
                   .col-lg-6.col-md-8.col-10
                     img(alt="" src="@/assets/curso/tema1/73.png")
 
-    h4.mb-5 Función de las labores culturales
+    .row.justify-content-center.align-items-center.mb-4
+      .col-auto.pe-0
+        img.img-t.d-none.d-sm-block.mb-0(data-aos="zoom-in-left")(src='@/assets/curso/tema1/ic.svg', alt='')
+      .col
+        .subt.mb-4(data-aos="fade-right")
+          .d-flex.align-items-end.mb-0
+            h4.mb-0.ps-lg-3.ps-0.ps-md-3 Función de las labores culturales
 
     p.mb-5 Cada labor cultural cumple funciones específicas dentro del sistema productivo. Una misma actividad puede tener múltiples beneficios simultáneamente.
 
@@ -1343,7 +1433,13 @@
             .col-lg-6.col-md-8.col-10
               img(src='@/assets/curso/tema1/77.png')
 
-    h4.mb-5 Pertinencia según el cultivo
+    .row.justify-content-center.align-items-center.mb-4
+      .col-auto.pe-0
+        img.img-t.d-none.d-sm-block.mb-0(data-aos="zoom-in-left")(src='@/assets/curso/tema1/ic.svg', alt='')
+      .col
+        .subt.mb-4(data-aos="fade-right")
+          .d-flex.align-items-end.mb-0
+            h4.mb-0.ps-lg-3.ps-0.ps-md-3 Pertinencia según el cultivo
 
     p.mb-5 No todas las labores culturales se aplican de la misma manera. Su pertinencia depende del tipo de cultivo, la etapa de desarrollo y las condiciones del entorno específico.
 

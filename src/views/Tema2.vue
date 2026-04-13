@@ -79,7 +79,13 @@
               .col-lg-12 
                 p.mb-0 Cada actividad realizada queda documentada, permitiendo rastrear cuándo y cómo se hizo, quién la ejecutó, y con qué resultados. Esto es crítico para garantizar calidad y cumplimiento normativo.
     
-    h4.mb-5 Tipos de registros
+    .row.justify-content-center.align-items-center.mb-4
+      .col-auto.pe-0
+        img.img-t.d-none.d-sm-block.mb-0(data-aos="zoom-in-left")(src='@/assets/curso/tema1/ic.svg', alt='')
+      .col
+        .subt.mb-4(data-aos="fade-right")
+          .d-flex.align-items-end.mb-0
+            h4.mb-0.ps-lg-3.ps-0.ps-md-3 Tipos de registros
 
     .row.justify-content-center.align-items-end.mb-5
       .col-lg-4
@@ -146,7 +152,13 @@
             .col-lg-8.col-md-8.col-10
               img(src='@/assets/curso/tema2/10.png')
 
-    h4.mb-5 Formas de diligenciamiento
+    .row.justify-content-center.align-items-center.mb-4
+      .col-auto.pe-0
+        img.img-t.d-none.d-sm-block.mb-0(data-aos="zoom-in-left")(src='@/assets/curso/tema1/ic.svg', alt='')
+      .col
+        .subt.mb-4(data-aos="fade-right")
+          .d-flex.align-items-end.mb-0
+            h4.mb-0.ps-lg-3.ps-0.ps-md-3 Formas de diligenciamiento
 
     p.mb-5 El diligenciamiento de los registros debe realizarse de manera clara, ordenada y constante para garantizar que la información sea útil y confiable.
 
@@ -177,7 +189,13 @@
                 p.mb-2 • Semanal (crecimiento, control): seguimiento de cambios más lentos.
                 p.mb-0 • Por actividad (siembra, fertilización, cosecha): eventos específicos que ocurren en momentos determinados.
 
-    h4.mb-5 Uso de la información registrada
+    .row.justify-content-center.align-items-center.mb-4
+      .col-auto.pe-0
+        img.img-t.d-none.d-sm-block.mb-0(data-aos="zoom-in-left")(src='@/assets/curso/tema1/ic.svg', alt='')
+      .col
+        .subt.mb-4(data-aos="fade-right")
+          .d-flex.align-items-end.mb-0
+            h4.mb-0.ps-lg-3.ps-0.ps-md-3 Uso de la información registrada
     
     p.mb-5 La información registrada debe ser analizada para mejorar el proceso productivo. Los datos que registramos cobran valor cuando los usamos para tomar decisiones informadas.
 
@@ -249,7 +267,13 @@
                 td Buena producción
                 td Mantener manejo
 
-    h4.mb-5 Seguimiento del proceso productivo
+    .row.justify-content-center.align-items-center.mb-4
+      .col-auto.pe-0
+        img.img-t.d-none.d-sm-block.mb-0(data-aos="zoom-in-left")(src='@/assets/curso/tema1/ic.svg', alt='')
+      .col
+        .subt.mb-4(data-aos="fade-right")
+          .d-flex.align-items-end.mb-0
+            h4.mb-0.ps-lg-3.ps-0.ps-md-3 Seguimiento del proceso productivo
 
     p.mb-5 El seguimiento del proceso productivo consiste en la observación, registro y análisis continuo de las actividades y resultados del cultivo, con el fin de verificar su desarrollo, identificar problemas y tomar decisiones oportunas. En la agricultura urbana, el seguimiento es fundamental debido a la variabilidad de las condiciones (espacio, clima, sustrato), lo que exige un control constante para garantizar la eficiencia del sistema productivo.
 
@@ -366,7 +390,13 @@
       .bloque-texto-g__texto.p-lg-5.p-4.mx-lg-4
         p.mb-0 El análisis e identificación de problemas en el cultivo es un proceso que permite detectar oportunamente las dificultades que afectan el crecimiento, la sanidad y la productividad de las plantas. En la agricultura urbana, este análisis se realiza mediante la observación directa, el uso de registros y la comparación entre los resultados esperados y los obtenidos, con el fin de definir acciones correctivas o preventivas que mejoren el desempeño del sistema productivo.
 
-    h4.mb-5 Análisis del cultivo
+    .row.justify-content-center.align-items-center.mb-4
+      .col-auto.pe-0
+        img.img-t.d-none.d-sm-block.mb-0(data-aos="zoom-in-left")(src='@/assets/curso/tema1/ic.svg', alt='')
+      .col
+        .subt.mb-4(data-aos="fade-right")
+          .d-flex.align-items-end.mb-0
+            h4.mb-0.ps-lg-3.ps-0.ps-md-3 Análisis del cultivo
 
     p.mb-5 El análisis del cultivo consiste en evaluar el estado de las plantas a partir de la observación y los registros, permitiendo identificar si todo está dentro de lo esperado o si hay problemas que requieren atención.
 
@@ -395,7 +425,13 @@
                 p.mb-0 Semanal: análisis más detallado.
                 p.mb-0 Por ciclo: evaluación final.
 
-    h4.mb-5 Identificación de problemas
+    .row.justify-content-center.align-items-center.mb-4
+      .col-auto.pe-0
+        img.img-t.d-none.d-sm-block.mb-0(data-aos="zoom-in-left")(src='@/assets/curso/tema1/ic.svg', alt='')
+      .col
+        .subt.mb-4(data-aos="fade-right")
+          .d-flex.align-items-end.mb-0
+            h4.mb-0.ps-lg-3.ps-0.ps-md-3 Identificación de problemas
 
     p.mb-5 Es el proceso de reconocer las dificultades que afectaron el desarrollo del cultivo. Los problemas pueden ser de naturaleza muy diferente y requieren estrategias distintas para su solución.
 
@@ -457,7 +493,13 @@
           img.mb-4.img-t.d-none.d-lg-block.mx-lg-4.my-lg-4(src='@/assets/curso/tema2/21.svg', alt='')
           p.mb-0.mx-lg-4 La mejora continua del sistema productivo se logra mediante un ciclo permanente de observación, análisis y acción. Este proceso requiere seguimiento constante del cultivo, identificación oportuna de problemas y evaluación sistemática de resultados. En agricultura urbana, donde el espacio es limitado y las condiciones son variables, esta mejora continua es fundamental para garantizar cultivos sanos, productivos y sostenibles.
 
-    h4.mb-5 Control del proceso productivo
+    .row.justify-content-center.align-items-center.mb-4
+      .col-auto.pe-0
+        img.img-t.d-none.d-sm-block.mb-0(data-aos="zoom-in-left")(src='@/assets/curso/tema1/ic.svg', alt='')
+      .col
+        .subt.mb-4(data-aos="fade-right")
+          .d-flex.align-items-end.mb-0
+            h4.mb-0.ps-lg-3.ps-0.ps-md-3 Control del proceso productivo
 
     p.mb-5 El control del proceso productivo consiste en aplicar acciones correctivas o preventivas para garantizar el adecuado desarrollo del cultivo. El control puede ser de dos tipos: preventivo (antes de que ocurra el problema) o correctivo (cuando ya existe un problema).
 
@@ -486,7 +528,13 @@
                 p.mb-0 Observación directa.
                 p.mb-0 Indicadores de desempeño.
 
-    h4.mb-5 Toma de decisiones
+    .row.justify-content-center.align-items-center.mb-4
+      .col-auto.pe-0
+        img.img-t.d-none.d-sm-block.mb-0(data-aos="zoom-in-left")(src='@/assets/curso/tema1/ic.svg', alt='')
+      .col
+        .subt.mb-4(data-aos="fade-right")
+          .d-flex.align-items-end.mb-0
+            h4.mb-0.ps-lg-3.ps-0.ps-md-3 Toma de decisiones
 
     p.mb-5 La toma de decisiones es el proceso mediante el cual se definen acciones a partir del análisis del seguimiento. Las decisiones deben basarse siempre en información real (registros e indicadores) y no en suposiciones.
 
