@@ -149,14 +149,44 @@ figcaption
 .p-lg-5.he 
   @media (min-width: 992px) 
     padding: 2.17rem !important
+.p-lg-5.hei
+  @media (min-width: 992px) 
+    padding: 1.6rem !important
 
 
 
 
 
+.titulo-principal 
+  display: flex;
+  align-items: center;
+  margin-bottom: 0;
+  gap: 0;
 
+.bloque-plantas
+  flex-shrink: 0;
+  margin-right: 0;
 
+.bloque-plantas img 
+  display: block;
+  height: 80px;
+  width: auto;
 
+.titulo-principal h2 
+  color: #1a3a5c;
+  font-weight: bold;
+  margin: 0;
+  font-size: 3rem;
+  line-height: 1;
+  flex-grow: 1;
+
+.linea-decorativa 
+  width: 100%;
+  height: 4px;
+  background-color: #ffb3b8;
+  margin-top: 0;
+
+  
 
 .titulo
   background-color: #C8C8C8
@@ -443,13 +473,69 @@ figcaption
   @media only screen and (min-width: 768px) and (max-width: 1023px)
     border-radius: 20px
 
+.fondo2
+  background-color: #EDF5D7
+  background-size: 100% 100%
+  background-repeat: no-repeat
+  background-position: center 
+  margin-inline: -3.4rem
+  @media screen and (max-width: 992px)
+    margin-inline: -3rem
+  @media screen and (max-width: 767px)
+    margin-inline: -2.4rem
+    margin-right: -2rem
+    margin-left: -2rem
+    background-size:  100% 100%
 
+.bg12
+  background-color: #4A4A4A
+.tarjeta-audio.color-acento-botones .tarjeta-audio__texto 
+  color: $black
+  font-style: normal !important
+.tarjeta-audio.color-acento-botones
+  border-color:#2D5A27 
+.tarjeta-audio 
+  border: 3px solid
+  padding: 0.65em 0.7em 0.7em 1.5em
+  border-radius: 30px
+  min-height: 60px
+.audio.color-acento-contenido .audio__btn, .tarjeta-audio.color-acento-contenido .audio__btn, .tarjeta-dialogo.color-acento-contenido .audio__btn 
+  background-color: #2D5A27
+.tarjeta-audio.color-acento-botones .tarjeta-audio__input input[type=range] 
+  background: #2D5A27
 
+.pasos-a__linea__esquina__linea 
+    border: 3px solid
+    width: 100%
+    position: relative
+    border-radius: 0px
+.pasos-a.color-primario .pasos-a__circle 
+    background-color: #2D5A27
+.pasos-a.color-primario .pasos-a__circle div 
+    color: white
+.pasos-a.color-primario .pasos-a__numero::after
+    border-left-color: #2D5A27
+.pasos-a.color-primario .pasos-a__linea .hor-line 
+    border-top-color: #2D5A27
+.pasos-a.color-primario .pasos-a__linea__esquina__linea 
+    border-color:#2D5A27
+@media only screen and (max-width: 767px)
+  .cel
+    display: none
+@media only screen and (min-width: 768px) and (max-width: 1023px)
+  .cel
+    display: none
 
-
-
-
-
+.linea-tiempo-e__item 
+  display: flex
+  position: relative
+  padding: 10px 0
+.linea-tiempo-e.color-primario .linea-tiempo-e__item__header:before 
+    border-color: #343434
+.linea-tiempo-e__item__header:before 
+    top: 4px
+.linea-tiempo-e:before 
+    background: #B0C0D2
 
 
 
@@ -534,3 +620,31 @@ figcaption
     width: 45%
   th:nth-child(2)
     width: 55%
+
+.tabla-a.tab6
+  table th
+    padding: 20px 13px
+  table td 
+    padding: 38px 13px
+  th:nth-child(1)
+    width: 25%
+  th:nth-child(2)
+    width: 25%
+  th:nth-child(3)
+    width: 25%
+  th:nth-child(4)
+    width: 25%
+
+.tabla-a.tab7
+  table th
+    padding: 20px 13px
+  table td 
+    padding: 20px 13px
+  th:nth-child(1)
+    width: 25%
+  th:nth-child(2)
+    width: 25%
+  th:nth-child(3)
+    width: 25%
+  th:nth-child(4)
+    width: 25%

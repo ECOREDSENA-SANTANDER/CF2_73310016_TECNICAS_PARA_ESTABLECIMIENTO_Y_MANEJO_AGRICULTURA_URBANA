@@ -267,7 +267,7 @@
         .bg4.p-4.h-100
           h4.mb-4.text-center.my-lg-3 Manejo de herramientas en espacios compartidos
           p.mb-0 Puede afectar a otras personas. Requiere delimitación clara del área de trabajo y señalización de seguridad.
-
+    
     h4.mb-5 Normas básicas de seguridad
     
     p.mb-5 Las normas básicas de seguridad son reglas generales que deben cumplirse durante el desarrollo de actividades agrícolas. Su aplicación es obligatoria y no admite excepciones.
@@ -445,19 +445,33 @@
       img(:src="require('@/assets/curso/tema1/sub.svg')" alt='Imagen decorativa')
       h3.mb-0 Proceso de identificación de riesgos
 
-    
-
-
-
-
-
-
-
-
-
-
-
-
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-12
+        LineaTiempoE.color-primario
+          .row.justify-content-center.align-items-center(titulo="Paso 1" subtitulo="")
+            .col-lg-2.col-md-3.col-6.mb-3
+              img.img-t(data-aos="fade-right")(src='@/assets/curso/tema1/79.svg', alt='Texto que describa la imagen')
+            .col-lg-10.mb-3
+              h4.mb-4 Observación del área de trabajo
+              p.mb-0 Recorrer el espacio identificando condiciones inseguras.
+          .row.justify-content-center.align-items-center(titulo="Paso 2" subtitulo="")
+            .col-lg-2.col-md-3.col-6.mb-3
+              img.img-t(data-aos="fade-right")(src='@/assets/curso/tema1/80.svg', alt='Texto que describa la imagen')
+            .col-lg-10.mb-3
+              h4.mb-4 Reconocimiento de actividades
+              p.mb-0 Listar todas las labores que se realizan.
+          .row.justify-content-center.align-items-center(titulo="Paso 3" subtitulo="")
+            .col-lg-2.col-md-3.col-6.mb-3
+              img.img-t(data-aos="fade-right")(src='@/assets/curso/tema1/81.svg', alt='Texto que describa la imagen')
+            .col-lg-10.mb-3
+              h4.mb-4 Identificación de peligros
+              p.mb-0 Asociar cada actividad con sus riesgos potenciales.
+          .row.justify-content-center.align-items-center(titulo="Paso 4" subtitulo="")
+            .col-lg-2.col-md-3.col-6.mb-3
+              img.img-t(data-aos="fade-right")(src='@/assets/curso/tema1/82.svg', alt='Texto que describa la imagen')
+            .col-lg-10.mb-3
+              h4.mb-4 Evaluación e implementación
+              p.mb-0 Priorizar riesgos e implementar medidas de control.
 
     h4.mb-5 Prevención de accidentes en agricultura urbana
 
