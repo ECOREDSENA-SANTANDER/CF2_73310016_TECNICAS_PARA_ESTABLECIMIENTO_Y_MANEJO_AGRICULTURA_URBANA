@@ -23,7 +23,7 @@
     
     .row.justify-content-center.align-items-end.mb-5
       .col-lg-4
-        img.h-100(src='@/assets/curso/tema1/3.png', alt='')
+        img.d-none.d-lg-block(src='@/assets/curso/tema1/3.png', alt='')
       .col-lg-8
         .bg2.p-lg-5.p-4.h-100
           img.mb-4.img-t.d-none.d-lg-block.mx-lg-4.my-lg-4(src='@/assets/curso/tema1/4.svg', alt='')
@@ -32,6 +32,8 @@
     .titulo.mb-5(data-aos="fade-left")
       img(:src="require('@/assets/curso/tema1/sub.svg')" alt='Imagen decorativa')
       h3.mb-0 Importancia del riego en agricultura urbana
+
+    p.mb-4 El agua es un elemento esencial para la vida de las plantas, ya que interviene en múltiples procesos fisiológicos.
 
     .row.justify-content-center.align-items-stretch.mb-lg-5.mb-4(data-aos="fade-left")
       .col-lg-3.col-md-6.mb-lg-0.mb-4
@@ -69,9 +71,9 @@
         TabsC.color-primario
           .p-lg-5.p-4(titulo="Humedad óptima")
             .row.justify-content-center.align-items-center.mb-0
-              .col-lg-5
+              .col-lg-5.order-lg-1.order-md-2.order-2
                 img(src='@/assets/curso/tema1/9.png', alt='')
-              .col-lg-7
+              .col-lg-7.order-lg-1.order-md-1.order-1.mb-lg-0.mb-4
                 p.mb-4 Nivel ideal para el desarrollo del cultivo, donde hay agua disponible, pero también espacio para aire. Las raíces pueden absorber agua sin sufrir por falta de oxígeno.
                 ul.lista-ul.mb-0
                   li.d-flex.mb-2
@@ -79,9 +81,9 @@
                     p.mb-0 #[b Indicadores:] sustrato húmedo al tacto, pero no encharcado.
           .p-lg-5.p-4(titulo="Exceso de humedad")
             .row.justify-content-center.align-items-center.mb-0
-              .col-lg-5
+              .col-lg-5.order-lg-1.order-md-2.order-2
                 img(src='@/assets/curso/tema1/10.png', alt='')
-              .col-lg-7
+              .col-lg-7.order-lg-1.order-md-1.order-1.mb-lg-0.mb-4
                 p.mb-4 Genera saturación limitando el oxígeno necesario para las raíces. Favorece proliferación de hongos patógenos y pudrición radicular.
                 ul.lista-ul.mb-0
                   li.d-flex.mb-2
@@ -89,9 +91,9 @@
                     p.mb-0 #[b Síntomas:] sustrato permanentemente empapado, olor a tierra mojada, hojas amarillas.
           .p-lg-5.p-4(titulo="Déficit de humedad")
             .row.justify-content-center.align-items-center.mb-0
-              .col-lg-5
+              .col-lg-5.order-lg-1.order-md-2.order-2
                 img(src='@/assets/curso/tema1/11.png', alt='')
-              .col-lg-7
+              .col-lg-7.order-lg-1.order-md-1.order-1.mb-lg-0.mb-4
                 p.mb-4 Indica falta de agua disponible. La planta no puede absorber los nutrientes necesarios y sufre estrés hídrico.
                 ul.lista-ul.mb-0
                   li.d-flex.mb-2
@@ -106,9 +108,9 @@
       img(:src="require('@/assets/curso/tema1/sub.svg')" alt='Imagen decorativa')
       h3.mb-0 Factores técnicos del riego
 
-    p.mb-5 El riego debe planificarse teniendo en cuenta diversos factores que influyen en la cantidad y la frecuencia del agua aplicada.
+    p.mb-4 El riego debe planificarse teniendo en cuenta diversos factores que influyen en la cantidad y la frecuencia del agua aplicada.
 
-    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
+    .row.justify-content-center.align-items-end.mb-5(data-aos="fade-left")
       .col-lg-12
         TabsA.color-acento-botones.mb-0
           .tarjeta.color-a.p-4(titulo="Tipo de cultivo")
@@ -132,7 +134,7 @@
       img(:src="require('@/assets/curso/tema1/sub.svg')" alt='Imagen decorativa')
       h3.mb-0 Sistemas de riego
 
-    p.mb-5 Los sistemas de riego son los métodos utilizados para suministrar agua a los cultivos. Existen tres opciones principales en agricultura urbana:
+    p.mb-4 Los sistemas de riego son los métodos utilizados para suministrar agua a los cultivos. Existen tres opciones principales en agricultura urbana:
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
       .col-lg-12
@@ -168,7 +170,7 @@
       img(:src="require('@/assets/curso/tema1/sub.svg')" alt='Imagen decorativa')
       h3.mb-0 Buenas prácticas en el manejo del riego
 
-    p.mb-5 La implementación de buenas prácticas permite optimizar el uso del agua y mejorar la productividad del cultivo.
+    p.mb-4 La implementación de buenas prácticas permite optimizar el uso del agua y mejorar la productividad del cultivo.
 
     AcordionA.activ(tipo="a" clase-tarjeta="tarjeta tarjeta--azull").mb-0(data-aos="fade-left")
       .row.justify-content-center.align-items-center(titulo="Recomendaciones técnicas")
@@ -251,7 +253,7 @@
       img(:src="require('@/assets/curso/tema1/sub.svg')" alt='Imagen decorativa')
       h3.mb-0 Aplicación en agricultura urbana
 
-    p.mb-5 En espacios urbanos, los riesgos pueden aumentar debido a características específicas del entorno. Es necesario aplicar medidas de seguridad adaptadas al contexto particular de la producción en las ciudades.
+    p.mb-4 En espacios urbanos, los riesgos pueden aumentar debido a características específicas del entorno. Es necesario aplicar medidas de seguridad adaptadas al contexto particular de la producción en las ciudades.
 
     .row.justify-content-center.mb-5
       .col-lg-4.col-md-6.mb-lg-0.mb-4
@@ -276,7 +278,7 @@
           .d-flex.align-items-end.mb-0
             h4.mb-0.ps-lg-3.ps-0.ps-md-3 Normas básicas de seguridad
     
-    p.mb-5 Las normas básicas de seguridad son reglas generales que deben cumplirse durante el desarrollo de actividades agrícolas. Su aplicación es obligatoria y no admite excepciones.
+    p.mb-4 Las normas básicas de seguridad son reglas generales que deben cumplirse durante el desarrollo de actividades agrícolas. Su aplicación es obligatoria y no admite excepciones.
 
     .row.justify-content-center.align-items-stretch.mb-lg-5.mb-4(data-aos="fade-left")
       .col-lg-4.col-md-6.mb-lg-0.mb-4
@@ -338,7 +340,7 @@
     
     .row.justify-content-center.align-items-end.mb-5
       .col-lg-4
-        img(src='@/assets/curso/tema1/22.png', alt='')
+        img.d-none.d-lg-block(src='@/assets/curso/tema1/22.png', alt='')
       .col-lg-8
         .bg21.p-4
           img.mb-4.img-t.d-none.d-lg-block.mx-lg-4.my-lg-4(src='@/assets/curso/tema1/23.svg', alt='')
@@ -380,7 +382,7 @@
                 td Evita el contacto directo con sustancias irritantes.
                 td Manipulación general de insumos.
       .col-lg-3
-        img(src='@/assets/curso/tema1/24.png', alt='')
+        img.d-none.d-lg-block(src='@/assets/curso/tema1/24.png', alt='')
 
     .cajon.color-acento-botones.p-4.mb-5
       p.mb-0 La reducción de riesgos de accidentes es el principal beneficio de los EPP, ya que actúan como una barrera protectora. Además, protegen al trabajador contra agentes químicos y biológicos, lo cual es especialmente crítico durante la manipulación de plaguicidas. Por último, contribuyen a mejorar las condiciones de trabajo al generar confianza y motivación en el trabajador.
@@ -409,7 +411,7 @@
             h5.mb-0 Reemplazar cuando estén deteriorados
               p.mb-0 Un guante con un agujero no ofrece una protección adecuada.
       .col-lg-5
-        img(src='@/assets/curso/tema1/25.png', alt='')
+        img.d-none.d-lg-block(src='@/assets/curso/tema1/25.png', alt='')
 
     .row.justify-content-center.align-items-center.mb-4
       .col-auto.pe-0
@@ -419,7 +421,7 @@
           .d-flex.align-items-end.mb-0
             h4.mb-0.ps-lg-3.ps-0.ps-md-3 Identificación de riesgos
 
-    p.mb-5 La identificación de riesgos es el proceso mediante el cual se reconocen las situaciones que pueden generar daño o afectar la salud del trabajador. Este paso es fundamental y debe realizarse antes de implementar medidas de control.
+    p.mb-4 La identificación de riesgos es el proceso mediante el cual se reconocen las situaciones que pueden generar daño o afectar la salud del trabajador. Este paso es fundamental y debe realizarse antes de implementar medidas de control.
 
     AcordionA.activ(tipo="a" clase-tarjeta="tarjeta tarjeta--azull").mb-5(data-aos="fade-left")
       .row.justify-content-center.align-items-center(titulo="Riesgos físicos")
@@ -523,7 +525,7 @@
           li.d-flex.mb-2
             i.fas.fa-check
             p.mb-0 #[b Supervisión regular:] verificar que se cumplan los procedimientos de seguridad.
-      .col-lg-5
+      .col-lg-5.d-none.d-lg-block
         img(src='@/assets/curso/tema1/30.png', alt='')
 
     .titulo.mb-5(data-aos="fade-left")
@@ -532,7 +534,7 @@
 
     .cajon.color-acento-botones.p-4.p-lg-5.mb-5
       .row.justify-content-center.align-items-center.mb-0
-        .col-lg-5
+        .col-lg-5.d-none.d-lg-block
           img(src='@/assets/curso/tema1/31.png', alt='')
         .col-lg-7
           ul.lista-ul.mb-0
@@ -607,7 +609,7 @@
                 li.d-flex.mb-0
                   i.fas.fa-check
                   p.mb-0 #[b Participar activamente en programas de seguridad:] asistir a capacitaciones.
-            .col-lg-5
+            .col-lg-5.d-none.d-lg-block
               img(src='@/assets/curso/tema1/36.png', alt='')
     
     .row.justify-content-center.align-items-center.mb-5
@@ -622,7 +624,7 @@
           .row.align-items-center(titulo="¿Qué hago si identifico un riesgo?")
             .col-lg-11
               p.mb-0 Se debe detener la actividad, evaluar el peligro identificado, implementar las medidas de control correspondientes, verificar su efectividad y reportar el incidente.
-      .col-lg-4
+      .col-lg-4.d-none.d-lg-block
         img(src='@/assets/curso/tema1/37.svg', alt='')
 
     .row.justify-content-center.align-items-center.mb-4
@@ -641,7 +643,7 @@
       img(:src="require('@/assets/curso/tema1/sub.svg')" alt='Imagen decorativa')
       h3.mb-0 Importancia en la producción agrícola
     
-    p.mb-5 La normativa ambiental es clave para orientar las actividades agrícolas hacia la sostenibilidad.
+    p.mb-4 La normativa ambiental es clave para orientar las actividades agrícolas hacia la sostenibilidad.
 
     .row.justify-content-center.mb-lg-5.mb-0(data-aos="fade-left")
       .col-lg-6.col-md-6.pe-lg-0.pe-md-0.mb-lg-0.mb-4
@@ -692,10 +694,10 @@
           .d-flex.align-items-end.mb-0
             h4.mb-0.ps-lg-3.ps-0.ps-md-3 Características de la normativa ambiental
 
-    p.mb-5 La normativa ambiental posee características que orientan su aplicación en el sector agrícola.
+    p.mb-4 La normativa ambiental posee características que orientan su aplicación en el sector agrícola.
     
-    .row.justify-content-center.align-items-center.mb-5
-      .col-lg-3
+    .row.justify-content-center.align-items-start.mb-5
+      .col-lg-3.d-none.d-lg-block
         img(src='@/assets/curso/tema1/38.png', alt='')
       .col-lg-9
         TabsA.color-acento-botones.mb-0
@@ -728,7 +730,7 @@
           .d-flex.align-items-end.mb-0
             h4.mb-0.ps-lg-3.ps-0.ps-md-3 Clasificación de residuos
 
-    p.mb-5 Los residuos generados en actividades agrícolas deben clasificarse para facilitar su manejo adecuado.
+    p.mb-4 Los residuos generados en actividades agrícolas deben clasificarse para facilitar su manejo adecuado.
     
     .row.justify-content-center.mb-5
       .col-lg-4.col-md-6.mb-lg-0.mb-4
@@ -752,7 +754,7 @@
           .d-flex.align-items-end.mb-0
             h4.mb-0.ps-lg-3.ps-0.ps-md-3 Disposición adecuada de residuos
 
-    p.mb-5 La correcta disposición de residuos es esencial para evitar la contaminación y proteger el entorno.
+    p.mb-4 La correcta disposición de residuos es esencial para evitar la contaminación y proteger el entorno.
 
     .row.justify-content-center.align-items-stretch.mb-lg-5.mb-4(data-aos="fade-left")
       .col-lg-4.col-md-6.mb-lg-0.mb-4
@@ -795,7 +797,7 @@
                 li.d-flex.mb-0
                   i.fas.fa-check
                   p.mb-0 #[b Reducir generación de residuos:] aplicar principio de reducción en la fuente.
-            .col-lg-5
+            .col-lg-5.d-none.d-lg-block
               img(src='@/assets/curso/tema1/42.png', alt='')
 
     .row.justify-content-center.align-items-center.mb-4
@@ -806,7 +808,7 @@
           .d-flex.align-items-end.mb-0
             h4.mb-0.ps-lg-3.ps-0.ps-md-3 Regulación de la siembra de cultivos
 
-    p.mb-5 La normativa ambiental también regula las prácticas de siembra para evitar impactos negativos.
+    p.mb-4 La normativa ambiental también regula las prácticas de siembra para evitar impactos negativos.
 
     .row.justify-content-center.align-items-end.mb-5(data-aos="fade-left")
       .col-lg-9
@@ -834,7 +836,7 @@
                   p.mb-0 • Proteger el ambiente.
                   p.mb-0 • Garantizar producción segura.
                   p.mb-0 • Promover sostenibilidad.
-      .col-lg-3
+      .col-lg-3.d-none.d-lg-block
         img(src='@/assets/curso/tema1/43.png', alt='')
 
     .row.justify-content-center.align-items-center.mb-4
@@ -845,10 +847,10 @@
           .d-flex.align-items-end.mb-0
             h4.mb-0.ps-lg-3.ps-0.ps-md-3 Normativa ambiental en el sector agrícola
 
-    p.mb-5 El sector agrícola está regulado por diversas normas que buscan el equilibrio entre producción y conservación.
+    p.mb-4 El sector agrícola está regulado por diversas normas que buscan el equilibrio entre producción y conservación.
 
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-8
+      .col-lg-8.mb-lg-0.mb-4
         AcordionA.press(tipo="b" clase-tarjeta="tarjeta tarjeta--grey")
           .row.align-items-center(titulo="Enfoques principales")
             .col-lg-11
@@ -867,7 +869,7 @@
                     li.d-flex.mb-0
                       i.fas.fa-check.t11
                       p.mb-0 Control del uso de agroquímicos.
-                .col-lg-7
+                .col-lg-7.d-none.d-lg-block
                   img(src='@/assets/curso/tema1/45.png', alt='')
           .row.align-items-center(titulo="Aplicación en agricultura urbana")
             .col-lg-11
@@ -886,7 +888,7 @@
                     li.d-flex.mb-0
                       i.fas.fa-check.t11
                       p.mb-0 Educación ambiental.
-                .col-lg-7
+                .col-lg-7.d-none.d-lg-block
                   img(src='@/assets/curso/tema1/46.png', alt='')
           .row.align-items-center(titulo="Beneficios del cumplimiento normativo")
             .col-lg-11
@@ -905,7 +907,7 @@
                     li.d-flex.mb-0
                       i.fas.fa-check.t11
                       p.mb-0 Favorece la sostenibilidad.
-                .col-lg-7
+                .col-lg-7.d-none.d-lg-block
                   img(src='@/assets/curso/tema1/47.png', alt='')
           .row.align-items-center(titulo="Consecuencias del incumplimiento")
             .col-lg-11
@@ -924,9 +926,9 @@
                     li.d-flex.mb-0
                       i.fas.fa-check.t11
                       p.mb-0 Pérdida de productividad.
-                .col-lg-7
+                .col-lg-7.d-none.d-lg-block
                   img(src='@/assets/curso/tema1/48.png', alt='')
-      .col-lg-4
+      .col-lg-4.col-md-7.col-10
         img(src='@/assets/curso/tema1/44.svg', alt='')
 
     .row.justify-content-center.mb-5(data-aos="fade-left")
@@ -1038,11 +1040,11 @@
           .d-flex.align-items-end.mb-0
             h4.mb-0.ps-lg-3.ps-0.ps-md-3 Legislación sobre uso de plaguicidas
 
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-lg-5.mb-4
       .col-lg-12
         img(src='@/assets/curso/tema1/50.png', alt='')
     
-    p.mb-5 El uso de plaguicidas está regulado para evitar riesgos a la salud humana y al medio ambiente. La clasificación internacional establece niveles de toxicidad que orientan el manejo seguro, almacenamiento, transporte y uso adecuado de estos productos, permitiendo identificar de manera clara el nivel de riesgo de cada plaguicida.
+    p.mb-4 El uso de plaguicidas está regulado para evitar riesgos a la salud humana y al medio ambiente. La clasificación internacional establece niveles de toxicidad que orientan el manejo seguro, almacenamiento, transporte y uso adecuado de estos productos, permitiendo identificar de manera clara el nivel de riesgo de cada plaguicida.
 
     .row.justify-content-center.mb-4(data-aos="fade-left")
       .col-lg-12
@@ -1105,7 +1107,7 @@
           li.d-flex.mb-0
             i.fas.fa-check
             p.mb-0 #[b Manejo seguro durante el almacenamiento y la aplicación:] guardar en lugares seguros y aplicar con precaución.
-      .col-lg-5
+      .col-lg-5.d-none.d-lg-block
         img(src='@/assets/curso/tema1/51.png', alt='')
 
     .titulo.mb-5(data-aos="fade-left")
@@ -1114,7 +1116,7 @@
 
     .cajon.color-acento-botones.p-4.p-lg-5.mb-5
       .row.justify-content-center.align-items-center.mb-0
-        .col-lg-5
+        .col-lg-5.d-none.d-lg-block
           img(src='@/assets/curso/tema1/52.png', alt='')
         .col-lg-7
           ul.lista-ul.mb-0
@@ -1163,7 +1165,7 @@
             h4.text-center.mb-0.ps-2.pe-2.mb-4 Daño a organismos benéficos
             p.mb-0 Mata insectos polinizadores y depredadores naturales.
 
-    .row.justify-content-center.align-items-center.mb-4
+    .row.justify-content-center.align-items-center.mb-5
       .col-auto.pe-0
         img.img-t.d-none.d-sm-block.mb-0(data-aos="zoom-in-left")(src='@/assets/curso/tema1/ic.svg', alt='')
       .col
@@ -1207,7 +1209,7 @@
                 td
                   p.mb-0 • Uso de organismos benéficos.
                   p.mb-0 • Aplicación de bioinsumos.
-      .col-lg-3
+      .col-lg-3.d-none.d-lg-block
         img(src='@/assets/curso/tema1/59.png', alt='')
 
     .titulo.mb-5(data-aos="fade-left")
@@ -1279,7 +1281,7 @@
                   i.fas.fa-check
                   h3.mb-3 Garantiza sostenibilidad
                 p.mb-3.mx-4 Esta aproximación asegura cultivos sanos a largo plazo sin comprometer los recursos naturales.
-            .col-lg-5
+            .col-lg-5.d-none.d-lg-block
               img(src='@/assets/curso/tema1/67.png', alt='')
 
 
@@ -1303,9 +1305,9 @@
       img(:src="require('@/assets/curso/tema1/sub.svg')" alt='Imagen decorativa')
       h3.mb-0 Importancia
     
-    p.mb-5 Las labores culturales garantizan el adecuado manejo del cultivo desde su establecimiento hasta la cosecha, siendo esenciales para lograr plantas sanas y productivas.
+    p.mb-4 Las labores culturales garantizan el adecuado manejo del cultivo desde su establecimiento hasta la cosecha, siendo esenciales para lograr plantas sanas y productivas.
 
-    .row.justify-content-center.mb-lg-5.mb-0(data-aos="fade-left")
+    .row.justify-content-center.mb-lg-5.mb-4(data-aos="fade-left")
       .col-lg-6.col-md-6.pe-lg-0.pe-md-0.mb-lg-0.mb-4
         .bg5.p-lg-5.p-4.h-100
           img.img-t.img-a.mb-4(src='@/assets/curso/tema1/68.svg')
@@ -1332,7 +1334,7 @@
           .d-flex.align-items-end.mb-0
             h4.mb-0.ps-lg-3.ps-0.ps-md-3 Tipos de labores culturales
 
-    p.mb-5 Las labores culturales varían según el tipo de cultivo, sin embargo, existen prácticas comunes que se aplican en la mayoría de sistemas productivos urbanos.
+    p.mb-4 Las labores culturales varían según el tipo de cultivo, sin embargo, existen prácticas comunes que se aplican en la mayoría de sistemas productivos urbanos.
 
     .row.fondo7.align-items-center.p-3.mb-5(data-aos="fade-down")
       .col-lg-12.col-md-12.col-12.px-lg-5.px-4
@@ -1396,7 +1398,7 @@
           .d-flex.align-items-end.mb-0
             h4.mb-0.ps-lg-3.ps-0.ps-md-3 Función de las labores culturales
 
-    p.mb-5 Cada labor cultural cumple funciones específicas dentro del sistema productivo. Una misma actividad puede tener múltiples beneficios simultáneamente.
+    p.mb-4 Cada labor cultural cumple funciones específicas dentro del sistema productivo. Una misma actividad puede tener múltiples beneficios simultáneamente.
 
     AcordionA.activ(tipo="a" clase-tarjeta="tarjeta tarjeta--azull").mb-5(data-aos="fade-left")
       .row.justify-content-center.align-items-center(titulo="Función productiva")
@@ -1441,13 +1443,13 @@
           .d-flex.align-items-end.mb-0
             h4.mb-0.ps-lg-3.ps-0.ps-md-3 Pertinencia según el cultivo
 
-    p.mb-5 No todas las labores culturales se aplican de la misma manera. Su pertinencia depende del tipo de cultivo, la etapa de desarrollo y las condiciones del entorno específico.
+    p.mb-4 No todas las labores culturales se aplican de la misma manera. Su pertinencia depende del tipo de cultivo, la etapa de desarrollo y las condiciones del entorno específico.
 
     .row.justify-content-center.align-items-center.mb-0
-      .col-lg-5
+      .col-lg-5.d-none.d-lg-block
         img(src='@/assets/curso/tema1/78.png', alt='')
       .col-lg-7
-        TabsA.color-acento-botones.mb-0
+        TabsA.color-acento-botones.tem1.mb-0
           .tarjeta.color-a.p-4(titulo="Según el tipo de cultivo")
             .row.justify-content-center.align-items-center
               .col-lg-12 

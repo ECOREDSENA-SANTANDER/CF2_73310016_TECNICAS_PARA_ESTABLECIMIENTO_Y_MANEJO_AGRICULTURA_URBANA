@@ -28,7 +28,7 @@
       img(:src="require('@/assets/curso/tema1/sub.svg')" alt='Imagen decorativa')
       h3.mb-0 Importancia
 
-    p.mb-5 El registro de información permite organizar y analizar el proceso productivo de manera técnica, facilitando el control y mejora continua del sistema.
+    p.mb-4 El registro de información permite organizar y analizar el proceso productivo de manera técnica, facilitando el control y mejora continua del sistema.
 
     .row.justify-content-center.align-items-center.mb-0(data-aos="fade-left")
       .col-lg-12
@@ -56,7 +56,7 @@
                   p.mb-4 • Permite replicar buenas prácticas.
                   p.mb-4 • Favorece el aprendizaje práctico.
                   p.mb-0 • Contribuye a la sostenibilidad del sistema.
-      .col-lg-5
+      .col-lg-5.d-none.d-lg-block
         img(src='@/assets/curso/tema2/2.png', alt='')
 
     .titulo.mb-5(data-aos="fade-left")
@@ -88,7 +88,7 @@
             h4.mb-0.ps-lg-3.ps-0.ps-md-3 Tipos de registros
 
     .row.justify-content-center.align-items-end.mb-5
-      .col-lg-4
+      .col-lg-4.d-none.d-lg-block
         img(src='@/assets/curso/tema2/3.png', alt='')
       .col-lg-8
         .bg22.p-lg-5.p-4.h-100.he
@@ -160,13 +160,13 @@
           .d-flex.align-items-end.mb-0
             h4.mb-0.ps-lg-3.ps-0.ps-md-3 Formas de diligenciamiento
 
-    p.mb-5 El diligenciamiento de los registros debe realizarse de manera clara, ordenada y constante para garantizar que la información sea útil y confiable.
+    p.mb-4 El diligenciamiento de los registros debe realizarse de manera clara, ordenada y constante para garantizar que la información sea útil y confiable.
 
-    .row.justify-content-center.align-items-center.mb-5
-      .col-lg-3
+    .row.justify-content-center.align-items-start.mb-5
+      .col-lg-3.d-none.d-lg-block
         img(src='@/assets/curso/tema2/11.png', alt='')
       .col-lg-9
-        TabsA.color-acento-botones.mb-0
+        TabsA.color-acento-botones.tem2.mb-0
           .tarjeta.color-a.p-4(titulo="Formatos de registro")
             .row.justify-content-center.align-items-center
               .col-lg-12 
@@ -197,16 +197,16 @@
           .d-flex.align-items-end.mb-0
             h4.mb-0.ps-lg-3.ps-0.ps-md-3 Uso de la información registrada
     
-    p.mb-5 La información registrada debe ser analizada para mejorar el proceso productivo. Los datos que registramos cobran valor cuando los usamos para tomar decisiones informadas.
+    p.mb-4 La información registrada debe ser analizada para mejorar el proceso productivo. Los datos que registramos cobran valor cuando los usamos para tomar decisiones informadas.
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
       .col-lg-12
         TabsC.color-primario
           .p-lg-5.p-4(titulo="Aplicaciones de los registros")
             .row.justify-content-center.align-items-center.mb-0
-              .col-lg-5
+              .col-lg-5.order-lg-1.order-md-2.order-2
                 img(src='@/assets/curso/tema2/12.png', alt='')
-              .col-lg-7
+              .col-lg-7.order-lg-1.order-md-1.order-1.mb-lg-0.mb-4
                 p.mb-3 • Evaluar el rendimiento del cultivo: comparar producción esperada vs. producción real.
                 p.mb-3 • Identificar problemas recurrentes: ver si ciertos problemas se repiten en patrones.
                 p.mb-3 • Ajustar prácticas agrícolas: cambiar técnicas si los resultados no son satisfactorios.
@@ -214,18 +214,18 @@
                 p.mb-0 • Optimizar recursos: reducir agua, insumos o tiempo si los registros muestran exceso.
           .p-lg-5.p-4(titulo="Toma de decisiones basada en registros")
             .row.justify-content-center.align-items-center.mb-0
-              .col-lg-5
+              .col-lg-5.order-lg-1.order-md-2.order-2
                 img(src='@/assets/curso/tema2/13.png', alt='')
-              .col-lg-7
+              .col-lg-7.order-lg-1.order-md-1.order-1.mb-lg-0.mb-4
                 p.mb-3 • Modificar la frecuencia de riego: si los registros muestran sequedad o exceso de humedad.
                 p.mb-3 • Cambiar insumos utilizados: si ciertos fertilizantes o plaguicidas no funcionan.
                 p.mb-3 • Ajustar distancias de siembra: si hay problemas de espacio o competencia.
                 p.mb-0 • Implementar controles fitosanitarios: si se detectan patrones de plagas o enfermedades.
           .p-lg-5.p-4(titulo="Mejora continua a través de registros")
             .row.justify-content-center.align-items-center.mb-0
-              .col-lg-5
+              .col-lg-5.order-lg-1.order-md-2.order-2
                 img(src='@/assets/curso/tema2/14.png', alt='')
-              .col-lg-7
+              .col-lg-7.order-lg-1.order-md-1.order-1.mb-lg-0.mb-4
                 p.mb-3 • Comparar resultados entre ciclos productivos: cada cosecha anterior es una lección.
                 p.mb-3 • Identificar buenas prácticas: replicar lo que funciona bien.
                 p.mb-3 • Corregir errores: evitar repetir lo que no funcionó.
@@ -235,7 +235,7 @@
       img(:src="require('@/assets/curso/tema1/sub.svg')" alt='Imagen decorativa')
       h3.mb-0 Ejemplo práctico de uso de registros
     
-    p.mb-5 Los siguientes son ejemplos de cómo los registros generan decisiones:
+    p.mb-4 Los siguientes son ejemplos de cómo los registros generan decisiones:
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
       .col-lg-12
@@ -281,9 +281,9 @@
       img(:src="require('@/assets/curso/tema1/sub.svg')" alt='Imagen decorativa')
       h3.mb-0 Importancia del seguimiento
     
-    p.mb-5 El seguimiento permite evaluar si el cultivo se está desarrollando de acuerdo con lo planificado, proporcionando información valiosa para la toma de decisiones.
+    p.mb-4 El seguimiento permite evaluar si el cultivo se está desarrollando de acuerdo con lo planificado, proporcionando información valiosa para la toma de decisiones.
 
-    .row.justify-content-center.mb-lg-5.mb-0(data-aos="fade-left")
+    .row.justify-content-center.mb-lg-5.mb-4(data-aos="fade-left")
       .col-lg-6.col-md-6.pe-lg-0.pe-md-0.mb-lg-0.mb-4
         .bg5.p-lg-5.p-4.h-100
           img.img-t.img-a.mb-4(src='@/assets/curso/tema2/15.svg')
@@ -305,7 +305,7 @@
       img(:src="require('@/assets/curso/tema1/sub.svg')" alt='Imagen decorativa')
       h3.mb-0 Indicadores de seguimiento
     
-    p.mb-5 Los indicadores son variables que permiten medir el estado y desempeño del cultivo. Son datos específicos que se pueden observar, registrar y comparar para evaluar, de manera objetiva, si el cultivo está cumpliendo con lo esperado.
+    p.mb-4 Los indicadores son variables que permiten medir el estado y desempeño del cultivo. Son datos específicos que se pueden observar, registrar y comparar para evaluar, de manera objetiva, si el cultivo está cumpliendo con lo esperado.
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
       .col-lg-12
@@ -341,7 +341,7 @@
       img(:src="require('@/assets/curso/tema1/sub.svg')" alt='Imagen decorativa')
       h3.mb-0 Características de un buen indicador
 
-    .row.justify-content-center.mb-5
+    .row.justify-content-center.mb-4.mb-lg-5
       .col-lg-3.col-md-6.mb-lg-0.mb-4
         .bg7.p-4.h-100
           h4.mb-4.text-center.my-lg-3 Medible
@@ -350,11 +350,11 @@
         .bg7.p-4.h-100
           h4.mb-4.text-center.my-lg-3 Claro
           p.mb-0 Fácil de entender y comunicar.
-      .col-lg-3.col-md-6
+      .col-lg-3.col-md-6.mb-lg-0.mb-4
         .bg7.p-4.h-100
           h4.mb-4.text-center.my-lg-3 Relevante
           p.mb-0 Relacionado directamente con los objetivos.
-      .col-lg-3.col-md-6
+      .col-lg-3.col-md-6.mb-lg-0.mb-4
         .bg7.p-4.h-100
           h4.mb-4.text-center.my-lg-3 Fácil de interpretar
           p.mb-0 Proporciona información útil para la toma de decisiones.
@@ -367,9 +367,9 @@
     
     .row.justify-content-center.align-items-center.mb-0(data-aos="fade-left")
       .col-lg-12
-        img.d-none.d-lg-block(src='@/assets/curso/tema2/17.svg', alt='Texto que describa la imagen')
+        img(src='@/assets/curso/tema2/17.svg', alt='Texto que describa la imagen')
         .row.justify-content-center.g-0
-          .col-lg-12.col-md-6
+          .col-lg-12
             .tarjeta.bg12.p-4.rounded-0.h-100
               .tarjeta.bg-white.p-4.h-100.mb-0
                 TarjetaAudio.color-acento-botones.mb-0(
@@ -398,13 +398,13 @@
           .d-flex.align-items-end.mb-0
             h4.mb-0.ps-lg-3.ps-0.ps-md-3 Análisis del cultivo
 
-    p.mb-5 El análisis del cultivo consiste en evaluar el estado de las plantas a partir de la observación y los registros, permitiendo identificar si todo está dentro de lo esperado o si hay problemas que requieren atención.
+    p.mb-4 El análisis del cultivo consiste en evaluar el estado de las plantas a partir de la observación y los registros, permitiendo identificar si todo está dentro de lo esperado o si hay problemas que requieren atención.
 
-    .row.justify-content-center.align-items-center.mb-5
-      .col-lg-3
+    .row.justify-content-center.align-items-start.mb-5
+      .col-lg-3.d-none.d-lg-block
         img(src='@/assets/curso/tema2/19.png', alt='')
       .col-lg-9
-        TabsA.color-acento-botones.mb-0
+        TabsA.color-acento-botones.tem3.mb-0
           .tarjeta.color-a.p-4(titulo="Aspectos a analizar")
             .row.justify-content-center.align-items-center
               .col-lg-12 
@@ -433,7 +433,7 @@
           .d-flex.align-items-end.mb-0
             h4.mb-0.ps-lg-3.ps-0.ps-md-3 Identificación de problemas
 
-    p.mb-5 Es el proceso de reconocer las dificultades que afectaron el desarrollo del cultivo. Los problemas pueden ser de naturaleza muy diferente y requieren estrategias distintas para su solución.
+    p.mb-4 Es el proceso de reconocer las dificultades que afectaron el desarrollo del cultivo. Los problemas pueden ser de naturaleza muy diferente y requieren estrategias distintas para su solución.
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
       .col-lg-12
@@ -486,7 +486,7 @@
       h2 2.3 Mejora continua e implementación de acciones
 
     .row.justify-content-center.align-items-end.mb-5
-      .col-lg-4
+      .col-lg-4.d-none.d-lg-block
         img(src='@/assets/curso/tema2/20.png', alt='')
       .col-lg-8
         .bg22.p-lg-5.p-4.h-100.hei
@@ -501,13 +501,13 @@
           .d-flex.align-items-end.mb-0
             h4.mb-0.ps-lg-3.ps-0.ps-md-3 Control del proceso productivo
 
-    p.mb-5 El control del proceso productivo consiste en aplicar acciones correctivas o preventivas para garantizar el adecuado desarrollo del cultivo. El control puede ser de dos tipos: preventivo (antes de que ocurra el problema) o correctivo (cuando ya existe un problema).
+    p.mb-4 El control del proceso productivo consiste en aplicar acciones correctivas o preventivas para garantizar el adecuado desarrollo del cultivo. El control puede ser de dos tipos: preventivo (antes de que ocurra el problema) o correctivo (cuando ya existe un problema).
 
-    .row.justify-content-center.align-items-center.mb-5
-      .col-lg-5
+    .row.justify-content-center.align-items-start.mb-5
+      .col-lg-5.d-none.d-lg-block
         img(src='@/assets/curso/tema2/22.png', alt='')
       .col-lg-7
-        TabsA.color-acento-botones.mb-0
+        TabsA.color-acento-botones.tem4.mb-0
           .tarjeta.color-a.p-4(titulo="Tipos de control")
             .row.justify-content-center.align-items-center
               .col-lg-12 
@@ -536,9 +536,9 @@
           .d-flex.align-items-end.mb-0
             h4.mb-0.ps-lg-3.ps-0.ps-md-3 Toma de decisiones
 
-    p.mb-5 La toma de decisiones es el proceso mediante el cual se definen acciones a partir del análisis del seguimiento. Las decisiones deben basarse siempre en información real (registros e indicadores) y no en suposiciones.
+    p.mb-4 La toma de decisiones es el proceso mediante el cual se definen acciones a partir del análisis del seguimiento. Las decisiones deben basarse siempre en información real (registros e indicadores) y no en suposiciones.
 
-    .row.justify-content-center.mb-lg-5.mb-0(data-aos="fade-left")
+    .row.justify-content-center.mb-lg-5.mb-4(data-aos="fade-left")
       .col-lg-6.col-md-6.pe-lg-0.pe-md-0.mb-lg-0.mb-4
         .bg5.p-lg-5.p-4.h-100
           img.img-t.img-a.mb-4(src='@/assets/curso/tema2/23.svg')
@@ -554,7 +554,7 @@
           p.mb-2 • Aplicar fertilizante por deficiencia nutricional.
           p.mb-0 • Implementar control biológico ante plagas.
 
-    .titulo.mb-5(data-aos="fade-left")
+    .titulo.mb-4(data-aos="fade-left")
       img(:src="require('@/assets/curso/tema1/sub.svg')" alt='Imagen decorativa')
       h3.mb-0 Proceso de toma de decisiones 
 
@@ -609,10 +609,10 @@
       .col-lg-3.col-md-6.mb-lg-0.mb-4
         .bg7.p-4.h-100
           p.mb-0.text-center Reduce pérdidas.
-      .col-lg-3.col-md-6
+      .col-lg-3.col-md-6.mb-lg-0.mb-4.mb-md-0
         .bg7.p-4.h-100
           p.mb-0.text-center Optimiza recursos.
-      .col-lg-3.col-md-6
+      .col-lg-3.col-md-6.mb-lg-0.mb-0.mb-md-0
         .bg7.p-4.h-100
           p.mb-0.text-center Permite mejora continua.
 
@@ -632,10 +632,10 @@
       img(:src="require('@/assets/curso/tema1/sub.svg')" alt='Imagen decorativa')
       h3.mb-0 Criterios de evaluación
     
-    p.mb-5 Los criterios de evaluación son los aspectos que se tienen en cuenta para valorar el desempeño del sistema productivo. Existen cuatro tipos principales de criterios que deben considerarse de manera integral.
+    p.mb-4 Los criterios de evaluación son los aspectos que se tienen en cuenta para valorar el desempeño del sistema productivo. Existen cuatro tipos principales de criterios que deben considerarse de manera integral.
 
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-8
+      .col-lg-8.mb-lg-0.mb-4
         AcordionA.press(tipo="b" clase-tarjeta="tarjeta tarjeta--grey")
           .row.align-items-center(titulo="Criterios técnicos")
             .col-lg-11
@@ -651,7 +651,7 @@
                     li.d-flex.mb-0
                       i.fas.fa-check.t11
                       p.mb-0 Estado fitosanitario del cultivo.
-                .col-lg-6
+                .col-lg-6.d-none.d-lg-block
                   img(src='@/assets/curso/tema2/33.png', alt='')
           .row.align-items-center(titulo="Criterios productivos")
             .col-lg-11
@@ -667,7 +667,7 @@
                     li.d-flex.mb-0
                       i.fas.fa-check.t11
                       p.mb-0 Rendimiento del cultivo.
-                .col-lg-6
+                .col-lg-6.d-none.d-lg-block
                   img(src='@/assets/curso/tema2/34.png', alt='')
           .row.align-items-center(titulo="Criterios ambientales")
             .col-lg-11
@@ -686,7 +686,7 @@
                     li.d-flex.mb-0
                       i.fas.fa-check.t11
                       p.mb-0 Aplicación de prácticas sostenibles.
-                .col-lg-6
+                .col-lg-6.d-none.d-lg-block
                   img(src='@/assets/curso/tema2/35.png', alt='')
           .row.align-items-center(titulo="Criterios económicos")
             .col-lg-11
@@ -702,16 +702,16 @@
                     li.d-flex.mb-0
                       i.fas.fa-check.t11
                       p.mb-0 Aprovechamiento de recursos disponibles.
-                .col-lg-6
+                .col-lg-6.d-none.d-lg-block
                   img(src='@/assets/curso/tema2/36.png', alt='')
-      .col-lg-4
+      .col-lg-4.col-md-7.col-10
         img(src='@/assets/curso/tema2/32.svg', alt='')
 
     .titulo.mb-5(data-aos="fade-left")
       img(:src="require('@/assets/curso/tema1/sub.svg')" alt='Imagen decorativa')
       h3.mb-0 Comparación con plan de producción
     
-    p.mb-5 La evaluación implica comparar los resultados reales con lo que se había planificado, permitiendo medir el nivel de cumplimiento e identificar desviaciones.
+    p.mb-4 La evaluación implica comparar los resultados reales con lo que se había planificado, permitiendo medir el nivel de cumplimiento e identificar desviaciones.
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
       .col-lg-12
@@ -765,7 +765,7 @@
       img(:src="require('@/assets/curso/tema1/sub.svg')" alt='Imagen decorativa')
       h3.mb-0 Propuestas de mejora
 
-    p.mb-5 Las propuestas de mejora son acciones diseñadas para corregir fallas y optimizar el sistema productivo. Deben ser prácticas, viables y orientadas a resultados concretos.
+    p.mb-4 Las propuestas de mejora son acciones diseñadas para corregir fallas y optimizar el sistema productivo. Deben ser prácticas, viables y orientadas a resultados concretos.
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
       .col-lg-12
@@ -796,7 +796,7 @@
                   p.mb-0 • Implementar registros más detallados.
                   p.mb-0 • Mejorar el seguimiento del cultivo.
 
-    .titulo.mb-5(data-aos="fade-left")
+    .titulo.mb-4(data-aos="fade-left")
       img(:src="require('@/assets/curso/tema1/sub.svg')" alt='Imagen decorativa')
       h3.mb-0 Enfoque de mejora continua (ciclo permanente)
 
