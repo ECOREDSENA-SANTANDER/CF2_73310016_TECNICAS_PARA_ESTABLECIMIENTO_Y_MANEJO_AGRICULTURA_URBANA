@@ -22,13 +22,13 @@
     #t_2_1.titulo-segundo.mb-5
       h2 2.1 Registros y seguimiento 
     
-    p.mb-5 Los registros del proceso productivo son documentos o formatos donde se consigna información relevante sobre las actividades agrícolas, como siembra, riego, fertilización, control de plagas y cosecha. Estos registros son fundamentales para el seguimiento, control y evaluación del sistema productivo.
+    p.mb-5(data-aos="fade-right") Los registros del proceso productivo son documentos o formatos donde se consigna información relevante sobre las actividades agrícolas, como siembra, riego, fertilización, control de plagas y cosecha. Estos registros son fundamentales para el seguimiento, control y evaluación del sistema productivo.
 
     .titulo.mb-5(data-aos="fade-left")
       img(:src="require('@/assets/curso/tema1/sub.svg')" alt='Imagen decorativa')
       h3.mb-0 Importancia
 
-    p.mb-4 El registro de información permite organizar y analizar el proceso productivo de manera técnica, facilitando el control y mejora continua del sistema.
+    p.mb-4(data-aos="fade-right") El registro de información permite organizar y analizar el proceso productivo de manera técnica, facilitando el control y mejora continua del sistema.
 
     .row.justify-content-center.align-items-center.mb-0(data-aos="fade-left")
       .col-lg-12
@@ -46,16 +46,36 @@
             tbody
               tr
                 td
-                  p.mb-4 • Permite hacer seguimiento a las actividades realizadas.
-                  p.mb-4 • Facilita la toma de decisiones.
-                  p.mb-4 • Identifica fallas o problemas en el cultivo.
-                  p.mb-4 • Mejora la planificación del proceso productivo.
-                  p.mb-0 • Permite evaluar resultados y productividad.
+                  ul.lista-ul.mb-0
+                    li.d-flex.mb-4
+                      i.fas.fa-leaft
+                      p.mb-0 Permite hacer seguimiento a las actividades realizadas.
+                    li.d-flex.mb-4
+                      i.fas.fa-leaft
+                      p.mb-0 Facilita la toma de decisiones.
+                    li.d-flex.mb-4
+                      i.fas.fa-leaft
+                      p.mb-0 Identifica fallas o problemas en el cultivo.
+                    li.d-flex.mb-4
+                      i.fas.fa-leaft
+                      p.mb-0 Mejora la planificación del proceso productivo.
+                    li.d-flex.mb-0
+                      i.fas.fa-leaft
+                      p.mb-0 Permite evaluar resultados y productividad.
                 td
-                  p.mb-4 • Optimiza el uso de recursos (agua, insumos, espacio).
-                  p.mb-4 • Permite replicar buenas prácticas.
-                  p.mb-4 • Favorece el aprendizaje práctico.
-                  p.mb-0 • Contribuye a la sostenibilidad del sistema.
+                  ul.lista-ul.mb-0
+                    li.d-flex.mb-4
+                      i.fas.fa-leaft
+                      p.mb-0 Optimiza el uso de recursos (agua, insumos, espacio).
+                    li.d-flex.mb-4
+                      i.fas.fa-leaft
+                      p.mb-0 Permite replicar buenas prácticas.
+                    li.d-flex.mb-4
+                      i.fas.fa-leaft
+                      p.mb-0 Favorece el aprendizaje práctico.
+                    li.d-flex.mb-0
+                      i.fas.fa-leaft
+                      p.mb-0 Contribuye a la sostenibilidad del sistema.
       .col-lg-5.d-none.d-lg-block
         img(src='@/assets/curso/tema2/2.png', alt='')
 
@@ -63,7 +83,7 @@
       img(:src="require('@/assets/curso/tema1/sub.svg')" alt='Imagen decorativa')
       h3.mb-0 Valor estratégico de los registros
 
-    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
       .col-lg-12
         TabsA.color-acento-botones.mb-0
           .tarjeta.color-a.p-4(titulo="Transforman datos en información útil")
@@ -87,7 +107,7 @@
           .d-flex.align-items-end.mb-0
             h4.mb-0.ps-lg-3.ps-0.ps-md-3 Tipos de registros
 
-    .row.justify-content-center.align-items-end.mb-5
+    .row.justify-content-center.align-items-end.mb-5(data-aos="fade-right")
       .col-lg-4.d-none.d-lg-block
         img(src='@/assets/curso/tema2/3.png', alt='')
       .col-lg-8
@@ -100,55 +120,99 @@
         .col-lg-11
           .row.justify-content-center.align-items-center
             .col-lg-4.mb-lg-0.mb-4
-              p.mb-0 • Fecha de siembra.
-              p.mb-0 • Tipo de cultivo.
-              p.mb-0 • Cantidad de semillas.
-              p.mb-0 • Ubicación.
+              ul.lista-ul.mb-0
+                li.d-flex.mb-0
+                  i.fas.fa-leaf
+                  p.mb-0 Fecha de siembra.
+                li.d-flex.mb-0
+                  i.fas.fa-leaf
+                  p.mb-0 Tipo de cultivo.
+                li.d-flex.mb-0
+                  i.fas.fa-leaf
+                  p.mb-0 Cantidad de semillas.
+                li.d-flex.mb-0
+                  i.fas.fa-leaf
+                  p.mb-0 Ubicación.
             .col-lg-8.col-md-8.col-10
               img(src='@/assets/curso/tema2/5.png')
       .row.justify-content-center.align-items-center(titulo="Registro de riego")
         .col-lg-11
           .row.justify-content-center.align-items-center
             .col-lg-4.mb-lg-0.mb-4
-              p.mb-0 • Frecuencia de riego.
-              p.mb-0 • Cantidad de agua aplicada.
-              p.mb-0 • Método de riego.
+              ul.lista-ul.mb-0
+                li.d-flex.mb-0
+                  i.fas.fa-leaf
+                  p.mb-0 Frecuencia de riego.
+                li.d-flex.mb-0
+                  i.fas.fa-leaf
+                  p.mb-0 Cantidad de agua aplicada.
+                li.d-flex.mb-0
+                  i.fas.fa-leaf
+                  p.mb-0 Método de riego.
             .col-lg-8.col-md-8.col-10
               img(src='@/assets/curso/tema2/6.png')
       .row.justify-content-center.align-items-center(titulo="Registro de fertilización")
         .col-lg-11
           .row.justify-content-center.align-items-center
             .col-lg-4.mb-lg-0.mb-4
-              p.mb-0 • Tipo de fertilizante.
-              p.mb-0 • Dosis aplicada.
-              p.mb-0 • Fecha de aplicación.
+              ul.lista-ul.mb-0
+                li.d-flex.mb-0
+                  i.fas.fa-leaf
+                  p.mb-0 Tipo de fertilizante.
+                li.d-flex.mb-0
+                  i.fas.fa-leaf
+                  p.mb-0 Dosis aplicada.
+                li.d-flex.mb-0
+                  i.fas.fa-leaf
+                  p.mb-0 Fecha de aplicación.
             .col-lg-8.col-md-8.col-10
               img(src='@/assets/curso/tema2/7.png')
       .row.justify-content-center.align-items-center(titulo="Registro fitosanitario")
         .col-lg-11
           .row.justify-content-center.align-items-center
             .col-lg-4.mb-lg-0.mb-4
-              p.mb-0 • Presencia de plagas o enfermedades.
-              p.mb-0 • Tipo de control aplicado.
-              p.mb-0 • Productos utilizados.
+              ul.lista-ul.mb-0
+                li.d-flex.mb-0
+                  i.fas.fa-leaf
+                  p.mb-0 Presencia de plagas o enfermedades.
+                li.d-flex.mb-0
+                  i.fas.fa-leaf
+                  p.mb-0 Tipo de control aplicado.
+                li.d-flex.mb-0
+                  i.fas.fa-leaf
+                  p.mb-0 Productos utilizados.
             .col-lg-8.col-md-8.col-10
               img(src='@/assets/curso/tema2/8.png')
       .row.justify-content-center.align-items-center(titulo="Registro de cosecha")
         .col-lg-11
           .row.justify-content-center.align-items-center
             .col-lg-4.mb-lg-0.mb-4
-              p.mb-0 • Fecha de recolección.
-              p.mb-0 • Cantidad producida.
-              p.mb-0 • Calidad del producto.
+              ul.lista-ul.mb-0
+                li.d-flex.mb-0
+                  i.fas.fa-leaf
+                  p.mb-0 Fecha de recolección.
+                li.d-flex.mb-0
+                  i.fas.fa-leaf
+                  p.mb-0 Cantidad producida.
+                li.d-flex.mb-0
+                  i.fas.fa-leaf
+                  p.mb-0 Calidad del producto.
             .col-lg-8.col-md-8.col-10
               img(src='@/assets/curso/tema2/9.png')
       .row.justify-content-center.align-items-center(titulo="Registro de condiciones ambientales")
         .col-lg-11
           .row.justify-content-center.align-items-center
             .col-lg-4.mb-lg-0.mb-4
-              p.mb-0 • Temperatura.
-              p.mb-0 • Humedad.
-              p.mb-0 • Condiciones climáticas.
+              ul.lista-ul.mb-0
+                li.d-flex.mb-0
+                  i.fas.fa-leaf
+                  p.mb-0 Temperatura.
+                li.d-flex.mb-0
+                  i.fas.fa-leaf
+                  p.mb-0 Humedad.
+                li.d-flex.mb-0
+                  i.fas.fa-leaf
+                  p.mb-0 Condiciones climáticas.
             .col-lg-8.col-md-8.col-10
               img(src='@/assets/curso/tema2/10.png')
 
@@ -160,9 +224,9 @@
           .d-flex.align-items-end.mb-0
             h4.mb-0.ps-lg-3.ps-0.ps-md-3 Formas de diligenciamiento
 
-    p.mb-4 El diligenciamiento de los registros debe realizarse de manera clara, ordenada y constante para garantizar que la información sea útil y confiable.
+    p.mb-4(data-aos="fade-right") El diligenciamiento de los registros debe realizarse de manera clara, ordenada y constante para garantizar que la información sea útil y confiable.
 
-    .row.justify-content-center.align-items-start.mb-5
+    .row.justify-content-center.align-items-start.mb-5(data-aos="fade-left")
       .col-lg-3.d-none.d-lg-block
         img(src='@/assets/curso/tema2/11.png', alt='')
       .col-lg-9
@@ -170,24 +234,51 @@
           .tarjeta.color-a.p-4(titulo="Formatos de registro")
             .row.justify-content-center.align-items-center
               .col-lg-12 
-                p.mb-2 • Cuadernos de campo: libretas portátiles donde anotar observaciones en tiempo real.
-                p.mb-2 • Formatos impresos: hojas preparadas con campos específicos para cada tipo de actividad.
-                p.mb-2 • Tablas o listas: estructuras simples con columnas para datos ordenados.
-                p.mb-0 • Registros digitales (Excel o aplicaciones): herramientas tecnológicas que facilitan cálculos y análisis.
+                ul.lista-ul.mb-0
+                  li.d-flex.mb-2
+                    i.fas.fa-leaf
+                    p.mb-0 Cuadernos de campo: libretas portátiles donde anotar observaciones en tiempo real.
+                  li.d-flex.mb-2
+                    i.fas.fa-leaf
+                    p.mb-0  Formatos impresos: hojas preparadas con campos específicos para cada tipo de actividad.
+                  li.d-flex.mb-2
+                    i.fas.fa-leaf
+                    p.mb-0 Tablas o listas: estructuras simples con columnas para datos ordenados.
+                  li.d-flex.mb-0
+                    i.fas.fa-leaf
+                    p.mb-0 Registros digitales (Excel o aplicaciones): herramientas tecnológicas que facilitan cálculos y análisis.
           .tarjeta.color-a.p-4(titulo="Recomendaciones para diligenciar correctamente")
             .row.justify-content-center.align-items-center
               .col-lg-12 
-                p.mb-2 • Registrar la información de forma inmediata: no esperar días para anotar lo sucedido, pues se olvidan detalles.
-                p.mb-2 • Utilizar letra clara y legible: otra persona debe poder leer y entender el registro.
-                p.mb-2 • Evitar tachones o inconsistencias: si hay error, tachar limpiamente una sola vez.
-                p.mb-2 • Usar unidades de medida correctas: litros para agua, gramos para fertilizante, metros para distancias.
-                p.mb-0 • Mantener los registros organizados: guardar en carpetas o cuadernos destinados a este fin.
+                ul.lista-ul.mb-0
+                  li.d-flex.mb-2
+                    i.fas.fa-leaf
+                    p.mb-0 Registrar la información de forma inmediata: no esperar días para anotar lo sucedido, pues se olvidan detalles.
+                  li.d-flex.mb-2
+                    i.fas.fa-leaf
+                    p.mb-0 Utilizar letra clara y legible: otra persona debe poder leer y entender el registro.
+                  li.d-flex.mb-2
+                    i.fas.fa-leaf
+                    p.mb-0 Evitar tachones o inconsistencias: si hay error, tachar limpiamente una sola vez.
+                  li.d-flex.mb-2
+                    i.fas.fa-leaf
+                    p.mb-0 Usar unidades de medida correctas: litros para agua, gramos para fertilizante, metros para distancias.
+                  li.d-flex.mb-0
+                    i.fas.fa-leaf
+                    p.mb-0 Mantener los registros organizados: guardar en carpetas o cuadernos destinados a este fin.
           .tarjeta.color-a.p-4(titulo="Frecuencia de registro")
             .row.justify-content-center.align-items-center
               .col-lg-12 
-                p.mb-2 • Diario (riego, observación): actividades que suceden todos los días.
-                p.mb-2 • Semanal (crecimiento, control): seguimiento de cambios más lentos.
-                p.mb-0 • Por actividad (siembra, fertilización, cosecha): eventos específicos que ocurren en momentos determinados.
+                ul.lista-ul.mb-0
+                  li.d-flex.mb-2
+                    i.fas.fa-leaf
+                    p.mb-0 Diario (riego, observación): actividades que suceden todos los días.
+                  li.d-flex.mb-2
+                    i.fas.fa-leaf
+                    p.mb-0 Semanal (crecimiento, control): seguimiento de cambios más lentos.
+                  li.d-flex.mb-0
+                    i.fas.fa-leaf
+                    p.mb-0 Por actividad (siembra, fertilización, cosecha): eventos específicos que ocurren en momentos determinados.
 
     .row.justify-content-center.align-items-center.mb-4
       .col-auto.pe-0
@@ -197,9 +288,9 @@
           .d-flex.align-items-end.mb-0
             h4.mb-0.ps-lg-3.ps-0.ps-md-3 Uso de la información registrada
     
-    p.mb-4 La información registrada debe ser analizada para mejorar el proceso productivo. Los datos que registramos cobran valor cuando los usamos para tomar decisiones informadas.
+    p.mb-4(data-aos="fade-right") La información registrada debe ser analizada para mejorar el proceso productivo. Los datos que registramos cobran valor cuando los usamos para tomar decisiones informadas.
 
-    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
       .col-lg-12
         TabsC.color-primario
           .p-lg-5.p-4(titulo="Aplicaciones de los registros")
@@ -207,35 +298,64 @@
               .col-lg-5.order-lg-1.order-md-2.order-2
                 img(src='@/assets/curso/tema2/12.png', alt='')
               .col-lg-7.order-lg-1.order-md-1.order-1.mb-lg-0.mb-4
-                p.mb-3 • Evaluar el rendimiento del cultivo: comparar producción esperada vs. producción real.
-                p.mb-3 • Identificar problemas recurrentes: ver si ciertos problemas se repiten en patrones.
-                p.mb-3 • Ajustar prácticas agrícolas: cambiar técnicas si los resultados no son satisfactorios.
-                p.mb-3 • Planificar nuevas siembras: usar información anterior para mejorar planificación futura.
-                p.mb-0 • Optimizar recursos: reducir agua, insumos o tiempo si los registros muestran exceso.
+                ul.lista-ul.mb-0
+                  li.d-flex.mb-3
+                    i.fas.fa-leaf
+                    p.mb-0 Evaluar el rendimiento del cultivo: comparar producción esperada vs. producción real.
+                  li.d-flex.mb-3
+                    i.fas.fa-leaf
+                    p.mb-0 Identificar problemas recurrentes: ver si ciertos problemas se repiten en patrones.
+                  li.d-flex.mb-3
+                    i.fas.fa-leaf
+                    p.mb-0 Ajustar prácticas agrícolas: cambiar técnicas si los resultados no son satisfactorios.
+                  li.d-flex.mb-3
+                    i.fas.fa-leaf
+                    p.mb-0 Planificar nuevas siembras: usar información anterior para mejorar planificación futura.
+                  li.d-flex.mb-0
+                    i.fas.fa-leaf
+                    p.mb-0 Optimizar recursos: reducir agua, insumos o tiempo si los registros muestran exceso.
           .p-lg-5.p-4(titulo="Toma de decisiones basada en registros")
             .row.justify-content-center.align-items-center.mb-0
               .col-lg-5.order-lg-1.order-md-2.order-2
                 img(src='@/assets/curso/tema2/13.png', alt='')
               .col-lg-7.order-lg-1.order-md-1.order-1.mb-lg-0.mb-4
-                p.mb-3 • Modificar la frecuencia de riego: si los registros muestran sequedad o exceso de humedad.
-                p.mb-3 • Cambiar insumos utilizados: si ciertos fertilizantes o plaguicidas no funcionan.
-                p.mb-3 • Ajustar distancias de siembra: si hay problemas de espacio o competencia.
-                p.mb-0 • Implementar controles fitosanitarios: si se detectan patrones de plagas o enfermedades.
+                ul.lista-ul.mb-0
+                  li.d-flex.mb-3
+                    i.fas.fa-leaf
+                    p.mb-0 Modificar la frecuencia de riego: si los registros muestran sequedad o exceso de humedad.
+                  li.d-flex.mb-3
+                    i.fas.fa-leaf
+                    p.mb-0 Cambiar insumos utilizados: si ciertos fertilizantes o plaguicidas no funcionan.
+                  li.d-flex.mb-3
+                    i.fas.fa-leaf
+                    p.mb-0 Ajustar distancias de siembra: si hay problemas de espacio o competencia.
+                  li.d-flex.mb-0
+                    i.fas.fa-leaf
+                    p.mb-0 Implementar controles fitosanitarios: si se detectan patrones de plagas o enfermedades.
           .p-lg-5.p-4(titulo="Mejora continua a través de registros")
             .row.justify-content-center.align-items-center.mb-0
               .col-lg-5.order-lg-1.order-md-2.order-2
                 img(src='@/assets/curso/tema2/14.png', alt='')
               .col-lg-7.order-lg-1.order-md-1.order-1.mb-lg-0.mb-4
-                p.mb-3 • Comparar resultados entre ciclos productivos: cada cosecha anterior es una lección.
-                p.mb-3 • Identificar buenas prácticas: replicar lo que funciona bien.
-                p.mb-3 • Corregir errores: evitar repetir lo que no funcionó.
-                p.mb-0 • Incrementar productividad: mejora gradual basada en datos reales.
+                ul.lista-ul.mb-0
+                  li.d-flex.mb-3
+                    i.fas.fa-leaf
+                    p.mb-0 Comparar resultados entre ciclos productivos: cada cosecha anterior es una lección.
+                  li.d-flex.mb-3
+                    i.fas.fa-leaf
+                    p.mb-0 Identificar buenas prácticas: replicar lo que funciona bien.
+                  li.d-flex.mb-3
+                    i.fas.fa-leaf
+                    p.mb-0 Corregir errores: evitar repetir lo que no funcionó.
+                  li.d-flex.mb-0
+                    i.fas.fa-leaf
+                    p.mb-0 Incrementar productividad: mejora gradual basada en datos reales.
 
     .titulo.mb-5(data-aos="fade-left")
       img(:src="require('@/assets/curso/tema1/sub.svg')" alt='Imagen decorativa')
       h3.mb-0 Ejemplo práctico de uso de registros
     
-    p.mb-4 Los siguientes son ejemplos de cómo los registros generan decisiones:
+    p.mb-4(data-aos="fade-right") Los siguientes son ejemplos de cómo los registros generan decisiones:
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
       .col-lg-12
@@ -275,37 +395,55 @@
           .d-flex.align-items-end.mb-0
             h4.mb-0.ps-lg-3.ps-0.ps-md-3 Seguimiento del proceso productivo
 
-    p.mb-5 El seguimiento del proceso productivo consiste en la observación, registro y análisis continuo de las actividades y resultados del cultivo, con el fin de verificar su desarrollo, identificar problemas y tomar decisiones oportunas. En la agricultura urbana, el seguimiento es fundamental debido a la variabilidad de las condiciones (espacio, clima, sustrato), lo que exige un control constante para garantizar la eficiencia del sistema productivo.
+    p.mb-5(data-aos="fade-right") El seguimiento del proceso productivo consiste en la observación, registro y análisis continuo de las actividades y resultados del cultivo, con el fin de verificar su desarrollo, identificar problemas y tomar decisiones oportunas. En la agricultura urbana, el seguimiento es fundamental debido a la variabilidad de las condiciones (espacio, clima, sustrato), lo que exige un control constante para garantizar la eficiencia del sistema productivo.
 
     .titulo.mb-5(data-aos="fade-left")
       img(:src="require('@/assets/curso/tema1/sub.svg')" alt='Imagen decorativa')
       h3.mb-0 Importancia del seguimiento
     
-    p.mb-4 El seguimiento permite evaluar si el cultivo se está desarrollando de acuerdo con lo planificado, proporcionando información valiosa para la toma de decisiones.
+    p.mb-4(data-aos="fade-right") El seguimiento permite evaluar si el cultivo se está desarrollando de acuerdo con lo planificado, proporcionando información valiosa para la toma de decisiones.
 
     .row.justify-content-center.mb-lg-5.mb-4(data-aos="fade-left")
       .col-lg-6.col-md-6.pe-lg-0.pe-md-0.mb-lg-0.mb-4
         .bg5.p-lg-5.p-4.h-100
           img.img-t.img-a.mb-4(src='@/assets/curso/tema2/15.svg')
           h3.mb-4.text-center Importancia técnica
-          p.mb-2 • Permite detectar problemas de manera oportuna.
-          p.mb-2 • Facilita el control del proceso productivo.
-          p.mb-2 • Mejora la calidad del cultivo.
-          p.mb-2 • Optimiza el uso de recursos.
-          p.mb-0 • Permite evaluar resultados.
+          ul.lista-ul.mb-0
+            li.d-flex.mb-0
+              i.fas.fa-leaf
+              p.mb-0 Permite detectar problemas de manera oportuna.
+            li.d-flex.mb-0
+              i.fas.fa-leaf
+              p.mb-0 Facilita el control del proceso productivo.
+            li.d-flex.mb-0
+              i.fas.fa-leaf
+              p.mb-0 Mejora la calidad del cultivo.
+            li.d-flex.mb-0
+              i.fas.fa-leaf
+              p.mb-0 ptimiza el uso de recursos.
+            li.d-flex.mb-0
+              i.fas.fa-leaf
+              p.mb-0 Permite evaluar resultados.
       .col-lg-6.col-md-6.ps-lg-0.ps-md-0.mb-lg-0.mb-4
         .bg6.p-lg-5.p-4.h-100
           img.img-t.img-a.mb-4(src='@/assets/curso/tema2/16.svg')
           h3.mb-4.text-center En agricultura urbana
-          p.mb-2 • Ayuda a adaptar el cultivo a condiciones cambiantes.
-          p.mb-2 • Permite ajustar prácticas como riego y fertilización.
-          p.mb-0 • Favorece la producción sostenible.
+          ul.lista-ul.mb-0
+            li.d-flex.mb-0
+              i.fas.fa-leaf
+              p.mb-0 Ayuda a adaptar el cultivo a condiciones cambiantes.
+            li.d-flex.mb-0
+              i.fas.fa-leaf
+              p.mb-0 Permite ajustar prácticas como riego y fertilización.
+            li.d-flex.mb-0
+              i.fas.fa-leaf
+              p.mb-0 Favorece la producción sostenible.
 
     .titulo.mb-5(data-aos="fade-left")
       img(:src="require('@/assets/curso/tema1/sub.svg')" alt='Imagen decorativa')
       h3.mb-0 Indicadores de seguimiento
     
-    p.mb-4 Los indicadores son variables que permiten medir el estado y desempeño del cultivo. Son datos específicos que se pueden observar, registrar y comparar para evaluar, de manera objetiva, si el cultivo está cumpliendo con lo esperado.
+    p.mb-4(data-aos="fade-right") Los indicadores son variables que permiten medir el estado y desempeño del cultivo. Son datos específicos que se pueden observar, registrar y comparar para evaluar, de manera objetiva, si el cultivo está cumpliendo con lo esperado.
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
       .col-lg-12
@@ -341,7 +479,7 @@
       img(:src="require('@/assets/curso/tema1/sub.svg')" alt='Imagen decorativa')
       h3.mb-0 Características de un buen indicador
 
-    .row.justify-content-center.mb-4.mb-lg-5
+    .row.justify-content-center.mb-4.mb-lg-5(data-aos="fade-right")
       .col-lg-3.col-md-6.mb-lg-0.mb-4
         .bg7.p-4.h-100
           h4.mb-4.text-center.my-lg-3 Medible
@@ -398,9 +536,9 @@
           .d-flex.align-items-end.mb-0
             h4.mb-0.ps-lg-3.ps-0.ps-md-3 Análisis del cultivo
 
-    p.mb-4 El análisis del cultivo consiste en evaluar el estado de las plantas a partir de la observación y los registros, permitiendo identificar si todo está dentro de lo esperado o si hay problemas que requieren atención.
+    p.mb-4(data-aos="fade-right") El análisis del cultivo consiste en evaluar el estado de las plantas a partir de la observación y los registros, permitiendo identificar si todo está dentro de lo esperado o si hay problemas que requieren atención.
 
-    .row.justify-content-center.align-items-start.mb-5
+    .row.justify-content-center.align-items-start.mb-5(data-aos="fade-right")
       .col-lg-3.d-none.d-lg-block
         img(src='@/assets/curso/tema2/19.png', alt='')
       .col-lg-9
@@ -408,11 +546,22 @@
           .tarjeta.color-a.p-4(titulo="Aspectos a analizar")
             .row.justify-content-center.align-items-center
               .col-lg-12 
-                p.mb-3 #[b • Crecimiento de la planta:] altura, tamaño de hojas.
-                p.mb-3 #[b • Coloración:] hojas verdes (saludable) o amarillas (deficiencias).
-                p.mb-3 #[b • Estado fitosanitario:] presencia de plagas o enfermedades.
-                p.mb-3 #[b • Desarrollo radicular:] en caso de revisión del sustrato.
-                p.mb-0 #[b • Producción:] cantidad y calidad de frutos.
+                ul.lista-ul.mb-0
+                  li.d-flex.mb-3
+                    i.fas.fa-leaf
+                    p.mb-0 #[b Crecimiento de la planta:] altura, tamaño de hojas.
+                  li.d-flex.mb-3
+                    i.fas.fa-leaf
+                    p.mb-0 #[b Coloración:] hojas verdes (saludable) o amarillas (deficiencias).
+                  li.d-flex.mb-3
+                    i.fas.fa-leaf
+                    p.mb-0 #[b Estado fitosanitario:] presencia de plagas o enfermedades.
+                  li.d-flex.mb-3
+                    i.fas.fa-leaf
+                    p.mb-0 #[b Desarrollo radicular:] en caso de revisión del sustrato.
+                  li.d-flex.mb-0
+                    i.fas.fa-leaf
+                    p.mb-0 #[b Producción:] cantidad y calidad de frutos.
           .tarjeta.color-a.p-4(titulo="Métodos de análisis y frecuencia")
             .row.justify-content-center.align-items-center
               .col-lg-12 
@@ -433,7 +582,7 @@
           .d-flex.align-items-end.mb-0
             h4.mb-0.ps-lg-3.ps-0.ps-md-3 Identificación de problemas
 
-    p.mb-4 Es el proceso de reconocer las dificultades que afectaron el desarrollo del cultivo. Los problemas pueden ser de naturaleza muy diferente y requieren estrategias distintas para su solución.
+    p.mb-4(data-aos="fade-right") Es el proceso de reconocer las dificultades que afectaron el desarrollo del cultivo. Los problemas pueden ser de naturaleza muy diferente y requieren estrategias distintas para su solución.
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
       .col-lg-12
@@ -451,22 +600,40 @@
             tbody
               tr
                 td
-                  p.mb-0 • Riego inadecuado.
-                  p.mb-0 • Mala fertilización.
+                  ul.lista-ul.mb-0
+                    li.d-flex.mb-0
+                      i.fas.fa-leaft
+                      p.mb-0 Riego inadecuado.
+                    li.d-flex.mb-0
+                      i.fas.fa-leaft
+                      p.mb-0 Mala fertilización.
                 td
-                  p.mb-0 • Presencia de plagas.
+                  ul.lista-ul.mb-0
+                    li.d-flex.mb-0
+                      i.fas.fa-leaft
+                      p.mb-0 Presencia de plagas.
                 td
-                  p.mb-0 • Exceso o déficit de humedad.
-                  p.mb-0 • Mala ventilación.
+                  ul.lista-ul.mb-0
+                    li.d-flex.mb-0
+                      i.fas.fa-leaft
+                      p.mb-0 Exceso o déficit de humedad.
+                    li.d-flex.mb-0
+                      i.fas.fa-leaft
+                      p.mb-0 Mala ventilación.
                 td
-                  p.mb-0 • Falta de registros.
-                  p.mb-0 • Incumplimiento de labores culturales.
+                  ul.lista-ul.mb-0
+                    li.d-flex.mb-0
+                      i.fas.fa-leaft
+                      p.mb-0 Falta de registros.
+                    li.d-flex.mb-0
+                      i.fas.fa-leaft
+                      p.mb-0 Incumplimiento de labores culturales.
 
     .titulo.mb-5(data-aos="fade-left")
       img(:src="require('@/assets/curso/tema1/sub.svg')" alt='Imagen decorativa')
       h3.mb-0 Métodos para identificar problemas
 
-    .row.justify-content-center.mb-0
+    .row.justify-content-center.mb-0(data-aos="fade-right")
       .col-lg-4.col-md-6.mb-lg-0.mb-4
         .bg7.p-4.h-100
           h4.mb-4.text-center.my-lg-3 Análisis de registros
@@ -485,7 +652,7 @@
     #t_2_3.titulo-segundo.mb-5
       h2 2.3 Mejora continua e implementación de acciones
 
-    .row.justify-content-center.align-items-end.mb-5
+    .row.justify-content-center.align-items-end.mb-5(data-aos="fade-right")
       .col-lg-4.d-none.d-lg-block
         img(src='@/assets/curso/tema2/20.png', alt='')
       .col-lg-8
@@ -501,9 +668,9 @@
           .d-flex.align-items-end.mb-0
             h4.mb-0.ps-lg-3.ps-0.ps-md-3 Control del proceso productivo
 
-    p.mb-4 El control del proceso productivo consiste en aplicar acciones correctivas o preventivas para garantizar el adecuado desarrollo del cultivo. El control puede ser de dos tipos: preventivo (antes de que ocurra el problema) o correctivo (cuando ya existe un problema).
+    p.mb-4(data-aos="fade-right") El control del proceso productivo consiste en aplicar acciones correctivas o preventivas para garantizar el adecuado desarrollo del cultivo. El control puede ser de dos tipos: preventivo (antes de que ocurra el problema) o correctivo (cuando ya existe un problema).
 
-    .row.justify-content-center.align-items-start.mb-5
+    .row.justify-content-center.align-items-start.mb-5(data-aos="fade-right")
       .col-lg-5.d-none.d-lg-block
         img(src='@/assets/curso/tema2/22.png', alt='')
       .col-lg-7
@@ -536,23 +703,37 @@
           .d-flex.align-items-end.mb-0
             h4.mb-0.ps-lg-3.ps-0.ps-md-3 Toma de decisiones
 
-    p.mb-4 La toma de decisiones es el proceso mediante el cual se definen acciones a partir del análisis del seguimiento. Las decisiones deben basarse siempre en información real (registros e indicadores) y no en suposiciones.
+    p.mb-4(data-aos="fade-right") La toma de decisiones es el proceso mediante el cual se definen acciones a partir del análisis del seguimiento. Las decisiones deben basarse siempre en información real (registros e indicadores) y no en suposiciones.
 
     .row.justify-content-center.mb-lg-5.mb-4(data-aos="fade-left")
       .col-lg-6.col-md-6.pe-lg-0.pe-md-0.mb-lg-0.mb-4
         .bg5.p-lg-5.p-4.h-100
           img.img-t.img-a.mb-4(src='@/assets/curso/tema2/23.svg')
           h3.mb-4.text-center Tipos de decisiones
-          p.mb-2 #[b • Técnicas:] riego, fertilización.
-          p.mb-2 #[b • Productivas:] siembra, cosecha.
-          p.mb-0 #[b • Correctivas:] control de plagas.
+          ul.lista-ul.mb-0
+            li.d-flex.mb-0
+              i.fas.fa-leaf
+              p.mb-0 #[b Técnicas:] riego, fertilización.
+            li.d-flex.mb-0
+              i.fas.fa-leaf
+              p.mb-0 #[b Productivas:] siembra, cosecha.
+            li.d-flex.mb-0
+              i.fas.fa-leaf
+              p.mb-0 #[b Correctivas:] control de plagas.
       .col-lg-6.col-md-6.ps-lg-0.ps-md-0.mb-lg-0.mb-4
         .bg6.p-lg-5.p-4.h-100
           img.img-t.img-a.mb-4(src='@/assets/curso/tema2/24.svg')
           h3.mb-4.text-center Ejemplos de decisiones
-          p.mb-2 • Aumentar riego por sequedad del sustrato.
-          p.mb-2 • Aplicar fertilizante por deficiencia nutricional.
-          p.mb-0 • Implementar control biológico ante plagas.
+          ul.lista-ul.mb-0
+            li.d-flex.mb-0
+              i.fas.fa-leaf
+              p.mb-0 Aumentar riego por sequedad del sustrato.
+            li.d-flex.mb-0
+              i.fas.fa-leaf
+              p.mb-0 Aplicar fertilizante por deficiencia nutricional.
+            li.d-flex.mb-0
+              i.fas.fa-leaf
+              p.mb-0 Implementar control biológico ante plagas.
 
     .titulo.mb-4(data-aos="fade-left")
       img(:src="require('@/assets/curso/tema1/sub.svg')" alt='Imagen decorativa')
@@ -602,7 +783,7 @@
       img(:src="require('@/assets/curso/tema1/sub.svg')" alt='Imagen decorativa')
       h3.mb-0 Importancia de la toma de decisiones
 
-    .row.justify-content-center.mb-0
+    .row.justify-content-center.mb-0(data-aos="fade-right")
       .col-lg-3.col-md-6.mb-lg-0.mb-4
         .bg7.p-4.h-100
           p.mb-0.text-center Mejora la eficiencia productiva.
@@ -632,9 +813,9 @@
       img(:src="require('@/assets/curso/tema1/sub.svg')" alt='Imagen decorativa')
       h3.mb-0 Criterios de evaluación
     
-    p.mb-4 Los criterios de evaluación son los aspectos que se tienen en cuenta para valorar el desempeño del sistema productivo. Existen cuatro tipos principales de criterios que deben considerarse de manera integral.
+    p.mb-4(data-aos="fade-right") Los criterios de evaluación son los aspectos que se tienen en cuenta para valorar el desempeño del sistema productivo. Existen cuatro tipos principales de criterios que deben considerarse de manera integral.
 
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
       .col-lg-8.mb-lg-0.mb-4
         AcordionA.press(tipo="b" clase-tarjeta="tarjeta tarjeta--grey")
           .row.align-items-center(titulo="Criterios técnicos")
@@ -711,7 +892,7 @@
       img(:src="require('@/assets/curso/tema1/sub.svg')" alt='Imagen decorativa')
       h3.mb-0 Comparación con plan de producción
     
-    p.mb-4 La evaluación implica comparar los resultados reales con lo que se había planificado, permitiendo medir el nivel de cumplimiento e identificar desviaciones.
+    p.mb-4(data-aos="fade-right") La evaluación implica comparar los resultados reales con lo que se había planificado, permitiendo medir el nivel de cumplimiento e identificar desviaciones.
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
       .col-lg-12
@@ -765,7 +946,7 @@
       img(:src="require('@/assets/curso/tema1/sub.svg')" alt='Imagen decorativa')
       h3.mb-0 Propuestas de mejora
 
-    p.mb-4 Las propuestas de mejora son acciones diseñadas para corregir fallas y optimizar el sistema productivo. Deben ser prácticas, viables y orientadas a resultados concretos.
+    p.mb-4(data-aos="fade-right") Las propuestas de mejora son acciones diseñadas para corregir fallas y optimizar el sistema productivo. Deben ser prácticas, viables y orientadas a resultados concretos.
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
       .col-lg-12
@@ -783,18 +964,40 @@
             tbody
               tr
                 td
-                  p.mb-0 • Ajustar frecuencia de riego.
-                  p.mb-0 • Mejorar el tipo de sustrato.
+                  ul.lista-ul.mb-0
+                    li.d-flex.mb-0
+                      i.fas.fa-leaft
+                      p.mb-0 Ajustar frecuencia de riego.
+                    li.d-flex.mb-0
+                      i.fas.fa-leaft
+                      p.mb-0 Mejorar el tipo de sustrato.
                 td
-                  p.mb-0 • Seleccionar cultivos más adaptados.
-                  p.mb-0 • Mejorar la densidad de siembra.
-                  p.mb-0 • Implementar rotación de cultivos.
+                  ul.lista-ul.mb-0
+                    li.d-flex.mb-0
+                      i.fas.fa-leaft
+                      p.mb-0 Seleccionar cultivos más adaptados.
+                    li.d-flex.mb-0
+                      i.fas.fa-leaft
+                      p.mb-0 Mejorar la densidad de siembra.
+                    li.d-flex.mb-0
+                      i.fas.fa-leaft
+                      p.mb-0 Implementar rotación de cultivos.
                 td
-                  p.mb-0 • Reducir uso de químicos.
-                  p.mb-0 • Implementar compostaje.
+                  ul.lista-ul.mb-0
+                    li.d-flex.mb-0
+                      i.fas.fa-leaft
+                      p.mb-0 Reducir uso de químicos.
+                    li.d-flex.mb-0
+                      i.fas.fa-leaft
+                      p.mb-0 Implementar compostaje.
                 td
-                  p.mb-0 • Implementar registros más detallados.
-                  p.mb-0 • Mejorar el seguimiento del cultivo.
+                  ul.lista-ul.mb-0
+                    li.d-flex.mb-0
+                      i.fas.fa-leaft
+                      p.mb-0 Implementar registros más detallados.
+                    li.d-flex.mb-0
+                      i.fas.fa-leaft
+                      p.mb-0 Mejorar el seguimiento del cultivo.
 
     .titulo.mb-4(data-aos="fade-left")
       img(:src="require('@/assets/curso/tema1/sub.svg')" alt='Imagen decorativa')
