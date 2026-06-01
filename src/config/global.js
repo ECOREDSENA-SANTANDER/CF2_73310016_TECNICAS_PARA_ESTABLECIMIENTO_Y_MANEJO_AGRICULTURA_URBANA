@@ -230,12 +230,12 @@ export default {
     },
     {
       referencia:
-        'Ochoa Sanchez, J. A., Riaño García, K. D., & Reyes Rincón, L. D. (2024). Prototipo de Riego para un Sistema de Agricultura Urbana Controlado por Electrónica Programable. CON-CIENCIA Y TÉCNICA, 8(1), 13–15.',
+        'Ochoa Sánchez, J. A., Riaño García, K. D., & Reyes Rincón, L. D. (2024). Prototipo de Riego para un Sistema de Agricultura Urbana Controlado por Electrónica Programable. CON-CIENCIA Y TÉCNICA, 8(1), 13–15.',
       link: '',
     },
     {
       referencia:
-        'Osorio Cardenas, M. (2025). Sistemas de Riego Inteligente para Agricultura Urbana.',
+        'Osorio Cárdenas, M. (2025). Sistemas de Riego Inteligente para Agricultura Urbana.',
       link: '',
     },
     {
@@ -259,8 +259,9 @@ export default {
       autores: [
         {
           nombre: 'Claudia Johanna Gómez Pérez',
-          cargo: 'Responsable del ecosistema',
-          centro: 'Dirección General',
+          cargo:
+            'Responsable Ecosistema de Recursos Educativos Digitales (RED)',
+          centro: 'Centro Agroturístico - Regional Santander',
         },
         {
           nombre: 'Edison Eduardo Mantilla Cuadros',
@@ -273,12 +274,12 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Paola Angélica Castro Salazar',
-          cargo: 'Experta temática',
+          nombre: 'Andrés Javier Pacheco Wandurraga',
+          cargo: 'Experto temático',
           centro: 'Centro Agroturístico - Regional Santander',
         },
         {
-          nombre: 'Erika Fernanda Mejía Pinzón',
+          nombre: 'Angélica Varón Quintero',
           cargo: 'Evaluadora instruccional',
           centro: 'Centro Agroturístico - Regional Santander',
         },
@@ -308,7 +309,7 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: 'Yineth Ibette Gonzalez Quintero',
+          nombre: 'Erika Daniela Manrique Rueda',
           cargo: 'Validadora y vinculadora de recursos educativos digitales',
           centro: 'Centro Agroturístico - Regional Santander',
         },

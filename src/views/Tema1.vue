@@ -400,7 +400,7 @@
               p.mb-0 No todos los EPP se utilizan para todas las tareas. Es necesario evaluar los riesgos y seleccionar los EPP adecuados.
           li.d-flex.mb-2
             i.fas.fa-check
-            h5.mb-0 Mantener limpios y en buen estado
+            h5.mb-0 Mantener los EPP limpios y en buen estado
               p.mb-0 Un EPP dañado pierde su función protectora; por lo tanto, debe revisarse de manera regular.
           li.d-flex.mb-2
             i.fas.fa-check
@@ -538,21 +538,21 @@
           img(src='@/assets/curso/tema1/31.png', alt='')
         .col-lg-7
           ul.lista-ul.mb-0
-            li.d-flex.mb-2
+            li.d-flex.mb-4
               i.fas.fa-check.t1
-              h3.mb-0 Mantener herramientas en buen estado
+              h5.mb-0 Mantener herramientas en buen estado
                 p.mb-0 Revisarlas regularmente para verificar que estén libres de óxido, con mangos sin grietas y debidamente afiladas, según corresponda.
-            li.d-flex.mb-2
+            li.d-flex.mb-4
               i.fas.fa-check.t1
-              h3.mb-0 Evitar improvisaciones
+              h5.mb-0 Evitar improvisaciones
                 p.mb-0 Usar cada herramienta según su diseño y función original.
-            li.d-flex.mb-2
+            li.d-flex.mb-4
               i.fas.fa-check.t1
-              h3.mb-0 No sobrecargar contenedores
+              h5.mb-0 No sobrecargar contenedores
                 p.mb-0 Respetar el límite de peso indicado en cada contenedor.
             li.d-flex.mb-0
               i.fas.fa-check.t1
-              h3.mb-0 Trabajar con buena iluminación
+              h5.mb-0 Trabajar con buena iluminación
                 p.mb-0 No realizar tareas que requieran precisión en condiciones de penumbra.
 
     .titulo.mb-5(data-aos="fade-left")
@@ -856,6 +856,9 @@
                     li.d-flex.mb-0
                       i.fas.fa-leaft
                       p.mb-0 Protección de fuentes hídricas.
+                    li.d-flex.mb-0
+                      i.fas.fa-leaft
+                      p.mb-0 Manejo de especies vegetales.
                 td
                   ul.lista-ul.mb-0
                     li.d-flex.mb-0
@@ -867,6 +870,9 @@
                     li.d-flex.mb-0
                       i.fas.fa-leaft
                       p.mb-0 Respetar normas locales.
+                    li.d-flex.mb-0
+                      i.fas.fa-leaft
+                      p.mb-0 Implementar prácticas limpias.
                 td
                   ul.lista-ul.mb-0
                     li.d-flex.mb-0
@@ -1092,7 +1098,7 @@
       .col-lg-12
         .titulo-sexto.mb-4
           h5 Tabla 5.
-          | Clasificación de plaguicidas según #[em OMS y SGA]: categorías de toxicidad
+          | Clasificación de plaguicidas según  OMS y SGA: categorías de toxicidad
         .tabla-a
           table
             thead

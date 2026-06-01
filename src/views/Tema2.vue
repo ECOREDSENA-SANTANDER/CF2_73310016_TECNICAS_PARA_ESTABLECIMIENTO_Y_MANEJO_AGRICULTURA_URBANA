@@ -420,7 +420,7 @@
               p.mb-0 Mejora la calidad del cultivo.
             li.d-flex.mb-0
               i.fas.fa-leaf
-              p.mb-0 ptimiza el uso de recursos.
+              p.mb-0 Optimiza el uso de recursos.
             li.d-flex.mb-0
               i.fas.fa-leaf
               p.mb-0 Permite evaluar resultados.
@@ -501,7 +501,7 @@
       .col-lg-12.px-4
         .row.justify-content-center.mb-0
           .col-lg-12
-            p.mb-0 #[b #[em Pódcast:]] Para comprender cómo los registros convierten observaciones cotidianas en decisiones de manejo del cultivo, se recomienda explorar el pódcast #[b “De la adivinanza a la certeza: registros que controlan tu cultivo”]. En este episodio, se explica la importancia de llevar registros sistemáticos en agricultura urbana, qué información básica debe anotarse y cómo estos datos permiten identificar problemas, reconocer patrones y tomar decisiones informadas.
+            p.mb-0 Para comprender cómo los registros convierten observaciones cotidianas en decisiones de manejo del cultivo, se recomienda explorar el pódcast #[b “De la adivinanza a la certeza: registros que controlan tu cultivo”]. En este episodio, se explica la importancia de llevar registros sistemáticos en agricultura urbana, qué información básica debe anotarse y cómo estos datos permiten identificar problemas, reconocer patrones y tomar decisiones informadas.
     
     .row.justify-content-center.align-items-center.mb-0(data-aos="fade-left")
       .col-lg-12
@@ -511,7 +511,7 @@
             .tarjeta.bg12.p-4.rounded-0.h-100
               .tarjeta.bg-white.p-4.h-100.mb-0
                 TarjetaAudio.color-acento-botones.mb-0(
-                texto="<em>Pódcast:</em> De la adivinanza a la certeza: registros que controlan tu cultivo"
+                texto="Pódcast: De la adivinanza a la certeza: registros que controlan tu cultivo"
                 :audio="require('@/assets/actividad/audio/end-game-success.mp3')"
                 )
                 .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
@@ -607,11 +607,17 @@
                     li.d-flex.mb-0
                       i.fas.fa-leaft
                       p.mb-0 Mala fertilización.
+                    li.d-flex.mb-0
+                      i.fas.fa-leaft
+                      p.mb-0 Densidad incorrecta de siembra.
                 td
                   ul.lista-ul.mb-0
                     li.d-flex.mb-0
                       i.fas.fa-leaft
                       p.mb-0 Presencia de plagas.
+                    li.d-flex.mb-0
+                      i.fas.fa-leaft
+                      p.mb-0 Enfermedades en las plantas.
                 td
                   ul.lista-ul.mb-0
                     li.d-flex.mb-0
@@ -620,6 +626,9 @@
                     li.d-flex.mb-0
                       i.fas.fa-leaft
                       p.mb-0 Mala ventilación.
+                    li.d-flex.mb-0
+                      i.fas.fa-leaft
+                      p.mb-0 Exposición inadecuada al sol.
                 td
                   ul.lista-ul.mb-0
                     li.d-flex.mb-0
@@ -628,6 +637,9 @@
                     li.d-flex.mb-0
                       i.fas.fa-leaft
                       p.mb-0 Incumplimiento de labores culturales.
+                    li.d-flex.mb-0
+                      i.fas.fa-leaft
+                      p.mb-0 Uso inadecuado de insumos.
 
     .titulo.mb-5(data-aos="fade-left")
       img(:src="require('@/assets/curso/tema1/sub.svg')" alt='Imagen decorativa')
@@ -971,6 +983,9 @@
                     li.d-flex.mb-0
                       i.fas.fa-leaft
                       p.mb-0 Mejorar el tipo de sustrato.
+                    li.d-flex.mb-0
+                      i.fas.fa-leaft
+                      p.mb-0 Cambiar métodos de siembra.
                 td
                   ul.lista-ul.mb-0
                     li.d-flex.mb-0
@@ -982,6 +997,9 @@
                     li.d-flex.mb-0
                       i.fas.fa-leaft
                       p.mb-0 Implementar rotación de cultivos.
+                    li.d-flex.mb-0
+                      i.fas.fa-leaft
+                      p.mb-0 Implementar rotación de cultivos.
                 td
                   ul.lista-ul.mb-0
                     li.d-flex.mb-0
@@ -990,6 +1008,9 @@
                     li.d-flex.mb-0
                       i.fas.fa-leaft
                       p.mb-0 Implementar compostaje.
+                    li.d-flex.mb-0
+                      i.fas.fa-leaft
+                      p.mb-0 Optimizar uso del agua.
                 td
                   ul.lista-ul.mb-0
                     li.d-flex.mb-0
@@ -998,6 +1019,9 @@
                     li.d-flex.mb-0
                       i.fas.fa-leaft
                       p.mb-0 Mejorar el seguimiento del cultivo.
+                    li.d-flex.mb-0
+                      i.fas.fa-leaft
+                      p.mb-0 Planificar mejor las actividades.
 
     .titulo.mb-4(data-aos="fade-left")
       img(:src="require('@/assets/curso/tema1/sub.svg')" alt='Imagen decorativa')

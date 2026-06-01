@@ -100,7 +100,7 @@ export default {
           imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'Tipo de cultivo', esCorrecta: true },
+            { id: 'a', texto: 'Tipo de cultivo.', esCorrecta: true },
             { id: 'b', texto: 'Color de la planta.', esCorrecta: false },
             { id: 'c', texto: 'Altura del contenedor.', esCorrecta: false },
             { id: 'd', texto: 'Tamaño de la hoja.', esCorrecta: false },
@@ -235,7 +235,7 @@ export default {
             { id: 'a', texto: 'Mayor producción.', esCorrecta: false },
             { id: 'b', texto: 'Contaminación ambiental.', esCorrecta: true },
             { id: 'c', texto: 'Mejor crecimiento.', esCorrecta: false },
-            { id: 'd', texto: 'Mayor calidad', esCorrecta: false },
+            { id: 'd', texto: 'Mayor calidad.', esCorrecta: false },
           ],
           mensaje_correcto:
             'Se evidencia un adecuado dominio de los conceptos relacionados con el mantenimiento, control y evaluación de cultivos en agricultura urbana.',
