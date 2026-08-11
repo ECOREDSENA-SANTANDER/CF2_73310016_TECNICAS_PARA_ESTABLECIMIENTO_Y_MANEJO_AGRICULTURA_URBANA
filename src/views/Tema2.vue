@@ -512,7 +512,7 @@
               .tarjeta.bg-white.p-4.h-100.mb-0
                 TarjetaAudio.color-acento-botones.mb-0(
                 texto="Pódcast: De la adivinanza a la certeza: registros que controlan tu cultivo"
-                :audio="require('@/assets/actividad/audio/end-game-success.mp3')"
+                :audio="require('@/assets/actividad/audio/CF2_73310016_Tecnicas_para_el_establecimiento_y_manejo_de_la_agricultura_urbana.mp3')"
                 )
                 .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
 
