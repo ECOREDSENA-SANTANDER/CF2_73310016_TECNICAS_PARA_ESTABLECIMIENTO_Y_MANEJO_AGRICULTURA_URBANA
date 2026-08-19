@@ -997,9 +997,6 @@
                     li.d-flex.mb-0
                       i.fas.fa-leaft
                       p.mb-0 Implementar rotación de cultivos.
-                    li.d-flex.mb-0
-                      i.fas.fa-leaft
-                      p.mb-0 Implementar rotación de cultivos.
                 td
                   ul.lista-ul.mb-0
                     li.d-flex.mb-0
@@ -1029,7 +1026,7 @@
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
       .col-lg-8
-        PasosA.color-primario.mb-0(tipo="n")
+        PasosA.color-primario.mb-0(tipo="l")
           .row.justify-content-center.align-items-center.mb-0
             .col-lg-7
               p.mb-0 Evaluar resultados del ciclo anterior.
@@ -1078,7 +1075,7 @@
       .col-lg-3.col-md-6.mb-lg-0.mb-4
         .h-100.bg3.p-4
           img.img-t.img-a.my-2.mb-4(src='@/assets/curso/tema2/47.svg' alt='AvatarTop')
-          h4.mb-4.text-center Sanciones legales
+          h4.mb-4.text-center Falta de control del sistema
           p.mb-0 Sin datos, es imposible saber qué está sucediendo.
 
 
