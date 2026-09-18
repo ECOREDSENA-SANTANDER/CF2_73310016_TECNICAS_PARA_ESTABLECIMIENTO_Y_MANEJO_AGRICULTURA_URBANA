@@ -10,10 +10,10 @@
     .bg1.mb-0
       .row.justify-content-center.align-items-center
         .col-lg-5.col-md-8.col-12.mb-lg-0.mb-0(data-aos="fade-right")
-          img(src='@/assets/curso/tema1/1.png', alt='')
+          img(src='@/assets/curso/tema1/1.png')
         .col-lg-7(data-aos="fade-left")
           .p-4
-            img.mb-3.img-t.d-none.d-lg-block(src='@/assets/curso/tema1/2.svg', alt='')
+            img.mb-3.img-t.d-none.d-lg-block(src='@/assets/curso/tema1/2.svg')
             p.mb-4 El mantenimiento del cultivo en agricultura urbana comprende el conjunto de prácticas técnicas orientadas a garantizar el crecimiento, desarrollo y productividad de las plantas en espacios reducidos. Estas labores incluyen el manejo adecuado del riego, la nutrición, el control de condiciones ambientales y la prevención de plagas y enfermedades.
             p.mb-0 En sistemas urbanos, el mantenimiento es aún más importante debido a las limitaciones de espacio, el uso de contenedores y la dependencia de intervenciones humanas para regular las condiciones del cultivo. Un manejo adecuado permite optimizar recursos, mejorar la calidad de la producción y asegurar la sostenibilidad del sistema.
 
@@ -23,14 +23,14 @@
     
     .row.justify-content-center.align-items-end.mb-5(data-aos="fade-right")
       .col-lg-4
-        img.d-none.d-lg-block(src='@/assets/curso/tema1/3.png', alt='')
+        img.d-none.d-lg-block(src='@/assets/curso/tema1/3.png')
       .col-lg-8
         .bg2.p-lg-5.p-4.h-100
-          img.mb-4.img-t.d-none.d-lg-block.mx-lg-4.my-lg-4(src='@/assets/curso/tema1/4.svg', alt='')
+          img.mb-4.img-t.d-none.d-lg-block.mx-lg-4.my-lg-4(src='@/assets/curso/tema1/4.svg')
           p.mb-0.mx-lg-4 El riego es el proceso mediante el cual se suministra agua a las plantas de manera controlada, con el fin de satisfacer sus necesidades hídricas y garantizar su desarrollo adecuado. En la agricultura urbana, el riego es una de las prácticas más críticas, ya que los cultivos en contenedores dependen totalmente del suministro artificial de agua.
 
     .titulo.mb-5(data-aos="fade-left")
-      img(:src="require('@/assets/curso/tema1/sub.svg')" alt='Imagen decorativa')
+      img(:src="require('@/assets/curso/tema1/sub.svg')")
       h3.mb-0 Importancia del riego en agricultura urbana
 
     p.mb-4(data-aos="fade-right") El agua es un elemento esencial para la vida de las plantas, ya que interviene en múltiples procesos fisiológicos.
@@ -38,22 +38,22 @@
     .row.justify-content-center.align-items-stretch.mb-lg-5.mb-4(data-aos="fade-left")
       .col-lg-3.col-md-6.mb-lg-0.mb-4
         .h-100.bg3.p-4
-          img.img-t.img-a.my-2.mb-4(src='@/assets/curso/tema1/5.svg' alt='AvatarTop')
+          img.img-t.img-a.my-2.mb-4(src='@/assets/curso/tema1/5.svg')
           h4.mb-4.text-center Transporte de nutrientes
           p.mb-0 El agua disuelve los nutrientes del sustrato y los transporta desde las raíces hasta todas las células vegetales, permitiendo la absorción de elementos esenciales como nitrógeno, fósforo y potasio.
       .col-lg-3.col-md-6.mb-lg-0.mb-4
         .h-100.bg3.p-4
-          img.img-t.img-a.my-2.mb-4(src='@/assets/curso/tema1/6.svg' alt='AvatarTop')
+          img.img-t.img-a.my-2.mb-4(src='@/assets/curso/tema1/6.svg')
           h4.mb-4.text-center  Fotosíntesis
           p.mb-0 El agua es uno de los reactivos fundamentales en la fotosíntesis, participando activamente en la conversión de luz solar en energía química que la planta utiliza para crecer y producir biomasa.
       .col-lg-3.col-md-6.mb-lg-0.mb-4
         .h-100.bg3.p-4
-          img.img-t.img-a.my-2.mb-4(src='@/assets/curso/tema1/7.svg' alt='AvatarTop')
+          img.img-t.img-a.my-2.mb-4(src='@/assets/curso/tema1/7.svg')
           h4.mb-4.text-center Regulación de temperatura
           p.mb-0 A través del proceso de transpiración, la planta libera agua en forma de vapor, lo que reduce la temperatura de los tejidos evitando estrés térmico en días calurosos.
       .col-lg-3.col-md-6.mb-lg-0.mb-4
         .h-100.bg3.p-4
-          img.img-t.img-a.my-2.mb-4(src='@/assets/curso/tema1/8.svg' alt='AvatarTop')
+          img.img-t.img-a.my-2.mb-4(src='@/assets/curso/tema1/8.svg')
           h4.mb-4.text-center Turgencia celular
           p.mb-0 El agua mantiene la presión dentro de las células, proporcionando rigidez y firmeza a los tallos y hojas. Sin turgencia, las plantas se marchitan y colapsan.
 
@@ -61,7 +61,7 @@
       p.mb-0 La importancia del riego en la producción es evidente. El agua garantiza el crecimiento adecuado del cultivo, facilita la expansión celular, favorece la absorción de nutrientes del sustrato, ya que estos viajan disueltos en ella, evita el estrés hídrico, que debilita las plantas, y mejora la productividad general del sistema. El mal manejo del riego genera problemas serios; el exceso de agua causa pudrición de raíces y aparición de hongos patógenos, mientras que el déficit de agua produce marchitez visible y bajo crecimiento de las plantas.
 
     .titulo.mb-5(data-aos="fade-left")
-      img(:src="require('@/assets/curso/tema1/sub.svg')" alt='Imagen decorativa')
+      img(:src="require('@/assets/curso/tema1/sub.svg')")
       h3.mb-0 Humedad del suelo o sustrato
 
     p.mb-5(data-aos="fade-right") La humedad del sustrato se refiere a la cantidad de agua retenida en el medio de cultivo disponible para las plantas. Es fundamental distinguir entre tres tipos de humedad.
@@ -72,7 +72,7 @@
           .p-lg-5.p-4(titulo="Humedad óptima")
             .row.justify-content-center.align-items-center.mb-0
               .col-lg-5.order-lg-1.order-md-2.order-2
-                img(src='@/assets/curso/tema1/9.png', alt='')
+                img(src='@/assets/curso/tema1/9.png')
               .col-lg-7.order-lg-1.order-md-1.order-1.mb-lg-0.mb-4
                 p.mb-4 Nivel ideal para el desarrollo del cultivo, donde hay agua disponible, pero también espacio para aire. Las raíces pueden absorber agua sin sufrir por falta de oxígeno.
                 ul.lista-ul.mb-0
@@ -82,7 +82,7 @@
           .p-lg-5.p-4(titulo="Exceso de humedad")
             .row.justify-content-center.align-items-center.mb-0
               .col-lg-5.order-lg-1.order-md-2.order-2
-                img(src='@/assets/curso/tema1/10.png', alt='')
+                img(src='@/assets/curso/tema1/10.png')
               .col-lg-7.order-lg-1.order-md-1.order-1.mb-lg-0.mb-4
                 p.mb-4 Genera saturación limitando el oxígeno necesario para las raíces. Favorece proliferación de hongos patógenos y pudrición radicular.
                 ul.lista-ul.mb-0
@@ -92,7 +92,7 @@
           .p-lg-5.p-4(titulo="Déficit de humedad")
             .row.justify-content-center.align-items-center.mb-0
               .col-lg-5.order-lg-1.order-md-2.order-2
-                img(src='@/assets/curso/tema1/11.png', alt='')
+                img(src='@/assets/curso/tema1/11.png')
               .col-lg-7.order-lg-1.order-md-1.order-1.mb-lg-0.mb-4
                 p.mb-4 Indica falta de agua disponible. La planta no puede absorber los nutrientes necesarios y sufre estrés hídrico.
                 ul.lista-ul.mb-0
@@ -105,7 +105,7 @@
       p.mb-0 La frecuencia de riego es un factor que puede controlarse directamente durante el manejo del cultivo. Para verificar la humedad del sustrato existen diversos métodos prácticos. La observación del sustrato permite detectar cambios visuales en color y textura. El método manual o de tacto consiste en insertar el dedo aproximadamente dos centímetros en el sustrato para evaluar la presencia de agua. Por otro lado, el uso de medidores de humedad proporciona valores numéricos precisos, útiles para el registro y control técnico.
 
     .titulo.mb-5(data-aos="fade-left")
-      img(:src="require('@/assets/curso/tema1/sub.svg')" alt='Imagen decorativa')
+      img(:src="require('@/assets/curso/tema1/sub.svg')")
       h3.mb-0 Factores técnicos del riego
 
     p.mb-4(data-aos="fade-right") El riego debe planificarse teniendo en cuenta diversos factores que influyen en la cantidad y la frecuencia del agua aplicada.
@@ -131,7 +131,7 @@
                 p.mb-0 Los sustratos livianos, como la turba o la fibra de coco, permiten menor retención de agua, requiriendo riego frecuente (a veces diario). Los sustratos pesados, como la tierra arcillosa, retienen más agua, necesitando menor frecuencia de riego. Los contenedores pequeños se secan más rápido que los contenedores grandes con el mismo cultivo, requiriendo mayor frecuencia de riego.
 
     .titulo.mb-5(data-aos="fade-right")
-      img(:src="require('@/assets/curso/tema1/sub.svg')" alt='Imagen decorativa')
+      img(:src="require('@/assets/curso/tema1/sub.svg')")
       h3.mb-0 Sistemas de riego
 
     p.mb-4(data-aos="fade-left") Los sistemas de riego son los métodos utilizados para suministrar agua a los cultivos. Existen tres opciones principales en agricultura urbana:
@@ -151,23 +151,23 @@
                 th Desventajas
             tbody
               tr
-                td Riego manual
+                td Riego manual.
                 td Se realiza con regaderas o recipientes directamente.
                 td Bajo costo, fácil aplicación, control preciso.
                 td Menor precisión en dosis, mayor esfuerzo físico, inconsistencia.
               tr
-                td Riego por goteo
+                td Riego por goteo.
                 td Sistema que suministra agua directamente a la raíz mediante tuberías.
                 td Alta eficiencia, ahorro significativo de agua, menor aparición de enfermedades.
                 td Inversión inicial más alta, requiere mantenimiento regular.
               tr
-                td Riego por aspersión
+                td Riego por aspersión.
                 td Simula la lluvia mediante dispersión de agua en forma de gotas.
                 td Cobertura uniforme, simula lluvia natural.
                 td Mayor consumo de agua, puede favorecer enfermedades por hongos y generar pérdidas por evaporación.
 
     .titulo.mb-5(data-aos="fade-left")
-      img(:src="require('@/assets/curso/tema1/sub.svg')" alt='Imagen decorativa')
+      img(:src="require('@/assets/curso/tema1/sub.svg')")
       h3.mb-0 Buenas prácticas en el manejo del riego
 
     p.mb-4(data-aos="fade-right") La implementación de buenas prácticas permite optimizar el uso del agua y mejorar la productividad del cultivo.
@@ -231,7 +231,7 @@
                     h4.mb-4 Proteger la salud e integridad física del trabajador
                     p.mb-0 Evita lesiones inmediatas y enfermedades ocupacionales que puedan afectar la vida laboral y personal.
                   .col-lg-6.col-md-8.col-10
-                    img(alt="" src="@/assets/curso/tema1/16.png")
+                    img(src="@/assets/curso/tema1/16.png")
             .row.justify-content-center.align-items-center.p-0.p-lg-4
               .col-lg-11
                 .row.justify-content-center.align-items-center.mb-0
@@ -239,7 +239,7 @@
                     h4.mb-4 Reducir la ocurrencia de accidentes laborales
                     p.mb-0 Implementar medidas preventivas disminuye significativamente la probabilidad de incidentes.
                   .col-lg-6.col-md-8.col-10
-                    img(alt="" src="@/assets/curso/tema1/17.png")
+                    img(src="@/assets/curso/tema1/17.png")
             .row.justify-content-center.align-items-center.p-0.p-lg-4
               .col-lg-11
                 .row.justify-content-center.align-items-center.mb-0
@@ -247,10 +247,10 @@
                     h4.mb-4 Prevenir enfermedades ocupacionales
                     p.mb-0 La exposición controlada a riesgos reduce enfermedades crónicas asociadas al trabajo agrícola.
                   .col-lg-6.col-md-8.col-10
-                    img(alt="" src="@/assets/curso/tema1/18.png")
+                    img(src="@/assets/curso/tema1/18.png")
 
     .titulo.mb-5(data-aos="fade-left")
-      img(:src="require('@/assets/curso/tema1/sub.svg')" alt='Imagen decorativa')
+      img(:src="require('@/assets/curso/tema1/sub.svg')")
       h3.mb-0 Aplicación en agricultura urbana
 
     p.mb-4(data-aos="fade-right") En espacios urbanos, los riesgos pueden aumentar debido a características específicas del entorno. Es necesario aplicar medidas de seguridad adaptadas al contexto particular de la producción en las ciudades.
@@ -272,7 +272,7 @@
 
     .row.justify-content-center.align-items-center.mb-4
       .col-auto.pe-0
-        img.img-t.d-none.d-sm-block.mb-0(data-aos="zoom-in-left")(src='@/assets/curso/tema1/ic.svg', alt='')
+        img.img-t.d-none.d-sm-block.mb-0(data-aos="zoom-in-left")(src='@/assets/curso/tema1/ic.svg')
       .col
         .subt.mb-4(data-aos="fade-right")
           .d-flex.align-items-end.mb-0
@@ -283,7 +283,7 @@
     .row.justify-content-center.align-items-stretch.mb-lg-5.mb-4(data-aos="fade-left")
       .col-lg-4.col-md-6.mb-lg-0.mb-4
         .h-100.bg3.p-4
-          img.img-t.img-a.my-2.mb-4(src='@/assets/curso/tema1/19.svg' alt='AvatarTop')
+          img.img-t.img-a.my-2.mb-4(src='@/assets/curso/tema1/19.svg')
           h4.mb-4.text-center Normas generales
           ul.lista-ul.mb-0
             li.d-flex.mb-2
@@ -300,7 +300,7 @@
               p.mb-0 Almacenar correctamente los insumos: en contenedores seguros para evitar derrames y contaminación.
       .col-lg-4.col-md-6.mb-lg-0.mb-4
         .h-100.bg3.p-4
-          img.img-t.img-a.my-2.mb-4(src='@/assets/curso/tema1/20.svg' alt='AvatarTop')
+          img.img-t.img-a.my-2.mb-4(src='@/assets/curso/tema1/20.svg')
           h4.mb-4.text-center Normas de comportamiento
           ul.lista-ul.mb-0
             li.d-flex.mb-2
@@ -314,7 +314,7 @@
               p.mb-0 Evitar el uso de herramientas sin capacitación: la falta de conocimiento aumenta riesgos.
       .col-lg-4.col-md-6.mb-lg-0.mb-4
         .h-100.bg3.p-4
-          img.img-t.img-a.my-2.mb-4(src='@/assets/curso/tema1/21.svg' alt='AvatarTop')
+          img.img-t.img-a.my-2.mb-4(src='@/assets/curso/tema1/21.svg')
           h4.mb-4.text-center Normas en espacios urbanos
           ul.lista-ul.mb-0
             li.d-flex.mb-2
@@ -332,7 +332,7 @@
     
     .row.justify-content-center.align-items-center.mb-4
       .col-auto.pe-0
-        img.img-t.d-none.d-sm-block.mb-0(data-aos="zoom-in-left")(src='@/assets/curso/tema1/ic.svg', alt='')
+        img.img-t.d-none.d-sm-block.mb-0(data-aos="zoom-in-left")(src='@/assets/curso/tema1/ic.svg')
       .col
         .subt.mb-4(data-aos="fade-right")
           .d-flex.align-items-end.mb-0
@@ -340,10 +340,10 @@
     
     .row.justify-content-center.align-items-end.mb-5(data-aos="fade-right")
       .col-lg-4
-        img.d-none.d-lg-block(src='@/assets/curso/tema1/22.png', alt='')
+        img.d-none.d-lg-block(src='@/assets/curso/tema1/22.png')
       .col-lg-8
         .bg21.p-4
-          img.mb-4.img-t.d-none.d-lg-block.mx-lg-4.my-lg-4(src='@/assets/curso/tema1/23.svg', alt='')
+          img.mb-4.img-t.d-none.d-lg-block.mx-lg-4.my-lg-4(src='@/assets/curso/tema1/23.svg')
           p.mb-0.mx-lg-4 Los elementos de protección personal (EPP) son dispositivos diseñados para proteger al trabajador de riesgos que puedan afectar su salud o integridad física.
     
     .row.justify-content-center.align-items-center.mb-0(data-aos="fade-left")
@@ -366,7 +366,7 @@
                 td Protegen las manos de cortes, químicos y suciedad.
                 td Manipulación de plantas e insumos.
               tr
-                td Botas cerradas
+                td Botas cerradas.
                 td Previenen resbalones y lesiones en pies.
                 td Trabajo en áreas húmedas.
               tr
@@ -374,21 +374,21 @@
                 td Protege de polvo y vapores químicos.
                 td Aplicación de agroquímicos.
               tr
-                td Gafas de seguridad
+                td Gafas de seguridad.
                 td Protegen los ojos de partículas y salpicaduras.
                 td Uso de químicos y herramientas.
               tr
-                td Ropa adecuada
+                td Ropa adecuada.
                 td Evita el contacto directo con sustancias irritantes.
                 td Manipulación general de insumos.
       .col-lg-3
-        img.d-none.d-lg-block(src='@/assets/curso/tema1/24.png', alt='')
+        img.d-none.d-lg-block(src='@/assets/curso/tema1/24.png')
 
     .cajon.color-acento-botones.p-4.mb-5(data-aos="fade-right")
       p.mb-0 La reducción de riesgos de accidentes es el principal beneficio de los EPP, ya que actúan como una barrera protectora. Además, protegen al trabajador contra agentes químicos y biológicos, lo cual es especialmente crítico durante la manipulación de plaguicidas. Por último, contribuyen a mejorar las condiciones de trabajo al generar confianza y motivación en el trabajador.
 
     .titulo.mb-5(data-aos="fade-left")
-      img(:src="require('@/assets/curso/tema1/sub.svg')" alt='Imagen decorativa')
+      img(:src="require('@/assets/curso/tema1/sub.svg')")
       h3.mb-0 Buenas prácticas
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
@@ -411,11 +411,11 @@
             h5.mb-0 Reemplazar cuando estén deteriorados
               p.mb-0 Un guante con un agujero no ofrece una protección adecuada.
       .col-lg-5
-        img.d-none.d-lg-block(src='@/assets/curso/tema1/25.png', alt='')
+        img.d-none.d-lg-block(src='@/assets/curso/tema1/25.png')
 
     .row.justify-content-center.align-items-center.mb-4
       .col-auto.pe-0
-        img.img-t.d-none.d-sm-block.mb-0(data-aos="zoom-in-left")(src='@/assets/curso/tema1/ic.svg', alt='')
+        img.img-t.d-none.d-sm-block.mb-0(data-aos="zoom-in-left")(src='@/assets/curso/tema1/ic.svg')
       .col
         .subt.mb-4(data-aos="fade-right")
           .d-flex.align-items-end.mb-0
@@ -462,7 +462,7 @@
               img(src='@/assets/curso/tema1/29.png')
 
     .titulo.mb-5(data-aos="fade-left")
-      img(:src="require('@/assets/curso/tema1/sub.svg')" alt='Imagen decorativa')
+      img(:src="require('@/assets/curso/tema1/sub.svg')")
       h3.mb-0 Proceso de identificación de riesgos
 
     .row.justify-content-center.align-items-center.mb-5
@@ -470,32 +470,32 @@
         LineaTiempoE.color-primario
           .row.justify-content-center.align-items-center(titulo="Paso 1" subtitulo="")
             .col-lg-2.col-md-3.col-6.mb-3
-              img.img-t(data-aos="fade-right")(src='@/assets/curso/tema1/79.svg', alt='Texto que describa la imagen')
+              img.img-t(src='@/assets/curso/tema1/79.svg')
             .col-lg-10.mb-3
               h4.mb-4 Observación del área de trabajo
               p.mb-0 Recorrer el espacio identificando condiciones inseguras.
           .row.justify-content-center.align-items-center(titulo="Paso 2" subtitulo="")
             .col-lg-2.col-md-3.col-6.mb-3
-              img.img-t(data-aos="fade-right")(src='@/assets/curso/tema1/80.svg', alt='Texto que describa la imagen')
+              img.img-t(src='@/assets/curso/tema1/80.svg')
             .col-lg-10.mb-3
               h4.mb-4 Reconocimiento de actividades
               p.mb-0 Listar todas las labores que se realizan.
           .row.justify-content-center.align-items-center(titulo="Paso 3" subtitulo="")
             .col-lg-2.col-md-3.col-6.mb-3
-              img.img-t(data-aos="fade-right")(src='@/assets/curso/tema1/81.svg', alt='Texto que describa la imagen')
+              img.img-t(src='@/assets/curso/tema1/81.svg')
             .col-lg-10.mb-3
               h4.mb-4 Identificación de peligros
               p.mb-0 Asociar cada actividad con sus riesgos potenciales.
           .row.justify-content-center.align-items-center(titulo="Paso 4" subtitulo="")
             .col-lg-2.col-md-3.col-6.mb-3
-              img.img-t(data-aos="fade-right")(src='@/assets/curso/tema1/82.svg', alt='Texto que describa la imagen')
+              img.img-t(src='@/assets/curso/tema1/82.svg')
             .col-lg-10.mb-3
               h4.mb-4 Evaluación e implementación
               p.mb-0 Priorizar riesgos e implementar medidas de control.
 
     .row.justify-content-center.align-items-center.mb-4
       .col-auto.pe-0
-        img.img-t.d-none.d-sm-block.mb-0(data-aos="zoom-in-left")(src='@/assets/curso/tema1/ic.svg', alt='')
+        img.img-t.d-none.d-sm-block.mb-0(data-aos="zoom-in-left")(src='@/assets/curso/tema1/ic.svg')
       .col
         .subt.mb-4(data-aos="fade-right")
           .d-flex.align-items-end.mb-0
@@ -504,7 +504,7 @@
     p.mb-5(data-aos="fade-right") La prevención de accidentes consiste en aplicar medidas que reduzcan o eliminen los riesgos identificados. Es un enfoque proactivo que evita que los problemas ocurran antes de que causen lesiones.
 
     .titulo.mb-5(data-aos="fade-left")
-      img(:src="require('@/assets/curso/tema1/sub.svg')" alt='Imagen decorativa')
+      img(:src="require('@/assets/curso/tema1/sub.svg')")
       h3.mb-0 Medidas preventivas principales
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
@@ -526,16 +526,16 @@
             i.fas.fa-check
             p.mb-0 #[b Supervisión regular:] verificar que se cumplan los procedimientos de seguridad.
       .col-lg-5.d-none.d-lg-block
-        img(src='@/assets/curso/tema1/30.png', alt='')
+        img(src='@/assets/curso/tema1/30.png')
 
     .titulo.mb-5(data-aos="fade-left")
-      img(:src="require('@/assets/curso/tema1/sub.svg')" alt='Imagen decorativa')
+      img(:src="require('@/assets/curso/tema1/sub.svg')")
       h3.mb-0 Prácticas seguras
 
     .cajon.color-acento-botones.p-4.p-lg-5.mb-5(data-aos="fade-right")
       .row.justify-content-center.align-items-center.mb-0
         .col-lg-5.d-none.d-lg-block
-          img(src='@/assets/curso/tema1/31.png', alt='')
+          img(src='@/assets/curso/tema1/31.png')
         .col-lg-7
           ul.lista-ul.mb-0
             li.d-flex.mb-4
@@ -556,7 +556,7 @@
                 p.mb-0 No realizar tareas que requieran precisión en condiciones de penumbra.
 
     .titulo.mb-5(data-aos="fade-left")
-      img(:src="require('@/assets/curso/tema1/sub.svg')" alt='Imagen decorativa')
+      img(:src="require('@/assets/curso/tema1/sub.svg')")
       h3.mb-0 Consideraciones específicas en espacios urbanos
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
@@ -565,30 +565,30 @@
           .tarjeta.tarjeta--slyder.b2.p-4
             .row.justify-content-center.align-items-center.mb-4.mt-lg-3
               .col-12
-                img.img-a.img-t(data-aos="zoom-in-left")(src='@/assets/curso/tema1/32.svg' alt='AvatarTop')
+                img.img-a.img-t(src='@/assets/curso/tema1/32.svg')
             h4.text-center.mb-0.ps-2.pe-2.mb-4 Asegurar estabilidad de materas y estructuras
             p.mb-0 Usar soportes o anclajes para evitar volcamientos.
           .tarjeta.tarjeta--slyder.b2.p-4
             .row.justify-content-center.align-items-center.mb-4.mt-lg-3
               .col-12
-                img.img-a.img-t(data-aos="zoom-in-left")(src='@/assets/curso/tema1/33.svg' alt='AvatarTop')
+                img.img-a.img-t(src='@/assets/curso/tema1/33.svg')
             h4.text-center.mb-0.ps-2.pe-2.mb-4 Evitar acumulación de agua
             p.mb-0 El agua estancada causa resbalones peligrosos.
           .tarjeta.tarjeta--slyder.b2.p-4
             .row.justify-content-center.align-items-center.mb-4.mt-lg-3
               .col-12
-                img.img-a.img-t(data-aos="zoom-in-left")(src='@/assets/curso/tema1/34.svg' alt='AvatarTop')
+                img.img-a.img-t(src='@/assets/curso/tema1/34.svg')
             h4.text-center.mb-0.ps-2.pe-2.mb-4 Mantener áreas despejadas
             p.mb-0 Libres de obstáculos para permitir circulación segura.
           .tarjeta.tarjeta--slyder.b2.p-4
             .row.justify-content-center.align-items-center.mb-4.mt-lg-3
               .col-12
-                img.img-a.img-t(data-aos="zoom-in-left")(src='@/assets/curso/tema1/35.svg' alt='AvatarTop')
+                img.img-a.img-t(src='@/assets/curso/tema1/35.svg')
             h4.text-center.mb-0.ps-2.pe-2.mb-4 Supervisar presencia de niños o mascotas
             p.mb-0 Delimite y señalice para protegerlos.
 
     .titulo.mb-5(data-aos="fade-left")
-      img(:src="require('@/assets/curso/tema1/sub.svg')" alt='Imagen decorativa')
+      img(:src="require('@/assets/curso/tema1/sub.svg')")
       h3.mb-0 Cultura de prevención
 
     .cajon.color-secundario.p-4.p-lg-5.mb-5(data-aos="fade-right")
@@ -610,7 +610,7 @@
                   i.fas.fa-check
                   p.mb-0 #[b Participar activamente en programas de seguridad:] asistir a capacitaciones.
             .col-lg-5.d-none.d-lg-block
-              img(src='@/assets/curso/tema1/36.png', alt='')
+              img(src='@/assets/curso/tema1/36.png')
     
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-8
@@ -625,11 +625,11 @@
             .col-lg-11
               p.mb-0 Se debe detener la actividad, evaluar el peligro identificado, implementar las medidas de control correspondientes, verificar su efectividad y reportar el incidente.
       .col-lg-4.d-none.d-lg-block
-        img(src='@/assets/curso/tema1/37.svg', alt='')
+        img(src='@/assets/curso/tema1/37.svg')
 
     .row.justify-content-center.align-items-center.mb-4
       .col-auto.pe-0
-        img.img-t.d-none.d-sm-block.mb-0(data-aos="zoom-in-left")(src='@/assets/curso/tema1/ic.svg', alt='')
+        img.img-t.d-none.d-sm-block.mb-0(data-aos="zoom-in-left")(src='@/assets/curso/tema1/ic.svg')
       .col
         .subt.mb-4(data-aos="fade-right")
           .d-flex.align-items-end.mb-0
@@ -640,7 +640,7 @@
     p.mb-5(data-aos="fade-right") El cumplimiento de la normativa ambiental permite desarrollar sistemas productivos que respeten el entorno, reduzcan la contaminación y promuevan el uso eficiente de los recursos como el agua, el suelo y la biodiversidad.
     
     .titulo.mb-5(data-aos="fade-left")
-      img(:src="require('@/assets/curso/tema1/sub.svg')" alt='Imagen decorativa')
+      img(:src="require('@/assets/curso/tema1/sub.svg')")
       h3.mb-0 Importancia en la producción agrícola
     
     p.mb-4(data-aos="fade-right") La normativa ambiental es clave para orientar las actividades agrícolas hacia la sostenibilidad.
@@ -649,7 +649,7 @@
       .col-lg-6.col-md-6.pe-lg-0.pe-md-0.mb-lg-0.mb-4
         .bg5.p-lg-5.p-4.h-100
           .titulo.mb-5(data-aos="fade-left").ali
-            img(:src="require('@/assets/curso/tema1/sub.svg')" alt='Imagen decorativa')
+            img(:src="require('@/assets/curso/tema1/sub.svg')")
             h3.mb-0 Importancia técnica
           ul.lista-ul.mb-0
             li.d-flex.mb-0
@@ -670,7 +670,7 @@
       .col-lg-6.col-md-6.ps-lg-0.ps-md-0.mb-lg-0.mb-4
         .bg6.p-lg-5.p-4.h-100
           .titulo.mb-5(data-aos="fade-left").ali
-            img(:src="require('@/assets/curso/tema1/sub.svg')" alt='Imagen decorativa')
+            img(:src="require('@/assets/curso/tema1/sub.svg')")
             h3.mb-0 En agricultura urbana
           ul.lista-ul.mb-0
             li.d-flex.mb-0
@@ -688,7 +688,7 @@
 
     .row.justify-content-center.align-items-center.mb-4
       .col-auto.pe-0
-        img.img-t.d-none.d-sm-block.mb-0(data-aos="zoom-in-left")(src='@/assets/curso/tema1/ic.svg', alt='')
+        img.img-t.d-none.d-sm-block.mb-0(data-aos="zoom-in-left")(src='@/assets/curso/tema1/ic.svg')
       .col
         .subt.mb-4(data-aos="fade-right")
           .d-flex.align-items-end.mb-0
@@ -698,7 +698,7 @@
     
     .row.justify-content-center.align-items-start.mb-5(data-aos="fade-left")
       .col-lg-3.d-none.d-lg-block
-        img(src='@/assets/curso/tema1/38.png', alt='')
+        img(src='@/assets/curso/tema1/38.png')
       .col-lg-9
         TabsA.color-acento-botones.mb-0
           .tarjeta.color-a.p-4(titulo="Carácter preventivo")
@@ -724,7 +724,7 @@
 
     .row.justify-content-center.align-items-center.mb-4
       .col-auto.pe-0
-        img.img-t.d-none.d-sm-block.mb-0(data-aos="zoom-in-left")(src='@/assets/curso/tema1/ic.svg', alt='')
+        img.img-t.d-none.d-sm-block.mb-0(data-aos="zoom-in-left")(src='@/assets/curso/tema1/ic.svg')
       .col
         .subt.mb-4(data-aos="fade-right")
           .d-flex.align-items-end.mb-0
@@ -748,7 +748,7 @@
 
     .row.justify-content-center.align-items-center.mb-4
       .col-auto.pe-0
-        img.img-t.d-none.d-sm-block.mb-0(data-aos="zoom-in-left")(src='@/assets/curso/tema1/ic.svg', alt='')
+        img.img-t.d-none.d-sm-block.mb-0(data-aos="zoom-in-left")(src='@/assets/curso/tema1/ic.svg')
       .col
         .subt.mb-4(data-aos="fade-right")
           .d-flex.align-items-end.mb-0
@@ -759,7 +759,7 @@
     .row.justify-content-center.align-items-stretch.mb-lg-5.mb-4(data-aos="fade-left")
       .col-lg-4.col-md-6.mb-lg-0.mb-4
         .h-100.bg3.p-4
-          img.img-t.img-a.my-2.mb-4(src='@/assets/curso/tema1/39.svg' alt='AvatarTop')
+          img.img-t.img-a.my-2.mb-4(src='@/assets/curso/tema1/39.svg')
           h4.mb-4.text-center Manejo de residuos orgánicos
           ul.lista-ul.mb-0
             li.d-flex.mb-0
@@ -773,7 +773,7 @@
               p.mb-0 Aprovechamiento como abono.
       .col-lg-4.col-md-6.mb-lg-0.mb-4
         .h-100.bg3.p-4
-          img.img-t.img-a.my-2.mb-4(src='@/assets/curso/tema1/40.svg' alt='AvatarTop')
+          img.img-t.img-a.my-2.mb-4(src='@/assets/curso/tema1/40.svg')
           h4.mb-4.text-center Manejo de residuos inorgánicos
           ul.lista-ul.mb-0
             li.d-flex.mb-0
@@ -787,7 +787,7 @@
               p.mb-0 Reutilización.
       .col-lg-4.col-md-6.mb-lg-0.mb-4
         .h-100.bg3.p-4
-          img.img-t.img-a.my-2.mb-4(src='@/assets/curso/tema1/41.svg' alt='AvatarTop')
+          img.img-t.img-a.my-2.mb-4(src='@/assets/curso/tema1/41.svg')
           h4.mb-4.text-center Manejo de residuos peligrosos
           ul.lista-ul.mb-0
             li.d-flex.mb-0
@@ -819,11 +819,11 @@
                   i.fas.fa-check
                   p.mb-0 #[b Reducir generación de residuos:] aplicar principio de reducción en la fuente.
             .col-lg-5.d-none.d-lg-block
-              img(src='@/assets/curso/tema1/42.png', alt='')
+              img(src='@/assets/curso/tema1/42.png')
 
     .row.justify-content-center.align-items-center.mb-4
       .col-auto.pe-0
-        img.img-t.d-none.d-sm-block.mb-0(data-aos="zoom-in-left")(src='@/assets/curso/tema1/ic.svg', alt='')
+        img.img-t.d-none.d-sm-block.mb-0(data-aos="zoom-in-left")(src='@/assets/curso/tema1/ic.svg')
       .col
         .subt.mb-4(data-aos="fade-right")
           .d-flex.align-items-end.mb-0
@@ -885,11 +885,11 @@
                       i.fas.fa-leaft
                       p.mb-0 Promover sostenibilidad.
       .col-lg-3.d-none.d-lg-block
-        img(src='@/assets/curso/tema1/43.png', alt='')
+        img(src='@/assets/curso/tema1/43.png')
 
     .row.justify-content-center.align-items-center.mb-4
       .col-auto.pe-0
-        img.img-t.d-none.d-sm-block.mb-0(data-aos="zoom-in-left")(src='@/assets/curso/tema1/ic.svg', alt='')
+        img.img-t.d-none.d-sm-block.mb-0(data-aos="zoom-in-left")(src='@/assets/curso/tema1/ic.svg')
       .col
         .subt.mb-4(data-aos="fade-right")
           .d-flex.align-items-end.mb-0
@@ -918,7 +918,7 @@
                       i.fas.fa-check.t11
                       p.mb-0 Control del uso de agroquímicos.
                 .col-lg-7.d-none.d-lg-block
-                  img(src='@/assets/curso/tema1/45.png', alt='')
+                  img(src='@/assets/curso/tema1/45.png')
           .row.align-items-center(titulo="Aplicación en agricultura urbana")
             .col-lg-11
               .row.justify-content-center.align-items-center.mb-0
@@ -937,7 +937,7 @@
                       i.fas.fa-check.t11
                       p.mb-0 Educación ambiental.
                 .col-lg-7.d-none.d-lg-block
-                  img(src='@/assets/curso/tema1/46.png', alt='')
+                  img(src='@/assets/curso/tema1/46.png')
           .row.align-items-center(titulo="Beneficios del cumplimiento normativo")
             .col-lg-11
               .row.justify-content-center.align-items-center.mb-0
@@ -956,7 +956,7 @@
                       i.fas.fa-check.t11
                       p.mb-0 Favorece la sostenibilidad.
                 .col-lg-7.d-none.d-lg-block
-                  img(src='@/assets/curso/tema1/47.png', alt='')
+                  img(src='@/assets/curso/tema1/47.png')
           .row.align-items-center(titulo="Consecuencias del incumplimiento")
             .col-lg-11
               .row.justify-content-center.align-items-center.mb-0
@@ -975,9 +975,9 @@
                       i.fas.fa-check.t11
                       p.mb-0 Pérdida de productividad.
                 .col-lg-7.d-none.d-lg-block
-                  img(src='@/assets/curso/tema1/48.png', alt='')
+                  img(src='@/assets/curso/tema1/48.png')
       .col-lg-4.col-md-7.col-10
-        img(src='@/assets/curso/tema1/44.svg', alt='')
+        img(src='@/assets/curso/tema1/44.svg')
 
     .row.justify-content-center.mb-5(data-aos="fade-left")
       .col-lg-12
@@ -995,82 +995,82 @@
                 th Aplicación en agricultura urbana
             tbody
               tr
-                td Ley 99 de 1993
+                td Ley 99 de 1993.
                 td Ley
-                td Estado colombiano
-                td Protección ambiental y creación del Sistema Nacional Ambiental (SINA)
-                td Uso sostenible de recursos y cuidado del entorno
+                td Estado colombiano.
+                td Protección ambiental y creación del Sistema Nacional Ambiental (SINA).
+                td Uso sostenible de recursos y cuidado del entorno.
               tr
-                td Decreto 1076 de 2015
+                td Decreto 1076 de 2015.
                 td Decreto
-                td Ministerio de Ambiente y Desarrollo Sostenible
-                td Normativa ambiental general (agua, aire, suelo)
-                td Base legal para prácticas agrícolas sostenibles
+                td Ministerio de Ambiente y Desarrollo Sostenible.
+                td Normativa ambiental general (agua, aire, suelo).
+                td Base legal para prácticas agrícolas sostenibles.
               tr
-                td Decreto 3930 de 2010
+                td Decreto 3930 de 2010.
                 td Decreto
-                td Ministerio de Ambiente y Desarrollo Sostenible
-                td Uso del agua y control de vertimientos
-                td Manejo adecuado del riego y aguas residuales
+                td Ministerio de Ambiente y Desarrollo Sostenible.
+                td Uso del agua y control de vertimientos.
+                td Manejo adecuado del riego y aguas residuales.
               tr
-                td Ley 373 de 1997
+                td Ley 373 de 1997.
                 td Ley
-                td Estado colombiano
-                td Uso eficiente y ahorro del agua
-                td Optimización del riego en cultivos urbanos
+                td Estado colombiano.
+                td Uso eficiente y ahorro del agua.
+                td Optimización del riego en cultivos urbanos.
               tr
-                td Decreto 4741 de 2005
+                td Decreto 4741 de 2005.
                 td Decreto
-                td Ministerio de Ambiente y Desarrollo Sostenible
-                td Manejo de residuos peligrosos
-                td Disposición de envases de agroquímicos
+                td Ministerio de Ambiente y Desarrollo Sostenible.
+                td Manejo de residuos peligrosos.
+                td Disposición de envases de agroquímicos.
               tr
-                td Resolución 2184 de 2019
+                td Resolución 2184 de 2019.
                 td Resolución
-                td Ministerio de Ambiente y Desarrollo Sostenible
-                td Clasificación de residuos por colores
-                td Separación adecuada de residuos en huertas
+                td Ministerio de Ambiente y Desarrollo Sostenible.
+                td Clasificación de residuos por colores.
+                td Separación adecuada de residuos en huertas.
               tr
-                td Instituto Colombiano Agropecuario (ICA)
-                td Entidad reguladora
+                td Instituto Colombiano Agropecuario (ICA).
+                td Entidad reguladora.
                 td ICA
-                td Control de insumos agrícolas y sanidad vegetal
-                td Uso adecuado de fertilizantes y plaguicidas
+                td Control de insumos agrícolas y sanidad vegetal.
+                td Uso adecuado de fertilizantes y plaguicidas.
               tr
-                td Resolución 30021 de 2017
+                td Resolución 30021 de 2017.
                 td Resolución
                 td ICA
-                td Implementación de Buenas Prácticas Agrícolas (BPA)
-                td Producción limpia y segura
+                td Implementación de Buenas Prácticas Agrícolas (BPA).
+                td Producción limpia y segura.
               tr
-                td Decreto 948 de 1995
+                td Decreto 948 de 1995.
                 td Decreto
-                td Ministerio de Ambiente y Desarrollo Sostenible
-                td Control de emisiones contaminantes
-                td Evitar quemas y reducir contaminación
+                td Ministerio de Ambiente y Desarrollo Sostenible.
+                td Control de emisiones contaminantes.
+                td Evitar quemas y reducir contaminación.
               tr
-                td Normativa local (municipal)
+                td Normativa local (municipal).
                 td Reglamentos
-                td Alcaldías/autoridades locales
-                td Uso del suelo y gestión ambiental local
-                td Regulación de agricultura urbana en cada territorio
+                td Alcaldías/autoridades locales.
+                td Uso del suelo y gestión ambiental local.
+                td Regulación de agricultura urbana en cada territorio.
           
     .titulo.mb-5(data-aos="fade-left")
-      img(:src="require('@/assets/curso/tema1/sub.svg')" alt='Imagen decorativa')
+      img(:src="require('@/assets/curso/tema1/sub.svg')")
       h3.mb-0 Normativa fitosanitaria
 
     .cajon.color-secundario.p-4.mb-5(data-aos="fade-right")
       p.mb-0 La normativa fitosanitaria reúne las disposiciones orientadas a proteger la sanidad vegetal, prevenir la propagación de plagas y enfermedades, y regular el uso adecuado de insumos agrícolas. En la agricultura urbana, su aplicación es importante para mantener cultivos sanos, seguros y sostenibles. En Colombia, esta regulación es liderada principalmente por el Instituto Colombiano Agropecuario (ICA).
 
     .titulo.mb-5(data-aos="fade-left")
-      img(:src="require('@/assets/curso/tema1/sub.svg')" alt='Imagen decorativa')
+      img(:src="require('@/assets/curso/tema1/sub.svg')")
       h3.mb-0 Importancia en la sanidad vegetal
     
     .cajon.color-acento-botones.p-4.mb-5(data-aos="fade-right")
       p.mb-0 La sanidad vegetal se refiere al buen estado de salud de las plantas y a su desarrollo sin afectaciones por plagas o enfermedades. Su importancia radica en que ayuda a prevenir la propagación de plagas, reducir pérdidas en la producción, mejorar la calidad de los cultivos, proteger la biodiversidad y favorecer alimentos más seguros para el consumo. En agricultura urbana, además, evita contagios entre cultivos cercanos, protege la salud de las personas y contribuye a reducir el uso excesivo de químicos.
     
     .titulo.mb-5(data-aos="fade-left")
-      img(:src="require('@/assets/curso/tema1/sub.svg')" alt='Imagen decorativa')
+      img(:src="require('@/assets/curso/tema1/sub.svg')")
       h3.mb-0 Características de la normativa fitosanitaria
 
     .bloque-texto-g.color-primario.p-4.p-lg-5.p-md-4.mb-5(data-aos="fade-right")
@@ -1082,7 +1082,7 @@
 
     .row.justify-content-center.align-items-center.mb-4
       .col-auto.pe-0
-        img.img-t.d-none.d-sm-block.mb-0(data-aos="zoom-in-left")(src='@/assets/curso/tema1/ic.svg', alt='')
+        img.img-t.d-none.d-sm-block.mb-0(data-aos="zoom-in-left")(src='@/assets/curso/tema1/ic.svg')
       .col
         .subt.mb-4(data-aos="fade-right")
           .d-flex.align-items-end.mb-0
@@ -1090,7 +1090,7 @@
 
     .row.justify-content-center.align-items-center.mb-lg-5.mb-4(data-aos="fade-right")
       .col-lg-12
-        img(src='@/assets/curso/tema1/50.png', alt='')
+        img(src='@/assets/curso/tema1/50.png')
     
     p.mb-4(data-aos="fade-left") El uso de plaguicidas está regulado para evitar riesgos a la salud humana y al medio ambiente. La clasificación internacional establece niveles de toxicidad que orientan el manejo seguro, almacenamiento, transporte y uso adecuado de estos productos, permitiendo identificar de manera clara el nivel de riesgo de cada plaguicida.
 
@@ -1110,34 +1110,34 @@
             tbody
               tr
                 td 1A
-                td Extremadamente peligroso (rojo)
-                td Peligro (rojo)
-                td Extremadamente peligroso
+                td Extremadamente peligroso (rojo).
+                td Peligro (rojo).
+                td Extremadamente peligroso.
               tr
                 td 1B
-                td Altamente peligroso (rojo)
-                td Peligro (rojo)
-                td Altamente peligroso
+                td Altamente peligroso (rojo).
+                td Peligro (rojo).
+                td Altamente peligroso.
               tr
                 td 2
-                td Moderadamente peligroso (amarillo)
-                td Peligro (rojo) o Atención (amarillo)
+                td Moderadamente peligroso (amarillo).
+                td Peligro (rojo) o Atención (amarillo).
                 td Peligroso
               tr
                 td 3
-                td Ligeramente peligroso (azul)
-                td Atención (amarillo)
+                td Ligeramente peligroso (azul).
+                td Atención (amarillo).
                 td Precaución
               tr
                 td 4
-                td Poco probable que presente peligro (verde)
-                td Atención (amarillo)
-                td Baja peligrosidad
+                td Poco probable que presente peligro (verde).
+                td Atención (amarillo).
+                td Baja peligrosidad.
 
     p.mb-5(data-aos="fade-right") #[b Nota:] el riesgo depende del manejo y la exposición. 
 
     .titulo.mb-5(data-aos="fade-left")
-      img(:src="require('@/assets/curso/tema1/sub.svg')" alt='Imagen decorativa')
+      img(:src="require('@/assets/curso/tema1/sub.svg')")
       h3.mb-0 Principales lineamientos
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
@@ -1156,16 +1156,16 @@
             i.fas.fa-check
             p.mb-0 #[b Manejo seguro durante el almacenamiento y la aplicación:] guardar en lugares seguros y aplicar con precaución.
       .col-lg-5.d-none.d-lg-block
-        img(src='@/assets/curso/tema1/51.png', alt='')
+        img(src='@/assets/curso/tema1/51.png')
 
     .titulo.mb-5(data-aos="fade-left")
-      img(:src="require('@/assets/curso/tema1/sub.svg')" alt='Imagen decorativa')
+      img(:src="require('@/assets/curso/tema1/sub.svg')")
       h3.mb-0 Buenas prácticas
 
     .cajon.color-acento-botones.p-4.p-lg-5.mb-5(data-aos="fade-right")
       .row.justify-content-center.align-items-center.mb-0
         .col-lg-5.d-none.d-lg-block
-          img(src='@/assets/curso/tema1/52.png', alt='')
+          img(src='@/assets/curso/tema1/52.png')
         .col-lg-7
           ul.lista-ul.mb-0
             li.d-flex.mb-4
@@ -1182,40 +1182,40 @@
               p.mb-0 #[b Evitar aplicaciones en horas de alta radiación o viento:] aplicar en horas frescas (mañana o tarde) para mayor efectividad.
 
     .titulo.mb-5(data-aos="fade-left")
-      img(:src="require('@/assets/curso/tema1/sub.svg')" alt='Imagen decorativa')
+      img(:src="require('@/assets/curso/tema1/sub.svg')")
       h3.mb-0 Riesgos del mal uso
 
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-5(data-aos="zoom-in-left")
       .col-lg-12
         SlyderF(columnas="col-md-6 col-xl-4")
           .tarjeta.tarjeta--slyder.b2.p-4
             .row.justify-content-center.align-items-center.mb-4.mt-lg-3
               .col-12
-                img.img-a.img-t(data-aos="zoom-in-left")(src='@/assets/curso/tema1/53.svg' alt='AvatarTop')
+                img.img-a.img-t(src='@/assets/curso/tema1/53.svg')
             h4.text-center.mb-0.ps-2.pe-2.mb-4 Contaminación del suelo y del agua
             p.mb-0 Afecta ecosistemas y fuentes hídricas.
           .tarjeta.tarjeta--slyder.b2.p-4
             .row.justify-content-center.align-items-center.mb-4.mt-lg-3
               .col-12
-                img.img-a.img-t(data-aos="zoom-in-left")(src='@/assets/curso/tema1/54.svg' alt='AvatarTop')
+                img.img-a.img-t(src='@/assets/curso/tema1/54.svg')
             h4.text-center.mb-0.ps-2.pe-2.mb-4 Afectaciones a la salud humana
             p.mb-0 Intoxicación aguda o crónica.
           .tarjeta.tarjeta--slyder.b2.p-4
             .row.justify-content-center.align-items-center.mb-4.mt-lg-3
               .col-12
-                img.img-a.img-t(data-aos="zoom-in-left")(src='@/assets/curso/tema1/55.svg' alt='AvatarTop')
+                img.img-a.img-t(src='@/assets/curso/tema1/55.svg')
             h4.text-center.mb-0.ps-2.pe-2.mb-4 Resistencia de plagas
             p.mb-0 El uso inadecuado puede generar plagas más resistentes.
           .tarjeta.tarjeta--slyder.b2.p-4
             .row.justify-content-center.align-items-center.mb-4.mt-lg-3
               .col-12
-                img.img-a.img-t(data-aos="zoom-in-left")(src='@/assets/curso/tema1/56.svg' alt='AvatarTop')
+                img.img-a.img-t(src='@/assets/curso/tema1/56.svg')
             h4.text-center.mb-0.ps-2.pe-2.mb-4 Daño a organismos benéficos
             p.mb-0 Mata insectos polinizadores y depredadores naturales.
 
     .row.justify-content-center.align-items-center.mb-5
       .col-auto.pe-0
-        img.img-t.d-none.d-sm-block.mb-0(data-aos="zoom-in-left")(src='@/assets/curso/tema1/ic.svg', alt='')
+        img.img-t.d-none.d-sm-block.mb-0(data-aos="zoom-in-left")(src='@/assets/curso/tema1/ic.svg')
       .col
         .subt.mb-4(data-aos="fade-right")
           .d-flex.align-items-end.mb-0
@@ -1224,10 +1224,10 @@
     .bg8.mb-5
       .row.justify-content-center.align-items-center
         .col-lg-5.col-md-8.col-12.mb-lg-0.mb-0(data-aos="fade-right")
-          img(src='@/assets/curso/tema1/57.png', alt='')
+          img(src='@/assets/curso/tema1/57.png')
         .col-lg-7(data-aos="fade-left")
           .p-4
-            img.mb-3.img-t.d-none.d-lg-block(src='@/assets/curso/tema1/58.svg', alt='')
+            img.mb-3.img-t.d-none.d-lg-block(src='@/assets/curso/tema1/58.svg')
             p.mb-0(data-aos="fade-left") La prevención es la estrategia más eficiente para el control fitosanitario, ya que evita la aparición de problemas antes de que afecten los cultivos. Un enfoque preventivo reduce significativamente el uso de productos químicos, protege el ambiente y garantiza la salud de las plantas de manera sostenible.
 
     .row.justify-content-center.align-items-end.mb-5(data-aos="fade-left")
@@ -1281,10 +1281,10 @@
                       i.fas.fa-leaft
                       p.mb-0 Aplicación de bioinsumos.
       .col-lg-3.d-none.d-lg-block
-        img(src='@/assets/curso/tema1/59.png', alt='')
+        img(src='@/assets/curso/tema1/59.png')
 
     .titulo.mb-5(data-aos="fade-left")
-      img(:src="require('@/assets/curso/tema1/sub.svg')" alt='Imagen decorativa')
+      img(:src="require('@/assets/curso/tema1/sub.svg')")
       h3.mb-0 Monitoreo constante
 
     .row.justify-content-center.align-items-stretch.mb-5(data-aos="fade-right")
@@ -1305,33 +1305,33 @@
           p.mb-0 Implementar medidas de control de inmediato si se detectan problemas.
 
     .titulo.mb-5(data-aos="fade-left")
-      img(:src="require('@/assets/curso/tema1/sub.svg')" alt='Imagen decorativa')
+      img(:src="require('@/assets/curso/tema1/sub.svg')")
       h3.mb-0 Consecuencias del incumplimiento
     
     .row.justify-content-center.align-items-stretch.mb-lg-5.mb-4(data-aos="fade-right")
       .col-lg-3.col-md-6.mb-lg-0.mb-4
         .h-100.bg3.p-4
-          img.img-t.img-a.my-2.mb-4(src='@/assets/curso/tema1/63.svg' alt='AvatarTop')
+          img.img-t.img-a.my-2.mb-4(src='@/assets/curso/tema1/63.svg')
           h4.mb-4.text-center Propagación de plagas
           p.mb-0 Sin control preventivo, las plagas se multiplican rápidamente y afectan múltiples cultivos.
       .col-lg-3.col-md-6.mb-lg-0.mb-4
         .h-100.bg3.p-4
-          img.img-t.img-a.my-2.mb-4(src='@/assets/curso/tema1/64.svg' alt='AvatarTop')
+          img.img-t.img-a.my-2.mb-4(src='@/assets/curso/tema1/64.svg')
           h4.mb-4.text-center Pérdidas en la producción
           p.mb-0 Reducción significativa del rendimiento y de calidad de las cosechas.
       .col-lg-3.col-md-6.mb-lg-0.mb-4
         .h-100.bg3.p-4
-          img.img-t.img-a.my-2.mb-4(src='@/assets/curso/tema1/65.svg' alt='AvatarTop')
+          img.img-t.img-a.my-2.mb-4(src='@/assets/curso/tema1/65.svg')
           h4.mb-4.text-center Riesgos para la salud
           p.mb-0 Posible exposición a sustancias químicas en niveles elevados o consumo de alimentos contaminados.
       .col-lg-3.col-md-6.mb-lg-0.mb-4
         .h-100.bg3.p-4
-          img.img-t.img-a.my-2.mb-4(src='@/assets/curso/tema1/66.svg' alt='AvatarTop')
+          img.img-t.img-a.my-2.mb-4(src='@/assets/curso/tema1/66.svg')
           h4.mb-4.text-center Sanciones legales
           p.mb-0 El incumplimiento de normativa fitosanitaria del ICA puede resultar en la imposición de multas o restricciones.
 
     .titulo.mb-5(data-aos="fade-left")
-      img(:src="require('@/assets/curso/tema1/sub.svg')" alt='Imagen decorativa')
+      img(:src="require('@/assets/curso/tema1/sub.svg')")
       h3.mb-0 Recomendación final: enfoque integrado de prevención
 
     .cajon.color-secundario.p-4.p-lg-5.mb-0(data-aos="fade-right")
@@ -1353,7 +1353,7 @@
                   h3.mb-3 Garantiza sostenibilidad
                 p.mb-3.mx-4 Esta aproximación asegura cultivos sanos a largo plazo sin comprometer los recursos naturales.
             .col-lg-5.d-none.d-lg-block
-              img(src='@/assets/curso/tema1/67.png', alt='')
+              img(src='@/assets/curso/tema1/67.png')
 
 
     separador
@@ -1364,7 +1364,7 @@
 
     .row.justify-content-center.align-items-center.mb-4
       .col-auto.pe-0
-        img.img-t.d-none.d-sm-block.mb-0(data-aos="zoom-in-left")(src='@/assets/curso/tema1/ic.svg', alt='')
+        img.img-t.d-none.d-sm-block.mb-0(data-aos="zoom-in-left")(src='@/assets/curso/tema1/ic.svg')
       .col
         .subt.mb-4(data-aos="fade-right")
           .d-flex.align-items-end.mb-0
@@ -1373,7 +1373,7 @@
     p.mb-5(data-aos="fade-right") Las labores culturales son prácticas agrícolas que se realizan para favorecer el desarrollo adecuado del cultivo, mantener condiciones óptimas de crecimiento y prevenir afectaciones fitosanitarias. En la agricultura urbana, son fundamentales debido a las limitaciones de espacio y a la necesidad de sostener sistemas productivos eficientes y sostenibles. Además, garantizan el adecuado manejo del cultivo desde su establecimiento hasta la cosecha, siendo esenciales para lograr plantas sanas y productivas. 
 
     .titulo.mb-5(data-aos="fade-left")
-      img(:src="require('@/assets/curso/tema1/sub.svg')" alt='Imagen decorativa')
+      img(:src="require('@/assets/curso/tema1/sub.svg')")
       h3.mb-0 Importancia
     
     p.mb-4(data-aos="fade-right") Las labores culturales garantizan el adecuado manejo del cultivo desde su establecimiento hasta la cosecha, siendo esenciales para lograr plantas sanas y productivas.
@@ -1419,7 +1419,7 @@
 
     .row.justify-content-center.align-items-center.mb-4
       .col-auto.pe-0
-        img.img-t.d-none.d-sm-block.mb-0(data-aos="zoom-in-left")(src='@/assets/curso/tema1/ic.svg', alt='')
+        img.img-t.d-none.d-sm-block.mb-0(data-aos="zoom-in-left")(src='@/assets/curso/tema1/ic.svg')
       .col
         .subt.mb-4(data-aos="fade-right")
           .d-flex.align-items-end.mb-0
@@ -1454,7 +1454,7 @@
                         i.fas.fa-leaf
                         p.mb-0 Mejora la estabilidad y desarrollo radicular.
                   .col-lg-6.col-md-8.col-10
-                    img(alt="" src="@/assets/curso/tema1/70.png")
+                    img(src="@/assets/curso/tema1/70.png")
             .row.justify-content-center.align-items-center.p-0.p-lg-4
               .col-lg-11
                 .row.justify-content-center.align-items-center.mb-0
@@ -1476,7 +1476,7 @@
                         i.fas.fa-leaf
                         p.mb-0 Evita contacto con el suelo y mejora la aireación.
                   .col-lg-6.col-md-8.col-10
-                    img(alt="" src="@/assets/curso/tema1/71.png")
+                    img(src="@/assets/curso/tema1/71.png")
             .row.justify-content-center.align-items-center.p-0.p-lg-4
               .col-lg-11
                 .row.justify-content-center.align-items-center.mb-0
@@ -1498,7 +1498,7 @@
                         i.fas.fa-leaf
                         p.mb-0 Mejora el desarrollo y rendimiento.
                   .col-lg-6.col-md-8.col-10
-                    img(alt="" src="@/assets/curso/tema1/72.png")
+                    img(src="@/assets/curso/tema1/72.png")
             .row.justify-content-center.align-items-center.p-0.p-lg-4
               .col-lg-11
                 .row.justify-content-center.align-items-center.mb-0
@@ -1517,11 +1517,11 @@
                         i.fas.fa-leaf
                         p.mb-0 Suministro de agua según necesidades del cultivo.
                   .col-lg-6.col-md-8.col-10
-                    img(alt="" src="@/assets/curso/tema1/73.png")
+                    img(src="@/assets/curso/tema1/73.png")
 
     .row.justify-content-center.align-items-center.mb-4
       .col-auto.pe-0
-        img.img-t.d-none.d-sm-block.mb-0(data-aos="zoom-in-left")(src='@/assets/curso/tema1/ic.svg', alt='')
+        img.img-t.d-none.d-sm-block.mb-0(data-aos="zoom-in-left")(src='@/assets/curso/tema1/ic.svg')
       .col
         .subt.mb-4(data-aos="fade-right")
           .d-flex.align-items-end.mb-0
@@ -1566,7 +1566,7 @@
 
     .row.justify-content-center.align-items-center.mb-4
       .col-auto.pe-0
-        img.img-t.d-none.d-sm-block.mb-0(data-aos="zoom-in-left")(src='@/assets/curso/tema1/ic.svg', alt='')
+        img.img-t.d-none.d-sm-block.mb-0(data-aos="zoom-in-left")(src='@/assets/curso/tema1/ic.svg')
       .col
         .subt.mb-4(data-aos="fade-right")
           .d-flex.align-items-end.mb-0
@@ -1576,7 +1576,7 @@
 
     .row.justify-content-center.align-items-center.mb-0
       .col-lg-5.d-none.d-lg-block
-        img(src='@/assets/curso/tema1/78.png', alt='')
+        img(src='@/assets/curso/tema1/78.png')
       .col-lg-7
         TabsA.color-acento-botones.tem1.mb-0
           .tarjeta.color-a.p-4(titulo="Según el tipo de cultivo")

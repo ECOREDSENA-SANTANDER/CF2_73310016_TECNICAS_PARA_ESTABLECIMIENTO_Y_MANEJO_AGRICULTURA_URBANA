@@ -25,7 +25,7 @@
     p.mb-5(data-aos="fade-right") Los registros del proceso productivo son documentos o formatos donde se consigna información relevante sobre las actividades agrícolas, como siembra, riego, fertilización, control de plagas y cosecha. Estos registros son fundamentales para el seguimiento, control y evaluación del sistema productivo.
 
     .titulo.mb-5(data-aos="fade-left")
-      img(:src="require('@/assets/curso/tema1/sub.svg')" alt='Imagen decorativa')
+      img(:src="require('@/assets/curso/tema1/sub.svg')")
       h3.mb-0 Importancia
 
     p.mb-4(data-aos="fade-right") El registro de información permite organizar y analizar el proceso productivo de manera técnica, facilitando el control y mejora continua del sistema.
@@ -77,10 +77,10 @@
                       i.fas.fa-leaft
                       p.mb-0 Contribuye a la sostenibilidad del sistema.
       .col-lg-5.d-none.d-lg-block
-        img(src='@/assets/curso/tema2/2.png', alt='')
+        img(src='@/assets/curso/tema2/2.png')
 
     .titulo.mb-5(data-aos="fade-left")
-      img(:src="require('@/assets/curso/tema1/sub.svg')" alt='Imagen decorativa')
+      img(:src="require('@/assets/curso/tema1/sub.svg')")
       h3.mb-0 Valor estratégico de los registros
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
@@ -101,7 +101,7 @@
     
     .row.justify-content-center.align-items-center.mb-4
       .col-auto.pe-0
-        img.img-t.d-none.d-sm-block.mb-0(data-aos="zoom-in-left")(src='@/assets/curso/tema1/ic.svg', alt='')
+        img.img-t.d-none.d-sm-block.mb-0(data-aos="zoom-in-left")(src='@/assets/curso/tema1/ic.svg')
       .col
         .subt.mb-4(data-aos="fade-right")
           .d-flex.align-items-end.mb-0
@@ -109,10 +109,10 @@
 
     .row.justify-content-center.align-items-end.mb-5(data-aos="fade-right")
       .col-lg-4.d-none.d-lg-block
-        img(src='@/assets/curso/tema2/3.png', alt='')
+        img(src='@/assets/curso/tema2/3.png')
       .col-lg-8
         .bg22.p-lg-5.p-4.h-100.he
-          img.mb-4.img-t.d-none.d-lg-block.mx-lg-4.my-lg-4(src='@/assets/curso/tema2/4.svg', alt='')
+          img.mb-4.img-t.d-none.d-lg-block.mx-lg-4.my-lg-4(src='@/assets/curso/tema2/4.svg')
           p.mb-0.mx-lg-4 Existen diferentes tipos de registros según la actividad que se desee controlar. Cada tipo de registro captura información específica que permite hacer seguimiento detallado de un aspecto particular del cultivo.
 
     AcordionA.activ(tipo="a" clase-tarjeta="tarjeta tarjeta--azull").mb-5(data-aos="fade-left")
@@ -218,7 +218,7 @@
 
     .row.justify-content-center.align-items-center.mb-4
       .col-auto.pe-0
-        img.img-t.d-none.d-sm-block.mb-0(data-aos="zoom-in-left")(src='@/assets/curso/tema1/ic.svg', alt='')
+        img.img-t.d-none.d-sm-block.mb-0(data-aos="zoom-in-left")(src='@/assets/curso/tema1/ic.svg')
       .col
         .subt.mb-4(data-aos="fade-right")
           .d-flex.align-items-end.mb-0
@@ -228,7 +228,7 @@
 
     .row.justify-content-center.align-items-start.mb-5(data-aos="fade-left")
       .col-lg-3.d-none.d-lg-block
-        img(src='@/assets/curso/tema2/11.png', alt='')
+        img(src='@/assets/curso/tema2/11.png')
       .col-lg-9
         TabsA.color-acento-botones.tem2.mb-0
           .tarjeta.color-a.p-4(titulo="Formatos de registro")
@@ -282,7 +282,7 @@
 
     .row.justify-content-center.align-items-center.mb-4
       .col-auto.pe-0
-        img.img-t.d-none.d-sm-block.mb-0(data-aos="zoom-in-left")(src='@/assets/curso/tema1/ic.svg', alt='')
+        img.img-t.d-none.d-sm-block.mb-0(data-aos="zoom-in-left")(src='@/assets/curso/tema1/ic.svg')
       .col
         .subt.mb-4(data-aos="fade-right")
           .d-flex.align-items-end.mb-0
@@ -296,7 +296,7 @@
           .p-lg-5.p-4(titulo="Aplicaciones de los registros")
             .row.justify-content-center.align-items-center.mb-0
               .col-lg-5.order-lg-1.order-md-2.order-2
-                img(src='@/assets/curso/tema2/12.png', alt='')
+                img(src='@/assets/curso/tema2/12.png')
               .col-lg-7.order-lg-1.order-md-1.order-1.mb-lg-0.mb-4
                 ul.lista-ul.mb-0
                   li.d-flex.mb-3
@@ -317,7 +317,7 @@
           .p-lg-5.p-4(titulo="Toma de decisiones basada en registros")
             .row.justify-content-center.align-items-center.mb-0
               .col-lg-5.order-lg-1.order-md-2.order-2
-                img(src='@/assets/curso/tema2/13.png', alt='')
+                img(src='@/assets/curso/tema2/13.png')
               .col-lg-7.order-lg-1.order-md-1.order-1.mb-lg-0.mb-4
                 ul.lista-ul.mb-0
                   li.d-flex.mb-3
@@ -335,7 +335,7 @@
           .p-lg-5.p-4(titulo="Mejora continua a través de registros")
             .row.justify-content-center.align-items-center.mb-0
               .col-lg-5.order-lg-1.order-md-2.order-2
-                img(src='@/assets/curso/tema2/14.png', alt='')
+                img(src='@/assets/curso/tema2/14.png')
               .col-lg-7.order-lg-1.order-md-1.order-1.mb-lg-0.mb-4
                 ul.lista-ul.mb-0
                   li.d-flex.mb-3
@@ -352,7 +352,7 @@
                     p.mb-0 Incrementar productividad: mejora gradual basada en datos reales.
 
     .titulo.mb-5(data-aos="fade-left")
-      img(:src="require('@/assets/curso/tema1/sub.svg')" alt='Imagen decorativa')
+      img(:src="require('@/assets/curso/tema1/sub.svg')")
       h3.mb-0 Ejemplo práctico de uso de registros
     
     p.mb-4(data-aos="fade-right") Los siguientes son ejemplos de cómo los registros generan decisiones:
@@ -374,22 +374,22 @@
               tr
                 td Riego
                 td 15/03
-                td Suelo seco
-                td Aumentar frecuencia
+                td Suelo seco.
+                td Aumentar frecuencia.
               tr
-                td Control de plagas
+                td Control de plagas.
                 td 17/03
-                td Presencia de insectos
-                td Aplicación de biocontrol
+                td Presencia de insectos.
+                td Aplicación de biocontrol.
               tr
                 td Cosecha
                 td 26/03
-                td Buena producción
-                td Mantener manejo
+                td Buena producción.
+                td Mantener manejo.
 
     .row.justify-content-center.align-items-center.mb-4
       .col-auto.pe-0
-        img.img-t.d-none.d-sm-block.mb-0(data-aos="zoom-in-left")(src='@/assets/curso/tema1/ic.svg', alt='')
+        img.img-t.d-none.d-sm-block.mb-0(data-aos="zoom-in-left")(src='@/assets/curso/tema1/ic.svg')
       .col
         .subt.mb-4(data-aos="fade-right")
           .d-flex.align-items-end.mb-0
@@ -398,7 +398,7 @@
     p.mb-5(data-aos="fade-right") El seguimiento del proceso productivo consiste en la observación, registro y análisis continuo de las actividades y resultados del cultivo, con el fin de verificar su desarrollo, identificar problemas y tomar decisiones oportunas. En la agricultura urbana, el seguimiento es fundamental debido a la variabilidad de las condiciones (espacio, clima, sustrato), lo que exige un control constante para garantizar la eficiencia del sistema productivo.
 
     .titulo.mb-5(data-aos="fade-left")
-      img(:src="require('@/assets/curso/tema1/sub.svg')" alt='Imagen decorativa')
+      img(:src="require('@/assets/curso/tema1/sub.svg')")
       h3.mb-0 Importancia del seguimiento
     
     p.mb-4(data-aos="fade-right") El seguimiento permite evaluar si el cultivo se está desarrollando de acuerdo con lo planificado, proporcionando información valiosa para la toma de decisiones.
@@ -440,7 +440,7 @@
               p.mb-0 Favorece la producción sostenible.
 
     .titulo.mb-5(data-aos="fade-left")
-      img(:src="require('@/assets/curso/tema1/sub.svg')" alt='Imagen decorativa')
+      img(:src="require('@/assets/curso/tema1/sub.svg')")
       h3.mb-0 Indicadores de seguimiento
     
     p.mb-4(data-aos="fade-right") Los indicadores son variables que permiten medir el estado y desempeño del cultivo. Son datos específicos que se pueden observar, registrar y comparar para evaluar, de manera objetiva, si el cultivo está cumpliendo con lo esperado.
@@ -460,23 +460,23 @@
                 th Indicadores de manejo
             tbody
               tr
-                td Altura de la planta
-                td Cantidad de cosecha
-                td Presencia de plagas
-                td Frecuencia de riego
+                td Altura de la planta.
+                td Cantidad de cosecha.
+                td Presencia de plagas.
+                td Frecuencia de riego.
               tr
-                td Número de hojas
-                td Tamaño de frutos
-                td Nivel de afectación
-                td Uso de insumos
+                td Número de hojas.
+                td Tamaño de frutos.
+                td Nivel de afectación.
+                td Uso de insumos.
               tr
-                td Desarrollo general
-                td Calidad del producto
-                td Frecuencia de enfermedades
-                td Cumplimiento de actividades
+                td Desarrollo general.
+                td Calidad del producto.
+                td Frecuencia de enfermedades.
+                td Cumplimiento de actividades.
 
     .titulo.mb-5(data-aos="fade-left")
-      img(:src="require('@/assets/curso/tema1/sub.svg')" alt='Imagen decorativa')
+      img(:src="require('@/assets/curso/tema1/sub.svg')")
       h3.mb-0 Características de un buen indicador
 
     .row.justify-content-center.mb-4.mb-lg-5(data-aos="fade-right")
@@ -505,7 +505,7 @@
     
     .row.justify-content-center.align-items-center.mb-0(data-aos="fade-left")
       .col-lg-12
-        img(src='@/assets/curso/tema2/17.svg', alt='Texto que describa la imagen')
+        img(src='@/assets/curso/tema2/17.svg')
         .row.justify-content-center.g-0
           .col-lg-12
             .tarjeta.bg12.p-4.rounded-0.h-100
@@ -530,7 +530,7 @@
 
     .row.justify-content-center.align-items-center.mb-4
       .col-auto.pe-0
-        img.img-t.d-none.d-sm-block.mb-0(data-aos="zoom-in-left")(src='@/assets/curso/tema1/ic.svg', alt='')
+        img.img-t.d-none.d-sm-block.mb-0(data-aos="zoom-in-left")(src='@/assets/curso/tema1/ic.svg')
       .col
         .subt.mb-4(data-aos="fade-right")
           .d-flex.align-items-end.mb-0
@@ -540,7 +540,7 @@
 
     .row.justify-content-center.align-items-start.mb-5(data-aos="fade-right")
       .col-lg-3.d-none.d-lg-block
-        img(src='@/assets/curso/tema2/19.png', alt='')
+        img(src='@/assets/curso/tema2/19.png')
       .col-lg-9
         TabsA.color-acento-botones.tem3.mb-0
           .tarjeta.color-a.p-4(titulo="Aspectos a analizar")
@@ -576,7 +576,7 @@
 
     .row.justify-content-center.align-items-center.mb-4
       .col-auto.pe-0
-        img.img-t.d-none.d-sm-block.mb-0(data-aos="zoom-in-left")(src='@/assets/curso/tema1/ic.svg', alt='')
+        img.img-t.d-none.d-sm-block.mb-0(data-aos="zoom-in-left")(src='@/assets/curso/tema1/ic.svg')
       .col
         .subt.mb-4(data-aos="fade-right")
           .d-flex.align-items-end.mb-0
@@ -642,7 +642,7 @@
                       p.mb-0 Uso inadecuado de insumos.
 
     .titulo.mb-5(data-aos="fade-left")
-      img(:src="require('@/assets/curso/tema1/sub.svg')" alt='Imagen decorativa')
+      img(:src="require('@/assets/curso/tema1/sub.svg')")
       h3.mb-0 Métodos para identificar problemas
 
     .row.justify-content-center.mb-0(data-aos="fade-right")
@@ -666,15 +666,15 @@
 
     .row.justify-content-center.align-items-end.mb-5(data-aos="fade-right")
       .col-lg-4.d-none.d-lg-block
-        img(src='@/assets/curso/tema2/20.png', alt='')
+        img(src='@/assets/curso/tema2/20.png')
       .col-lg-8
         .bg22.p-lg-5.p-4.h-100.hei
-          img.mb-4.img-t.d-none.d-lg-block.mx-lg-4.my-lg-4(src='@/assets/curso/tema2/21.svg', alt='')
+          img.mb-4.img-t.d-none.d-lg-block.mx-lg-4.my-lg-4(src='@/assets/curso/tema2/21.svg')
           p.mb-0.mx-lg-4 La mejora continua del sistema productivo se logra mediante un ciclo permanente de observación, análisis y acción. Este proceso requiere seguimiento constante del cultivo, identificación oportuna de problemas y evaluación sistemática de resultados. En agricultura urbana, donde el espacio es limitado y las condiciones son variables, esta mejora continua es fundamental para garantizar cultivos sanos, productivos y sostenibles.
 
     .row.justify-content-center.align-items-center.mb-4
       .col-auto.pe-0
-        img.img-t.d-none.d-sm-block.mb-0(data-aos="zoom-in-left")(src='@/assets/curso/tema1/ic.svg', alt='')
+        img.img-t.d-none.d-sm-block.mb-0(data-aos="zoom-in-left")(src='@/assets/curso/tema1/ic.svg')
       .col
         .subt.mb-4(data-aos="fade-right")
           .d-flex.align-items-end.mb-0
@@ -684,7 +684,7 @@
 
     .row.justify-content-center.align-items-start.mb-5(data-aos="fade-right")
       .col-lg-5.d-none.d-lg-block
-        img(src='@/assets/curso/tema2/22.png', alt='')
+        img(src='@/assets/curso/tema2/22.png')
       .col-lg-7
         TabsA.color-acento-botones.tem4.mb-0
           .tarjeta.color-a.p-4(titulo="Tipos de control")
@@ -709,7 +709,7 @@
 
     .row.justify-content-center.align-items-center.mb-4
       .col-auto.pe-0
-        img.img-t.d-none.d-sm-block.mb-0(data-aos="zoom-in-left")(src='@/assets/curso/tema1/ic.svg', alt='')
+        img.img-t.d-none.d-sm-block.mb-0(data-aos="zoom-in-left")(src='@/assets/curso/tema1/ic.svg')
       .col
         .subt.mb-4(data-aos="fade-right")
           .d-flex.align-items-end.mb-0
@@ -748,7 +748,7 @@
               p.mb-0 Implementar control biológico ante plagas.
 
     .titulo.mb-4(data-aos="fade-left")
-      img(:src="require('@/assets/curso/tema1/sub.svg')" alt='Imagen decorativa')
+      img(:src="require('@/assets/curso/tema1/sub.svg')")
       h3.mb-0 Proceso de toma de decisiones 
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
@@ -759,11 +759,11 @@
               p.mb-0 Recolección de información (registros).
             .col-lg-5.cel
               figure
-                img(src='@/assets/curso/tema2/25.svg', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/tema2/25.svg')
           .row.justify-content-center.align-items-center.mb-0
             .col-lg-5.cel
               figure
-                img(src='@/assets/curso/tema2/26.svg', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/tema2/26.svg')
             .col-lg-7.text-end
               p.mb-0 Análisis del cultivo.
           .row.justify-content-center.align-items-center.mb-0
@@ -771,11 +771,11 @@
               p.mb-0 Identificación del problema.
             .col-lg-5.cel
               figure
-                img(src='@/assets/curso/tema2/27.svg', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/tema2/27.svg')
           .row.justify-content-center.align-items-center.mb-0
             .col-lg-5.cel
               figure
-                img(src='@/assets/curso/tema2/28.svg', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/tema2/28.svg')
             .col-lg-7.text-end
               p.mb-0 Selección de la solución.
           .row.justify-content-center.align-items-center.mb-0
@@ -783,16 +783,16 @@
               p.mb-0 Aplicación de la acción.
             .col-lg-5.cel
               figure
-                img(src='@/assets/curso/tema2/29.svg', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/tema2/29.svg')
           .row.justify-content-center.align-items-center.mb-0
             .col-lg-5.cel
               figure
-                img(src='@/assets/curso/tema2/30.svg', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/tema2/30.svg')
             .col-lg-7.text-end
               p.mb-0 Evaluación del resultado.
 
     .titulo.mb-5(data-aos="fade-left")
-      img(:src="require('@/assets/curso/tema1/sub.svg')" alt='Imagen decorativa')
+      img(:src="require('@/assets/curso/tema1/sub.svg')")
       h3.mb-0 Importancia de la toma de decisiones
 
     .row.justify-content-center.mb-0(data-aos="fade-right")
@@ -822,7 +822,7 @@
         p.mb-0 La evaluación del sistema productivo es el proceso mediante el cual se analizan los resultados obtenidos en el cultivo, comparándolos con lo planificado, con el fin de determinar su eficiencia, identificar fallas y proponer mejoras. En la agricultura urbana, esta evaluación permite verificar si las prácticas aplicadas fueron adecuadas y si el sistema es sostenible, productivo y acorde a criterios técnicos y ambientales.
     
     .titulo.mb-5(data-aos="fade-left")
-      img(:src="require('@/assets/curso/tema1/sub.svg')" alt='Imagen decorativa')
+      img(:src="require('@/assets/curso/tema1/sub.svg')")
       h3.mb-0 Criterios de evaluación
     
     p.mb-4(data-aos="fade-right") Los criterios de evaluación son los aspectos que se tienen en cuenta para valorar el desempeño del sistema productivo. Existen cuatro tipos principales de criterios que deben considerarse de manera integral.
@@ -845,7 +845,7 @@
                       i.fas.fa-check.t11
                       p.mb-0 Estado fitosanitario del cultivo.
                 .col-lg-6.d-none.d-lg-block
-                  img(src='@/assets/curso/tema2/33.png', alt='')
+                  img(src='@/assets/curso/tema2/33.png')
           .row.align-items-center(titulo="Criterios productivos")
             .col-lg-11
               .row.justify-content-center.align-items-center.mb-0
@@ -861,7 +861,7 @@
                       i.fas.fa-check.t11
                       p.mb-0 Rendimiento del cultivo.
                 .col-lg-6.d-none.d-lg-block
-                  img(src='@/assets/curso/tema2/34.png', alt='')
+                  img(src='@/assets/curso/tema2/34.png')
           .row.align-items-center(titulo="Criterios ambientales")
             .col-lg-11
               .row.justify-content-center.align-items-center.mb-0
@@ -880,7 +880,7 @@
                       i.fas.fa-check.t11
                       p.mb-0 Aplicación de prácticas sostenibles.
                 .col-lg-6.d-none.d-lg-block
-                  img(src='@/assets/curso/tema2/35.png', alt='')
+                  img(src='@/assets/curso/tema2/35.png')
           .row.align-items-center(titulo="Criterios económicos")
             .col-lg-11
               .row.justify-content-center.align-items-center.mb-0
@@ -896,12 +896,12 @@
                       i.fas.fa-check.t11
                       p.mb-0 Aprovechamiento de recursos disponibles.
                 .col-lg-6.d-none.d-lg-block
-                  img(src='@/assets/curso/tema2/36.png', alt='')
+                  img(src='@/assets/curso/tema2/36.png')
       .col-lg-4.col-md-7.col-10
-        img(src='@/assets/curso/tema2/32.svg', alt='')
+        img(src='@/assets/curso/tema2/32.svg')
 
     .titulo.mb-5(data-aos="fade-left")
-      img(:src="require('@/assets/curso/tema1/sub.svg')" alt='Imagen decorativa')
+      img(:src="require('@/assets/curso/tema1/sub.svg')")
       h3.mb-0 Comparación con plan de producción
     
     p.mb-4(data-aos="fade-right") La evaluación implica comparar los resultados reales con lo que se había planificado, permitiendo medir el nivel de cumplimiento e identificar desviaciones.
@@ -924,38 +924,38 @@
                 td Producción
                 td 10 kg
                 td 8 kg
-                td Bajo rendimiento
+                td Bajo rendimiento.
               tr
                 td Riego
                 td Diario
                 td Intermitente
-                td Falta de control
+                td Falta de control.
               tr
                 td Plagas
-                td No previstas
-                td Presencia alta
-                td Manejo insuficiente
+                td No previstas.
+                td Presencia alta.
+                td Manejo insuficiente.
 
     .titulo.mb-5(data-aos="fade-left")
-      img(:src="require('@/assets/curso/tema1/sub.svg')" alt='Imagen decorativa')
+      img(:src="require('@/assets/curso/tema1/sub.svg')")
       h3.mb-0 Importancia de la comparación
 
     .row.justify-content-center.align-items-stretch.mb-lg-5.mb-4(data-aos="fade-left")
       .col-lg-4.col-md-6.mb-lg-0.mb-4
         .h-100.bg3.p-4
-          img.img-t.img-a.my-2.mb-4(src='@/assets/curso/tema2/37.svg' alt='AvatarTop')
+          img.img-t.img-a.my-2.mb-4(src='@/assets/curso/tema2/37.svg')
           p.mb-0.text-center Permite medir el nivel de cumplimiento.
       .col-lg-4.col-md-6.mb-lg-0.mb-4
         .h-100.bg3.p-4
-          img.img-t.img-a.my-2.mb-4(src='@/assets/curso/tema2/38.svg' alt='AvatarTop')
+          img.img-t.img-a.my-2.mb-4(src='@/assets/curso/tema2/38.svg')
           p.mb-0.text-center Identifica desviaciones en el proceso.
       .col-lg-4.col-md-6.mb-lg-0.mb-4
         .h-100.bg3.p-4
-          img.img-t.img-a.my-2.mb-4(src='@/assets/curso/tema2/39.svg' alt='AvatarTop')
+          img.img-t.img-a.my-2.mb-4(src='@/assets/curso/tema2/39.svg')
           p.mb-0.text-center Facilita la mejora del sistema.
 
     .titulo.mb-5(data-aos="fade-left")
-      img(:src="require('@/assets/curso/tema1/sub.svg')" alt='Imagen decorativa')
+      img(:src="require('@/assets/curso/tema1/sub.svg')")
       h3.mb-0 Propuestas de mejora
 
     p.mb-4(data-aos="fade-right") Las propuestas de mejora son acciones diseñadas para corregir fallas y optimizar el sistema productivo. Deben ser prácticas, viables y orientadas a resultados concretos.
@@ -1021,7 +1021,7 @@
                       p.mb-0 Planificar mejor las actividades.
 
     .titulo.mb-4(data-aos="fade-left")
-      img(:src="require('@/assets/curso/tema1/sub.svg')" alt='Imagen decorativa')
+      img(:src="require('@/assets/curso/tema1/sub.svg')")
       h3.mb-0 Enfoque de mejora continua (ciclo permanente)
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
@@ -1032,11 +1032,11 @@
               p.mb-0 Evaluar resultados del ciclo anterior.
             .col-lg-5.cel
               figure
-                img(src='@/assets/curso/tema2/40.svg', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/tema2/40.svg')
           .row.justify-content-center.align-items-center.mb-0
             .col-lg-5.cel
               figure
-                img(src='@/assets/curso/tema2/41.svg', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/tema2/41.svg')
             .col-lg-7.text-end
               p.mb-0 Identificar errores y oportunidades de mejora.
           .row.justify-content-center.align-items-center.mb-0
@@ -1044,37 +1044,37 @@
               p.mb-0 Aplicar mejoras en el nuevo ciclo.
             .col-lg-5.cel
               figure
-                img(src='@/assets/curso/tema2/42.svg', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/tema2/42.svg')
           .row.justify-content-center.align-items-center.mb-0
             .col-lg-5.cel
               figure
-                img(src='@/assets/curso/tema2/43.svg', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/tema2/43.svg')
             .col-lg-7.text-end
               p.mb-0 Volver a evaluar para iniciar el ciclo nuevamente.
     
     .titulo.mb-5(data-aos="fade-left")
-      img(:src="require('@/assets/curso/tema1/sub.svg')" alt='Imagen decorativa')
+      img(:src="require('@/assets/curso/tema1/sub.svg')")
       h3.mb-0 Consecuencias de no evaluar el sistema
 
     .row.justify-content-center.align-items-stretch.mb-lg-0(data-aos="fade-left")
       .col-lg-3.col-md-6.mb-lg-0.mb-4
         .h-100.bg3.p-4
-          img.img-t.img-a.my-2.mb-4(src='@/assets/curso/tema2/44.svg' alt='AvatarTop')
+          img.img-t.img-a.my-2.mb-4(src='@/assets/curso/tema2/44.svg')
           h4.mb-4.text-center Repetición de errores
           p.mb-0 Sin evaluación, se cometen los mismos errores ciclo tras ciclo.
       .col-lg-3.col-md-6.mb-lg-0.mb-4
         .h-100.bg3.p-4
-          img.img-t.img-a.my-2.mb-4(src='@/assets/curso/tema2/45.svg' alt='AvatarTop')
+          img.img-t.img-a.my-2.mb-4(src='@/assets/curso/tema2/45.svg')
           h4.mb-4.text-center Baja productividad
           p.mb-0 Sin aprendizaje, no hay mejora en los resultados.
       .col-lg-3.col-md-6.mb-lg-0.mb-4
         .h-100.bg3.p-4
-          img.img-t.img-a.my-2.mb-4(src='@/assets/curso/tema2/46.svg' alt='AvatarTop')
+          img.img-t.img-a.my-2.mb-4(src='@/assets/curso/tema2/46.svg')
           h4.mb-4.text-center Pérdida de recursos
           p.mb-0 Dinero, tiempo y esfuerzo se desperdician sin rumbo.
       .col-lg-3.col-md-6.mb-lg-0.mb-4
         .h-100.bg3.p-4
-          img.img-t.img-a.my-2.mb-4(src='@/assets/curso/tema2/47.svg' alt='AvatarTop')
+          img.img-t.img-a.my-2.mb-4(src='@/assets/curso/tema2/47.svg')
           h4.mb-4.text-center Falta de control del sistema
           p.mb-0 Sin datos, es imposible saber qué está sucediendo.
 
