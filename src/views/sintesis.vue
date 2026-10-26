@@ -11,7 +11,7 @@
     .row.justify-content-center(data-aos="fade-left")
       .col-lg-8.mb-5
         figure
-          img(src="@/assets/curso/sintesis.svg", alt="Sintetiza el tema central: “Mantenimiento, control y evaluación de cultivos en agricultura urbana”. Debajo, al lado izquierdo, se tienen dos bloques principales conectados verticalmente con flechas: “Mantenimiento del cultivo” y “Control y evaluación del proceso productivo”. Del bloque “Mantenimiento del cultivo” se desprenden tres subtemas hacia la derecha: “Riego”, “Manejo normativo” y “Labores culturales y fertilización”. Del bloque “Control y evaluación del proceso productivo” se desprenden cuatro subtemas: “Registros y seguimiento”, “Análisis de problemas”, “Mejora continua” y “Evaluación del sistema productivo”.")
+          img(src="@/assets/curso/sintesis.svg", alt="Mapa de cultivos: riego, normativa, registros, análisis e identificación de problemas, mejora continua e implementación de acciones y evaluación.")
     
     .row.justify-content-center(data-aos="fade-right")
       .col-auto

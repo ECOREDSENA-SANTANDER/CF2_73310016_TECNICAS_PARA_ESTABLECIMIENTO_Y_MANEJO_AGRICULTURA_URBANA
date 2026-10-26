@@ -210,46 +210,77 @@ export default {
   referencias: [
     {
       referencia:
-        'Aldana Pulido, D. A. (2022). Diseño de un sistema de riego automatizado para huertas caseras con IoT. Revista Sennova: Revista Del Sistema De Ciencia, Tecnología E Innovación.',
+        'Aldana Pulido, D. A. (2022). Diseño de un sistema de riego automatizado para huertas caseras con IoT. Revista Sennova: Revista del Sistema de Ciencia, Tecnología e Innovación.',
       link: '',
     },
     {
       referencia:
-        'Huertos Urbanos Benimaclet. (2025). Sistemas de riego para huertos urbanos: opciones, instalación y eficiencia.',
+        'Decreto 948 de 1995. Por el cual se reglamentan, parcialmente, la Ley 23 de 1973, los artículos 33, 73, 74, 75 y 76 del Decreto Ley 2811 de 1974; los artículos 41, 42, 43, 44, 45, 48 y 49 de la Ley 9 de 1979; y la Ley 99 de 1993, en relación con la prevención y control de la contaminación atmosférica y la protección de la calidad del aire. 5 de junio de 1995.',
       link: '',
     },
     {
       referencia:
-        'Ministerio de Ambiente y Desarrollo Sostenible. (s. f.). Normativa ambiental en agricultura.',
+        'Decreto 4741 de 2005. Por el cual se reglamenta parcialmente la prevención y el manejo de los residuos o desechos peligrosos generados en el marco de la gestión integral. 30 de diciembre de 2005.',
       link: '',
     },
     {
       referencia:
-        'Observatorio Ambiental de Bogotá. (s. f.). Lineamientos para el programa de agricultura urbana y periurbana agroecológica.',
+        'Decreto 3930 de 2010. Por el cual se reglamenta parcialmente el Título I de la Ley 9 de 1979, así como el Capítulo II del Título VI, Parte III, Libro II del Decreto Ley 2811 de 1974 en cuanto a usos del agua y residuos líquidos y se dictan otras disposiciones. 25 de octubre de 2010.',
       link: '',
     },
     {
       referencia:
-        'Ochoa Sánchez, J. A., Riaño García, K. D., & Reyes Rincón, L. D. (2024). Prototipo de Riego para un Sistema de Agricultura Urbana Controlado por Electrónica Programable. CON-CIENCIA Y TÉCNICA, 8(1), 13–15.',
+        'Decreto 1076 de 2015. Por medio del cual se expide el Decreto Único Reglamentario del Sector Ambiente y Desarrollo Sostenible. 26 de mayo de 2015.',
       link: '',
     },
     {
       referencia:
-        'Osorio Cárdenas, M. (2025). Sistemas de Riego Inteligente para Agricultura Urbana.',
+        'Huertos Urbanos Benimaclet. (2025, 5 de agosto). Sistemas de riego para huertos urbanos: opciones, instalación y eficiencia.',
       link: '',
     },
     {
       referencia:
-        'Resolución 30021 de 2017 [Instituto Colombiano Agropecuario]. Por medio de la cual se establecen los requisitos para la Certificación en Buenas Prácticas Agrícolas en producción primaria de vegetales y otras especies para consumo humano. 28 de abril de 2017.',
+        'Ley 99 de 1993. Por la cual se crea el Ministerio del Medio Ambiente, se reordena el sector público encargado de la gestión y conservación del medio ambiente y los recursos naturales renovables, se organiza el Sistema Nacional Ambiental (SINA) y se dictan otras disposiciones. 22 de diciembre de 1993.',
       link: '',
     },
     {
       referencia:
-        'Resolución 082394 de 2020 [Instituto Colombiano Agropecuario]. Por medio de la cual se Modifica los artículos 2, 3, 4, 12, y 14 de la Resolución 30021 de 2017. 29 de diciembre de 2020.',
+        'Ley 373 de 1997. Por la cual se establece el programa para el uso eficiente y ahorro del agua. 6 de junio de 1997.',
       link: '',
     },
     {
-      referencia: 'SafetyYA. (2025). Normas técnicas colombianas en SST.',
+      referencia:
+        'Observatorio Ambiental de Bogotá. (2015, 11 de septiembre). Se establecen lineamientos para el programa de agricultura urbana y periurbana agroecológica.',
+      link: '',
+    },
+    {
+      referencia:
+        'Ochoa Sánchez, J. A., Riaño García, K. D., & Reyes Rincón, L. D. (2024). Prototipo de riego para un sistema de agricultura urbana controlado por electrónica programable. CON-CIENCIA Y TÉCNICA, 8(1), 13–15.',
+      link: '',
+    },
+    {
+      referencia:
+        'Osorio Cárdenas, M. (2025). Sistemas de riego inteligente para agricultura urbana. Universidad Pontificia Bolivariana.',
+      link: '',
+    },
+    {
+      referencia:
+        'Resolución 30021 de 2017 [Instituto Colombiano Agropecuario]. Por medio de la cual se establecen los requisitos para la certificación en buenas prácticas agrícolas en producción primaria de vegetales y otras especies para consumo humano. 28 de abril de 2017.',
+      link: '',
+    },
+    {
+      referencia:
+        'Resolución 2184 de 2019 [Ministerio de Ambiente y Desarrollo Sostenible]. Por la cual se modifica la Resolución 668 de 2016 sobre uso racional de bolsas plásticas y se adoptan otras disposiciones. 26 de diciembre de 2019.',
+      link: '',
+    },
+    {
+      referencia:
+        'Resolución 082394 de 2020 [Instituto Colombiano Agropecuario]. Por medio de la cual se modifican los artículos 2, 3, 4, 12 y 14 de la Resolución 30021 de 2017. 29 de diciembre de 2020.',
+      link: '',
+    },
+    {
+      referencia:
+        'SafetYA. (2025, 4 de junio). Normas técnicas colombianas en SST.',
       link: '',
     },
   ],
@@ -310,12 +341,12 @@ export default {
       autores: [
         {
           nombre: 'Laura Paola Gelvez Manosalva',
-          cargo: 'Validadora y vinculadora de recursos educativos digitales',
+          cargo: 'Validadora de recursos educativos digitales',
           centro: 'Centro Agroturístico - Regional Santander',
         },
         {
           nombre: 'Sandra Liliana Cristancho Cruz',
-          cargo: 'Evaluadora para contenidos inclusivos y accesibles',
+          cargo: 'Evaluadora de contenidos inclusivos y accesibles',
           centro: 'Centro Agroturístico - Regional Santander',
         },
       ],

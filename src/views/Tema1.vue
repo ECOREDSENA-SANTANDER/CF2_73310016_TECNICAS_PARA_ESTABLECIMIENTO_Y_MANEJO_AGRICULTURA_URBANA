@@ -116,7 +116,7 @@
           .tarjeta.color-a.p-4(titulo="Tipo de cultivo")
             .row.justify-content-center.align-items-center
               .col-lg-12 
-                p.mb-0 Cada especie tiene requerimientos hídricos diferentes. Las lechugas requieren humedad constante para mantener sus hojas turgentes y crujientes. Los suculentos toleran períodos secos prolongados porque almacenan agua en sus tejidos. Las frutas como el tomate requieren un riego moderado durante el crecimiento y un riego controlado durante la producción para concentrar sabores.
+                p.mb-0 Cada especie tiene requerimientos hídricos diferentes. Las lechugas requieren humedad constante para mantener sus hojas turgentes y crujientes. Las suculentas toleran períodos secos prolongados porque almacenan agua en sus tejidos. Las frutas como el tomate requieren un riego moderado durante el crecimiento y un riego controlado durante la producción para concentrar sabores.
           .tarjeta.color-a.p-4(titulo="Etapa de desarrollo")
             .row.justify-content-center.align-items-center
               .col-lg-12 
@@ -205,7 +205,7 @@
         :style="{'background-image': `url(${require('@/assets/curso/tema1/15.png')})`}"
       )
       .bloque-texto-g__texto.p-lg-5.p-4.mx-lg-4
-        p.mb-0 Las normas de seguridad industrial y salud en el trabajo, comprenden el conjunto de principios, lineamientos y procedimientos orientados a prevenir accidentes, enfermedades laborales y riesgos asociados a las actividades productivas. En la agricultura urbana, estas normas adquieren gran relevancia debido al uso de herramientas, manipulación de insumos y condiciones particulares de trabajo en espacios reducidos.
+        p.mb-0 Las normas de seguridad industrial y salud en el trabajo comprenden el conjunto de principios, lineamientos y procedimientos orientados a prevenir accidentes, enfermedades laborales y riesgos asociados a las actividades productivas. En la agricultura urbana, estas normas adquieren gran relevancia debido al uso de herramientas, manipulación de insumos y condiciones particulares de trabajo en espacios reducidos.
         br
         br
         p.mb-0 La implementación de prácticas seguras no solo protege la integridad física del trabajador, sino que también mejora la eficiencia de las labores agrícolas, promueve ambientes de trabajo adecuados y garantiza el cumplimiento de la normativa vigente.
@@ -1372,12 +1372,6 @@
 
     p.mb-5(data-aos="fade-right") Las labores culturales son prácticas agrícolas que se realizan para favorecer el desarrollo adecuado del cultivo, mantener condiciones óptimas de crecimiento y prevenir afectaciones fitosanitarias. En la agricultura urbana, son fundamentales debido a las limitaciones de espacio y a la necesidad de sostener sistemas productivos eficientes y sostenibles. Además, garantizan el adecuado manejo del cultivo desde su establecimiento hasta la cosecha, siendo esenciales para lograr plantas sanas y productivas. 
 
-    .titulo.mb-5(data-aos="fade-left")
-      img(:src="require('@/assets/curso/tema1/sub.svg')")
-      h3.mb-0 Importancia
-    
-    p.mb-4(data-aos="fade-right") Las labores culturales garantizan el adecuado manejo del cultivo desde su establecimiento hasta la cosecha, siendo esenciales para lograr plantas sanas y productivas.
-
     .row.justify-content-center.mb-lg-5.mb-4(data-aos="fade-left")
       .col-lg-6.col-md-6.pe-lg-0.pe-md-0.mb-lg-0.mb-4
         .bg5.p-lg-5.p-4.h-100
@@ -1425,7 +1419,7 @@
           .d-flex.align-items-end.mb-0
             h4.mb-0.ps-lg-3.ps-0.ps-md-3 Tipos de labores culturales
 
-    p.mb-4(data-aos="fade-right") Las labores culturales varían según el tipo de cultivo, sin embargo, existen prácticas comunes que se aplican en la mayoría de sistemas productivos urbanos.
+    p.mb-4(data-aos="fade-right") Las labores culturales varían según el tipo de cultivo, sin embargo, existen prácticas comunes que se aplican en la mayoría de los sistemas productivos urbanos.
 
     .row.fondo7.align-items-center.p-3.mb-5(data-aos="fade-down")
       .col-lg-12.col-md-12.col-12.px-lg-5.px-4
